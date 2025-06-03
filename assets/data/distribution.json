@@ -1,0 +1,20 @@
+[
+    {
+        "distribution_id":1,
+        "plant_id":1,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Normalmente se distribuiye por los departamentos del: Amazonas, Cusco, Huánuco, Loreto, Madre de Dios, Pasco, San Martín, Ucayali.",
+        "sync_status":"",
+        "last_updated":null
+    },
+      {
+        "distribution_id":2,
+        "plant_id":2,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Normalmente se distribuiye por los departamentos del: Amazonas, Cusco, Huánuco, Loreto, Madre de Dios, Pasco, San Martín, Ucayali.",
+        "sync_status":"",
+        "last_updated":null
+    }
+      
+
+]

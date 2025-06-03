@@ -1,0 +1,21 @@
+[
+    {
+    "preparationuse_id":1,
+    "plant_id":1,
+    "use": "Raíz: Tres raices de la abuta blanca",
+    "preparation": "Con un pequeño maso machacar la raiz, agregarlo en un recipiente con una tasa de agua, ponerlo a hervir por 5 minutos.",
+    "indication": "Tomar el cocimiento de la raíz, dos veces al dia, por una semana.",
+    "sync_status": "",
+    "last_updated": null
+},
+  {
+    "preparationuse_id":2,
+    "plant_id":4,
+    "use":"Raíz: 3 raices de la bolsa mullaca.",
+    "preparation": "Macerar tres raíces, en trozos menudos, en una botella de aguardiente (un cuarto de litro) durante siete días. Agregar media botella de miel de abeja.",
+    "indication":"Macerar tres raíces, en trozos menudos, en una botella de aguardiente (un cuarto de litro) durante siete días. Agregar media botella de miel de abeja.",
+    "sync_status":"",
+    "last_updated":null
+}
+  
+]
