@@ -1,4 +1,4 @@
-import 'package:app_plants/presentation/views/home/start_page.dart';
+import 'package:app_plants/presentation/views/auth/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 
@@ -19,7 +19,7 @@ class _SplashScreenState extends State<SplashScreen> {
     await Future.delayed(const Duration(seconds: 3));
     Navigator.pushReplacement(
       context,
-      MaterialPageRoute(builder: (context) => const StartPage()),
+      MaterialPageRoute(builder: (context) => LoginScreen()),
     );
   }
 
@@ -30,25 +30,22 @@ class _SplashScreenState extends State<SplashScreen> {
         fit: StackFit.expand,
         children: [
           // Imagen de fondo
-          Image.asset(
-            "assets/logos/fondo.jpeg", // Asegúrate de tener esta imagen en tu proyecto
-            fit: BoxFit.cover,
-          ),
+          Image.asset("assets/logos/fondo.jpeg", fit: BoxFit.cover),
 
           // Contenido central
           Center(
             child: Column(
               mainAxisSize: MainAxisSize.min,
-              mainAxisAlignment: MainAxisAlignment.center,
-
+              mainAxisAlignment: MainAxisAlignment.start,
               children: [
-                Image.asset("assets/logos/logo.png", height: 100),
-                SizedBox(height: 20),
+                const SizedBox(height: 40),
+                Image.asset("assets/logos/logo.png", height: 80),
+                SizedBox(height: 50),
                 Text(
                   'PLANTAS MEDICINALES',
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 20,
+                    fontSize: 18,
                     fontWeight: FontWeight.bold,
                   ),
                 ),

@@ -80,39 +80,51 @@ class _DetailDiseaseState extends State<DetailDisease> {
               errorBuilder: (context, error, stackTrace) =>
                   const Icon(Icons.broken_image, size: 200),
             ),
-            const SizedBox(height: 16),
+            const SizedBox(height: 22),
             const Text(
               'Descripción:',
               style: TextStyle(
-                fontSize: 18,
+                fontSize: 20,
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
               ),
             ),
-            const SizedBox(height: 8),
-            Text(
-              _disease!.descriptiondisease,
-              style: const TextStyle(fontSize: 16, color: Colors.white),
+            const SizedBox(height: 12),
+            Center(
+              child: Text(
+                _disease!.descriptiondisease,
+                style: const TextStyle(
+                  fontSize: 15,
+                  color: Colors.white,
+                  fontFamily: "Arial",
+                ),
+              ),
             ),
-            const SizedBox(height: 16),
+            const SizedBox(height: 22),
             const Text(
               'Sintomas:',
               style: TextStyle(
-                fontSize: 18,
+                fontSize: 20,
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
               ),
             ),
-            const SizedBox(height: 8),
-            Text(
-              _disease!.symptoms,
-              style: const TextStyle(fontSize: 16, color: Colors.white),
+            const SizedBox(height: 12),
+            Center(
+              child: Text(
+                _disease!.symptoms,
+                style: const TextStyle(
+                  fontSize: 15,
+                  color: Colors.white,
+                  fontFamily: "Arial",
+                ),
+              ),
             ),
             const SizedBox(height: 24),
             Center(
               child: ElevatedButton.icon(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.lightGreen,
+                  backgroundColor: Colors.lightBlueAccent,
 
                   elevation: 4,
                   padding: const EdgeInsets.symmetric(

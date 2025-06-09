@@ -1,5 +1,6 @@
-class PreparationUseModel {
-  final int preparationuseId;
+class DiseasePlantUseModel {
+  final int diseplantId;
+  final int diseaseId;
   final int? plantId;
   final String use;
   final String preparation;
@@ -7,8 +8,9 @@ class PreparationUseModel {
   final String? syncstatus;
   final int? lastupdated;
 
-  PreparationUseModel({
-    required this.preparationuseId,
+  DiseasePlantUseModel({
+    required this.diseplantId,
+    required this.diseaseId,
     required this.plantId,
     required this.use,
     required this.preparation,
@@ -19,9 +21,10 @@ class PreparationUseModel {
 
   // Convertir JSON a objeto preparation_use
 
-  factory PreparationUseModel.fromJson(Map<String, dynamic> json) {
-    return PreparationUseModel(
-      preparationuseId: json['preparationuse_id'],
+  factory DiseasePlantUseModel.fromJson(Map<String, dynamic> json) {
+    return DiseasePlantUseModel(
+      diseplantId: json['diseplant_id'],
+      diseaseId: json['disease_id'],
       plantId: json['plant_id'],
       use: json['use'],
       preparation: json['preparation'],
@@ -36,7 +39,8 @@ class PreparationUseModel {
 
   Map<String, dynamic> toJson() {
     return {
-      'preparationuse_id': preparationuseId,
+      'diseplant_id': diseplantId,
+      'disease_id': diseaseId,
       'plant_id': plantId,
       'use': use,
       'preparation': preparation,
@@ -50,7 +54,8 @@ class PreparationUseModel {
 
   Map<String, dynamic> toMap() {
     return {
-      "preparationuse_id": preparationuseId,
+      "diseplant_id": diseplantId,
+      "disease_id": diseaseId,
       "plant_id": plantId,
       "use": use,
       "preparation": preparation,
@@ -60,9 +65,10 @@ class PreparationUseModel {
     };
   }
 
-  factory PreparationUseModel.fromMap(Map<String, dynamic> map) {
-    return PreparationUseModel(
-      preparationuseId: map["preparationuse_id"],
+  factory DiseasePlantUseModel.fromMap(Map<String, dynamic> map) {
+    return DiseasePlantUseModel(
+      diseplantId: map["diseplant_id"],
+      diseaseId: map["disease_id"],
       plantId: map["plant_id"],
       use: map['use'],
       preparation: map['preparation'],

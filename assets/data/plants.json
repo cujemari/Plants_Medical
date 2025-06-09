@@ -276,7 +276,18 @@
     "chemical_composition":"Alcaloides, triterpenos, procianidinas, taspina, proantocianidina, proantocianina, oligomérica, bincatriol, piridona, indol aporfina, quinoleína, tropano, ácidos grasos insaturados, antraquinonas, epoxiácidosgrasos, triterpenoides, calameneno, catequinas, linalol, glaucina, isoboldina, gama-terpineol, dihidrobenzofurano, ácido crolequínico, cuparofenol, D-limoneno, mirceno, taxol, vanillina, bincatriol, betaina, lignina, isoboldina.",
     "sync_status":"",
     "last_updated": null
+  },
+   {
+    "plant_id":21, 
+    "name_plant": "VERBENA NEGRA",
+    "image_plant": "assets/images_plants/verbena.png",
+    "vulgar_synomaly": "Verbena, verbena de campo.",
+    "scientific_name": "Verbena littoralis H.B.K.",
+    "family": "Verbenaceae",
+    "botanical_description":"Hierba perenne, basalmente leñosa, hasta de 1.50 m. de altura.Tallos erguidos, ramificados, cuadrangulares.Hojas opuestas, lanceoladas-oblongas a oblanceolado-oblongas, en la base agudas a acuminadas en el ápice, irregularmente. Flores pequeñas, reunidas en espigas cilíndricas, delgadas; corola infundibiliforme, azul o violácea, pubescente por fuera.",
+    "habitat":"Prefiere áreas de bastante humedad. Común en bosques secundarios.",
+    "chemical_composition":"Estarquitafina, citrol, geraniol, verbenalina, dextrina, ácido salicílico, mucílago, saponina, arbutina, vitaminas A, B y C, taninos, heterósido (verbenalósida).Estarquitafina, citrol, geraniol, verbenalina, dextrina, ácido salicílico, mucílago, saponina, arbutina, vitaminas A, B y C, taninos, heterósido (verbenalósida).",
+    "sync_status":"",
+    "last_updated": null
   }
-  
-  
 ]

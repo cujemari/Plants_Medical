@@ -119,7 +119,7 @@ class _FavoritesPlantScreenState extends State<FavoritesPlantScreen> {
                                       style: const TextStyle(
                                         fontSize: 14,
                                         fontWeight: FontWeight.bold,
-                                        color: Colors.white,
+                                        color: Colors.yellow,
                                       ),
                                     ),
                                     const SizedBox(height: 6),

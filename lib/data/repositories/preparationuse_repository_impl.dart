@@ -1,15 +1,15 @@
 import 'package:app_plants/data/datasources/local/local_database.dart';
-import 'package:app_plants/data/datasources/local/tables/preparation_use_table.dart';
-import 'package:app_plants/data/models/preparation_use_model.dart';
+import 'package:app_plants/data/datasources/local/tables/disease_plant_use_table.dart';
+import 'package:app_plants/data/models/disease_plant_use_model.dart';
 import 'package:sqflite/sqflite.dart';
 
 class PreparationuseRepositoryImpl {
   // Insertar un registro de uso y preparación
-  Future<void> insertarPreparationUse(PreparationUseModel preparation) async {
+  Future<void> insertarPreparationUse(DiseasePlantUseModel preparation) async {
     final db = await LocalDatabase().database;
     try {
       await db.insert(
-        UseTable.tableName,
+        DiseasePlantUseTable.tableName,
         preparation.toMap(),
         conflictAlgorithm: ConflictAlgorithm.replace,
       );
@@ -18,35 +18,34 @@ class PreparationuseRepositoryImpl {
     }
   }
 
-  // Obtener un registro por ID
-  Future<PreparationUseModel?> getPreparationUseById(int id) async {
+  // Obtener todos los usos por planta (ajustar el nombre de columna según tabla)
+  Future<List<DiseasePlantUseModel>> getUsesByPlantId(int plantId) async {
     final db = await LocalDatabase().database;
-    final result = await db.query(
-      UseTable.tableName,
-      where: 'preparationuse_id = ?',
-      whereArgs: [id],
+    final List<Map<String, dynamic>> results = await db.query(
+      DiseasePlantUseTable.tableName,
+      where: 'plant_id = ?',
+      whereArgs: [plantId],
     );
-    if (result.isNotEmpty) {
-      return PreparationUseModel.fromJson(result.first);
-    }
-    return null;
+
+    return results.map((json) => DiseasePlantUseModel.fromMap(json)).toList();
   }
 
   // Obtener todos los registros
-  Future<List<PreparationUseModel>> getAllPreparationUses() async {
+  Future<List<DiseasePlantUseModel>> getAllPreparationUses() async {
     final db = await LocalDatabase().database;
-    final result = await db.query(UseTable.tableName);
-    return result.map((json) => PreparationUseModel.fromJson(json)).toList();
+    final result = await db.query(DiseasePlantUseTable.tableName);
+    return result.map((json) => DiseasePlantUseModel.fromMap(json)).toList();
   }
 
   // Actualizar un registro
-  Future<int> updatePreparationUse(PreparationUseModel preparationUse) async {
+  Future<int> updatePreparationUse(DiseasePlantUseModel preparationUse) async {
     final db = await LocalDatabase().database;
     return await db.update(
-      UseTable.tableName,
+      DiseasePlantUseTable.tableName,
       preparationUse.toMap(),
-      where: 'preparationuses_id = ?',
-      whereArgs: [preparationUse.preparationuseId],
+      where:
+          'diseplantId = ?', // <-- Ajustar a 'diseplantId' si así está en la tabla
+      whereArgs: [preparationUse.diseplantId],
     );
   }
 }

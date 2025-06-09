@@ -37,12 +37,15 @@ class _SearchScreenState extends State<SearchPlantScreen> {
 
   void _filtrarPlantas(String query) {
     setState(() {
-      _plantasFiltradas = _plantas
-          .where(
-            (planta) =>
-                planta.nameplant.toLowerCase().contains(query.toLowerCase()),
-          )
-          .toList();
+      _plantasFiltradas = _plantas.where((planta) {
+        final q = query.toLowerCase();
+        return planta.nameplant.toLowerCase().contains(q) ||
+            planta.vulgarsynomaly.toLowerCase().contains(q) ||
+            planta.family.toLowerCase().contains(q) ||
+            planta.botanicaldescription.toLowerCase().contains(q) ||
+            planta.habitat.toLowerCase().contains(q) ||
+            planta.chemicalcomposition.toLowerCase().contains(q);
+      }).toList();
     });
   }
 
@@ -68,7 +71,8 @@ class _SearchScreenState extends State<SearchPlantScreen> {
                 child: TextField(
                   controller: _controller,
                   decoration: const InputDecoration(
-                    hintText: "Buscar por nombre de la planta",
+                    hintText:
+                        "Buscar por nombre de la planta, cientifico, familia, descrión u otros",
                     prefixIcon: Icon(Icons.search, color: Colors.white),
                     hintStyle: TextStyle(color: Colors.black),
                     border: InputBorder.none,
@@ -119,7 +123,7 @@ class _SearchScreenState extends State<SearchPlantScreen> {
                                 ClipRRect(
                                   borderRadius: BorderRadius.circular(12),
                                   child: SizedBox(
-                                    height: 120,
+                                    height: 140,
                                     width: double.infinity,
                                     child: Image.asset(
                                       planta.imageplant,
@@ -133,14 +137,14 @@ class _SearchScreenState extends State<SearchPlantScreen> {
                                     vertical: 9,
                                   ),
                                   decoration: BoxDecoration(
-                                    color: Colors.teal[800],
+                                    color: const Color.fromARGB(255, 3, 50, 27),
                                     borderRadius: BorderRadius.circular(8),
                                   ),
                                   child: Center(
                                     child: Text(
                                       planta.nameplant,
                                       style: const TextStyle(
-                                        fontSize: 11,
+                                        fontSize: 14,
                                         color: Colors.white,
                                         fontWeight: FontWeight.bold,
                                       ),

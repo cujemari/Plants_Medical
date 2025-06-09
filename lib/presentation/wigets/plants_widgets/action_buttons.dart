@@ -1,9 +1,11 @@
 import 'package:app_plants/presentation/views/detalle/distribution/detail_distribution.dart';
-import 'package:app_plants/presentation/views/detalle/use/detail_uso.dart';
+import 'package:app_plants/presentation/views/detalle/use/detail_use_for_plant.dart';
 import 'package:flutter/material.dart';
 
 class ActionButtons extends StatelessWidget {
-  const ActionButtons({super.key});
+  final int plantaId;
+
+  const ActionButtons({super.key, required this.plantaId});
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +24,7 @@ class ActionButtons extends StatelessWidget {
   Widget _buildButton(BuildContext context, String label, String imagePath) {
     return Container(
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(10),
+        borderRadius: BorderRadius.circular(15),
         color: Colors.green[800],
       ),
       child: ElevatedButton(
@@ -30,14 +32,15 @@ class ActionButtons extends StatelessWidget {
           if (label == "Usos") {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => DetailUso(plantaId: 1)),
+              MaterialPageRoute(
+                builder: (context) => DetailUseForPlant(plantaId: plantaId),
+              ),
             );
-          }
-          if (label == "Distribución") {
+          } else if (label == "Distribución") {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => DetailDistribution(plantaId: 1),
+                builder: (context) => DetailDistribution(plantaId: plantaId),
               ),
             );
           }
@@ -45,7 +48,7 @@ class ActionButtons extends StatelessWidget {
         style: ElevatedButton.styleFrom(
           backgroundColor: Colors.transparent,
           shadowColor: Colors.transparent,
-          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 18),
+          padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 10),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(10),
           ),
@@ -54,10 +57,7 @@ class ActionButtons extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             ClipRRect(
-              borderRadius: const BorderRadius.only(
-                topLeft: Radius.circular(5),
-                bottomLeft: Radius.circular(10),
-              ),
+              borderRadius: BorderRadius.circular(5),
               child: Image.asset(
                 imagePath,
                 width: 35,
@@ -65,17 +65,14 @@ class ActionButtons extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
             ),
-            const SizedBox(width: 5),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 8),
-              child: Text(
-                label,
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 14,
-                  fontWeight: FontWeight.bold,
-                  fontFamily: 'Arial',
-                ),
+            const SizedBox(height: 5),
+            Text(
+              label,
+              style: const TextStyle(
+                color: Colors.white,
+                fontSize: 14,
+                fontWeight: FontWeight.bold,
+                fontFamily: 'Arial',
               ),
             ),
           ],

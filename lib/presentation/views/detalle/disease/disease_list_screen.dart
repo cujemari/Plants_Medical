@@ -36,11 +36,12 @@ class _DiseaseListScreenState extends State<DiseaseListScreen> {
 
   void _filtrarEnfermedades(String query) {
     setState(() {
-      _enfermedadesFiltradas = _enfermedades
-          .where(
-            (e) => e.namedisease.toLowerCase().contains(query.toLowerCase()),
-          )
-          .toList();
+      final d = query.toLowerCase();
+      _enfermedadesFiltradas = _enfermedades.where((enfermedad) {
+        return enfermedad.namedisease.toLowerCase().contains(d) ||
+            enfermedad.descriptiondisease.toLowerCase().contains(d) ||
+            enfermedad.symptoms.toLowerCase().contains(d);
+      }).toList();
     });
   }
 
@@ -74,7 +75,7 @@ class _DiseaseListScreenState extends State<DiseaseListScreen> {
                 child: TextField(
                   controller: _controller,
                   decoration: const InputDecoration(
-                    hintText: "Buscar enfermedad",
+                    hintText: "Buscar nombre, descripción o sintomas",
                     prefixIcon: Icon(Icons.search, color: Colors.white),
                     hintStyle: TextStyle(color: Colors.black),
                     border: InputBorder.none,
@@ -125,7 +126,7 @@ class _DiseaseListScreenState extends State<DiseaseListScreen> {
                                 ClipRRect(
                                   borderRadius: BorderRadius.circular(12),
                                   child: SizedBox(
-                                    height: 120,
+                                    height: 140,
                                     width: double.infinity,
                                     child: Image.asset(
                                       enfermedad.imagedisease,
@@ -139,14 +140,14 @@ class _DiseaseListScreenState extends State<DiseaseListScreen> {
                                     vertical: 9,
                                   ),
                                   decoration: BoxDecoration(
-                                    color: Colors.teal[800],
+                                    color: const Color.fromARGB(255, 3, 50, 27),
                                     borderRadius: BorderRadius.circular(8),
                                   ),
                                   child: Center(
                                     child: Text(
                                       enfermedad.namedisease,
                                       style: const TextStyle(
-                                        fontSize: 11,
+                                        fontSize: 13,
                                         color: Colors.white,
                                         fontWeight: FontWeight.bold,
                                       ),

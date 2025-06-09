@@ -1,21 +1,123 @@
 [
-    {
-    "preparationuse_id":1,
-    "plant_id":1,
-    "use": "Raíz: Tres raices de la abuta blanca",
-    "preparation": "Con un pequeño maso machacar la raiz, agregarlo en un recipiente con una tasa de agua, ponerlo a hervir por 5 minutos.",
-    "indication": "Tomar el cocimiento de la raíz, dos veces al dia, por una semana.",
-    "sync_status": "",
-    "last_updated": null
-},
   {
-    "preparationuse_id":2,
-    "plant_id":4,
-    "use":"Raíz: 3 raices de la bolsa mullaca.",
-    "preparation": "Macerar tres raíces, en trozos menudos, en una botella de aguardiente (un cuarto de litro) durante siete días. Agregar media botella de miel de abeja.",
-    "indication":"Macerar tres raíces, en trozos menudos, en una botella de aguardiente (un cuarto de litro) durante siete días. Agregar media botella de miel de abeja.",
+    "diseplant_id": 1,
+    "disease_id": 1,
+    "plant_id": 1,
+    "use": "Raíz: Tres raíces de la abuta blanca.",
+    "preparation": "Con un pequeño mazo machacar la raíz, agregarlo en un recipiente con una taza de agua, ponerlo a hervir por 5 minutos.",
+    "indication": "Tomar el cocimiento de la raíz, dos veces al día, por una semana.",
     "sync_status":"",
-    "last_updated":null
-}
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 2,
+    "disease_id": 2,
+    "plant_id": 1,
+    "use": "Corteza: Un trozo de la corteza de la abuta blanca.",
+    "preparation": "Realizar trozos pequeños de la corteza, agregarlo en un recipiente con medio litro de agua y ponerlo a hervir por media hora.",
+    "indication": "Tomar la corteza cocida 2 veces por día.",
+    "sync_status":"",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 3,
+    "disease_id": 2,
+    "plant_id": 4,
+    "use": "Raíz: Tres raíces de la bolsa mullaca.",
+    "preparation": "Macerar tres raíces, en trozos menudos, en una botella de aguardiente (un cuarto de litro) durante siete días. Agregar media botella de miel de abeja.",
+    "indication": "Tomar media copita dos veces al día por sesenta días (dos meses).",
+    "sync_status":"",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 4,
+    "disease_id": 2,
+    "plant_id": 8,
+    "use": "Fruto: Cuatro frutos de cocona.",
+    "preparation": "En un recipiente cocinar los frutos de cocona, una vez cocinados licuarlos, colarlos en un recipiente.",
+    "indication": "Tomar un vaso al día del jugo de los frutos por treinta días.",
+    "sync_status":"",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 5,
+    "disease_id": 2,
+    "plant_id": 15,
+    "use": "Granos o mazorcas del choclo del maíz.",
+    "preparation": "Cocimiento del choclo del maíz en un recipiente y tomar el líquido del cocimiento.",
+    "indication": "Tomar el líquido del cocimiento 2 veces por día.",
+   "sync_status":"",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 6,
+    "disease_id": 2,
+    "plant_id": 21,
+    "use": "Hojas y tallo de la verbena negra.",
+    "preparation": "Machacar en un recipiente las hojas y tallos de la verbena en agua.",
+    "indication": "Tomar medio vaso una vez al día del jugo de la verbena. El tratamiento debe seguirse durante tres meses consecutivos.",
+    "sync_status":"",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 7,
+    "disease_id": 4,
+    "plant_id": 1,
+    "use": "Raíz: Cuatro raíces de la abuta blanca.",
+    "preparation": "En un recipiente poner a cocer por 10 minutos las raíces machacadas.",
+    "indication": "Tomar el cocimiento de la raíz por siete días.",
+   "sync_status":"",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 8,
+    "disease_id": 4,
+    "plant_id": 13,
+    "use": "Raíz: Cuatro raíces de la lauraymana.",
+    "preparation": "Cocinar las raíces por diez minutos.",
+    "indication": "Tomar el cocimiento de la raíz por siete días.",
+    "sync_status":"",
+    "last_updated": null
+  },
+   {
+    "diseplant_id": 9,
+    "disease_id": 3,
+    "plant_id": 2,
+    "use": "Corteza: Tres trozos de corteza de la abuta colorada.",
+    "preparation": "Cortar la corteza en cuadros pequños y en un recipiente cocinar la corteza por veinticinco minutos.",
+    "indication": "Realizar baños con la decocción de la corteza.",
+    "sync_status":"",
+    "last_updated": null
+  },
+   {
+    "diseplant_id": 10,
+    "disease_id": 3,
+    "plant_id": 3,
+    "use": "Raíz: Cuatro Raices del achiote.",
+    "preparation": "Lavarlos bien, machacarlo con un mazo y en un recipiente con una tasa de agua pornerlo a hervir por cinco minutos.",
+    "indication": "Tomar el cocimiento de la raíz por tres dias.",
+    "sync_status":"",
+    "last_updated": null
+  },
   
+   {
+    "diseplant_id": 11,
+    "disease_id": 3,
+    "plant_id": 1,
+    "use": "Hojas: Tres hojas de abuta blanca.",
+    "preparation": "Hacer hervir las hojas con media taza de agua por cinco minutos.",
+    "indication": "Tomar la infusión de las hojas.",
+    "sync_status":"",
+    "last_updated": null
+  },
+   {
+    "diseplant_id": 12,
+    "disease_id": 3,
+    "plant_id": 6,
+    "use": "Hojas: Veinticinco hojas de la chanca piedra.",
+    "preparation": "En un recipiente mediano cocinar las hojas con dos litros de agua por treinta minutos.",
+    "indication": "Tomar el cocimiento de la hojas como agua de tiempo dos veces por dia, hasta completar un mes.",
+    "sync_status":"",
+    "last_updated": null
+  }
 ]

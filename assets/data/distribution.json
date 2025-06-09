@@ -14,7 +14,70 @@
         "description_distribution":"Normalmente se distribuiye por los departamentos del: Amazonas, Cusco, Huánuco, Loreto, Madre de Dios, Pasco, San Martín, Ucayali.",
         "sync_status":"",
         "last_updated":null
+    },
+    {
+        "distribution_id":3,
+        "plant_id":3,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazonas, Cusco, Huánuco, Loreto, Madre de Dios, Pasco, San Martín, Ucayali.",
+        "sync_status":"",
+        "last_updated":null
+    },
+    {
+        "distribution_id":4,
+        "plant_id":4,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazonas, Cajamarca, Huánuco, Lambayeque, La Libertad, Loreto, Madre de Dios, Pasco, Piura, San Martín, Tumbes, Ucayali.",
+        "sync_status":"",
+        "last_updated":null
+    },
+    {
+        "distribution_id":5,
+        "plant_id":5,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Abunda en el Perú en la zona Ceja de Selva; Amazonas, Ayacucho, Cajamarca, Cusco (La Convención, Limatambo, Paucartambo), Huánuco, Junín, Lambayeque, La Libertad, Loreto, Pasco, San Martin, Ucayali.",
+        "sync_status":"",
+        "last_updated":null
+    },
+    {
+        "distribution_id":6,
+        "plant_id":6,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"En el Perú se encuentra en los departamentos de Amazonas, Cajamarca, Cusco, Loreto y San Martín.",
+        "sync_status":"",
+        "last_updated":null
+    },
+    {
+        "distribution_id":7,
+        "plant_id":7,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazonas, Cusco, Huánuco, Loreto, Madre de Dios, San Martín, Ucayali.",
+        "sync_status":"",
+        "last_updated":null
+    },
+    {
+        "distribution_id":8,
+        "plant_id":8,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazonas, Cusco, Huánuco, Loreto, Madre de Dios, Pasco, San Martín.",
+        "sync_status":"",
+        "last_updated":null
+    },
+    {
+        "distribution_id":9,
+        "plant_id":9,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazonas, Ancash, Apurímac, Cajamarca, Cusco, Huánuco, Lambayeque, La Libertad, Lima, Loreto, Madre",
+        "sync_status":"",
+        "last_updated":null
+    },
+    {
+        "distribution_id":10,
+        "plant_id":10,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Apurímac, Cusco, Puno. Loreto",
+        "sync_status":"",
+        "last_updated":null
     }
-      
 
 ]

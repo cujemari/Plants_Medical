@@ -1,4 +1,4 @@
-import 'package:app_plants/data/repositories/log%20out_repository_imple.dart';
+import 'package:app_plants/data/repositories/out_repository_imple.dart';
 import 'package:app_plants/presentation/views/detalle/setting/credit_screen.dart';
 import 'package:app_plants/presentation/views/detalle/setting/term_condition_screen.dart';
 import 'package:app_plants/presentation/views/detalle/setting/theme_provider.dart';

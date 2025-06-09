@@ -88,7 +88,7 @@ class _DetailsMedicinalPlantsState extends State<DetailsMedicinalPlants> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Expanded(flex: 1, child: Column()),
-        const SizedBox(width: 20),
+        const SizedBox(width: 15),
         Expanded(flex: 2, child: _buildPlantDetails()),
       ],
     );
@@ -110,9 +110,9 @@ class _DetailsMedicinalPlantsState extends State<DetailsMedicinalPlants> {
           ),
         ),
 
-        const SizedBox(height: 18),
-        PlantFavoriteScreen(plant: _plant), // <--- AQUÍ
-        const SizedBox(height: 15),
+        const SizedBox(height: 5),
+        PlantFavoriteScreen(plant: _plant),
+        const SizedBox(height: 5),
         _buildPlantDetails(),
       ],
     );
@@ -120,39 +120,33 @@ class _DetailsMedicinalPlantsState extends State<DetailsMedicinalPlants> {
 
   Widget _buildPlantDetails() {
     if (_plant == null) return const SizedBox.shrink();
-
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         InfoCard(title: "Sinonimia vulgar:", content: _plant!.vulgarsynomaly),
-        const SizedBox(height: 6),
         InfoCard(
           title: "Nombre científico:",
           content: _plant!.cientificname,
           isItalic: true,
         ),
-        const SizedBox(height: 6),
         InfoCard(title: "Familia:", content: _plant!.family),
-        const SizedBox(height: 6),
         InfoCard(
           title: "Descripción:",
           content: _plant!.botanicaldescription,
           isJustified: true,
         ),
-        const SizedBox(height: 6),
         InfoCard(
           title: "Hábitat:",
           content: _plant!.habitat,
           isJustified: true,
         ),
-        const SizedBox(height: 6),
         InfoCard(
           title: "Composición Química:",
           content: _plant!.chemicalcomposition,
           isJustified: true,
         ),
         const SizedBox(height: 45),
-        const ActionButtons(),
+        ActionButtons(plantaId: _plant!.plantId),
       ],
     );
   }
