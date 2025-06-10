@@ -13,8 +13,8 @@
         "disease_id":2,
         "name_disease":"Diabetes",
         "image_disease":"assets/images_diseases/diabetes.png",
-        "description_disease":"Segun la Organización Mundial de la Salud: La diabetes es una enfermedad crónica que se presenta cuando el páncreas no secreta suficiente insulina o cuando el organismo no logra utilizar eficazmente la insulina que produce. La insulina es una hormona que regula la concentración de glucosa en la sangre. Un efecto común de la diabetes no controlada es la hiperglucemia (es decir, la glucemia elevada) que, con el tiempo, daña gravemente muchos órganos y sistemas del organismo, sobre todo los nervios y los vasos sanguíneos.",
-        "symptoms":"Los íntomas de la diabetes son: sensación de mucha sed; necesidad de orinar con más frecuencia de lo habitual; visión borrosa; cansancio; pérdida involuntaria de peso.",
+        "description_disease":"Según la Organización Mundial de la Salud: La diabetes es una enfermedad crónica que se presenta cuando el páncreas no secreta suficiente insulina o cuando el organismo no logra utilizar eficazmente la insulina que produce. La insulina es una hormona que regula la concentración de glucosa en la sangre. Un efecto común de la diabetes no controlada es la hiperglucemia (es decir, la glucemia elevada) que, con el tiempo, daña gravemente muchos órganos y sistemas del organismo, sobre todo los nervios y los vasos sanguíneos.",
+        "symptoms":"Sensación de mucha sed, necesidad de orinar con más frecuencia de lo habitual, visión borrosa, cansancio, pérdida involuntaria de peso.",
         "sync_status":"", 
         "last_updated":null
     },
@@ -23,7 +23,7 @@
         "disease_id":3,
         "name_disease":"Fiebre",
         "image_disease":"assets/images_diseases/fiebre.png",
-        "description_disease":"Segun la Clinica Universidad de Navarra: El cuerpo mantiene una temperatura constante mediante un centro, llamado termorregulador, localizado en una parte del cerebro llamada hipotálamo. Cuando ese centro, por diferentes causas, establece una temperatura más elevada, se produce la fiebre. Hablamos de febrícula si la fiebre es de escasa magnitud (menor de 38º C) y de fiebre si se superan los 38 ºC.",
+        "description_disease":"Según la Clinica Universidad de Navarra: El cuerpo mantiene una temperatura constante mediante un centro, llamado termorregulador, localizado en una parte del cerebro llamada hipotálamo. Cuando ese centro, por diferentes causas, establece una temperatura más elevada a los 38º de temperatura de calor, se produce la fiebre.",
         "symptoms":"Fiebre interior, dolor de espalda, y sentir náuseas son síntomas asociados de sangrado vaginal y pueden ser una indicación inicial. En algunos casos se observan movimientos intestinales complejos. Tener dolor durante las relaciones sexuales también podría ser un síntoma. Calambres en la pelvis, irritabilidad y aumento de peso de agua durante los períodos menstruales.Manchado fuera del ciclo menstrual, anormal secreción vaginal, y dolor al orinar.",
         "sync_status":"",
         "last_updated":null
@@ -32,8 +32,62 @@
         "disease_id":4,
         "name_disease":"Hemorragia Menstrual",
         "image_disease":"assets/images_diseases/hemorragia_menstrual.png",
-        "description_disease":"Segun Apollo Hospitals: El sangrado vaginal anormal ocurre más allá del ciclo menstrual de una mujer o muestra algunos síntomas extremos en el momento en que tiene sus períodos. El sangrado irregular ocurre en el momento equivocado durante el mes o en cantidades inadecuadas, a diferencia de lo que sucede típicamente durante el ciclo menstrual mensual de una mujer. Los síntomas pueden ser causados ​​por varias condiciones anormales, incluidos desequilibrios hormonales, infección, complicaciones que surgen durante el embarazo, trauma y malignidad.",
-        "symptoms":"Los más comunes son dolor de cabeza, dolores musculares generalizados, o más localizados en la región lumbar, dolores articulares y somnolencia. Los escalofríos ocurren durante el ascenso de la temperatura, y son el reflejo del aumento de actividad muscular que el centro termorregulador ordena para aumentar la temperatura corporal.",
+        "description_disease":"Según Apollo Hospitals: El sangrado vaginal anormal ocurre más allá del ciclo menstrual de una mujer o muestra algunos síntomas extremos en el momento en que tiene sus períodos. El sangrado irregular ocurre en el momento equivocado durante el mes o en cantidades inadecuadas, a diferencia de lo que sucede típicamente durante el ciclo menstrual mensual de una mujer.",
+        "symptoms":"Los sintomas mas comunes son: Dolor de cabeza, dolores musculares generalizados, o más localizados en la región lumbar, dolores articulares y somnolencia. Los escalofríos ocurren durante el ascenso de la temperatura, y son el reflejo del aumento de actividad muscular que el centro termorregulador ordena para aumentar la temperatura corporal.",
+        "sync_status":"",
+        "last_updated":null
+    },
+     {
+        "disease_id":5,
+        "name_disease":"Dolor dental",
+        "image_disease":"assets/images_diseases/dolor_dental.png",
+        "description_disease":"Según la Organización Mundial de la Salud(OMS) define que: El dolor dental, o odontalgia, es una experiencia sensorial y emocional desagradable causada por daño o irritación en los tejidos de la boca, principalmente los dientes.",
+        "symptoms":"Pueden variar desde una molestia leve hasta un dolor intenso y agudo.",
+        "sync_status":"",
+        "last_updated":null
+    },
+     {
+        "disease_id":6,
+        "name_disease":"Diarrea",
+        "image_disease":"assets/images_diseases/diarrea.png",
+        "description_disease":"Según el misniterio de salud: La diarrea se define como la expulsión de heces blandas o líquidas con más frecuencia de lo normal, generalmente tres o más veces al día.",
+        "symptoms":"Heces blandas o líquidas, mayor frecuencia de deposiciones. Otras posibles características: Puede haber sangre, moco, pus, o alimentos no digeridos en las heces.",
+        "sync_status":"",
+        "last_updated":null
+    },
+     {
+        "disease_id":7,
+        "name_disease":"Cortes en la piel",
+        "image_disease":"assets/images_diseases/cortes_piel.png",
+        "description_disease":"según Ministerio de Salud define que: Una cortada en la piel, o laceración, es una ruptura o abertura en la piel causada por un objeto afilado.",
+        "symptoms":"Incluyen sangrado, dolor y, en algunos casos, pérdida de sensibilidad o movimiento. Los síntomas más graves pueden ser pérdida de sensibilidad o movimiento.",
+        "sync_status":"",
+        "last_updated":null
+    },
+     {
+        "disease_id":8,
+        "name_disease":"Asma",
+        "image_disease":"assets/images_diseases/asma.png",
+        "description_disease":"Según el Instituto Nacional de Salud Pública: El asma es una enfermedad crónica que afecta a las vías respiratorias, causando inflamación e estrechamiento, lo que dificulta la respiración. Esta inflamación puede ser provocada por diferentes factores como alérgenos, infecciones, ejercicio o estrés.",
+        "symptoms":"Sibilancias, tos, dificultad para respirar, opresión en el pecho. Otros síntomas: Pueden incluir fatiga, dolor de cabeza, dificultad para dormir y pérdida de apetito.",
+        "sync_status":"",
+        "last_updated":null
+    },
+     {
+        "disease_id":9,
+        "name_disease":"Gripe",
+        "image_disease":"assets/images_diseases/gripe.png",
+        "description_disease":"Según el Ministerio de Salud: La gripe es una enfermedad infecciosa aguda que afecta al aparato respiratorio y produce síntomas generalizados. Es causada por el virus de la influenza, que se transmite de persona a persona a través de secreciones respiratorias.",
+        "symptoms":"Fiebre alta (38° o más), dolor de cabeza, malestar general, dolores musculares y articulares; Tos, generalmente seca; Dolor de garganta; Congestión o secreción nasal.",
+        "sync_status":"",
+        "last_updated":null
+    },
+        {
+        "disease_id":10,
+        "name_disease":"Bronquitis",
+        "image_disease":"assets/images_diseases/bronquitis.png",
+        "description_disease":"Según el Ministerio de Salud: La bronquitis es la inflamación de los bronquios, las vías aéreas que llevan aire a los pulmones.",
+        "symptoms":"Los síntomas principales son tos, a menudo con mucosidad, dificultad para respirar, sibilancias, dolor de pecho y fatiga.",
         "sync_status":"",
         "last_updated":null
     }

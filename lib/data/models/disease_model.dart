@@ -1,4 +1,6 @@
-class DiseaseModel {
+import 'package:app_plants/domain/entities/disease.dart';
+
+class DiseaseModel extends Disease {
   final int diseaseId;
   final String namedisease;
   final String imagedisease;
@@ -15,10 +17,17 @@ class DiseaseModel {
     required this.symptoms,
     required this.syncstatus,
     required this.lastupdated,
-  });
+  }) : super(
+         diseaseId: diseaseId,
+         namedisease: namedisease,
+         imagedisease: imagedisease,
+         descriptiondisease: descriptiondisease,
+         symptoms: symptoms,
+         syncstatus: syncstatus,
+         lastupdated: lastupdated,
+       );
 
-  // Convertir JSON a objeto disease
-
+  /// Convertir JSON a DiseaseModel
   factory DiseaseModel.fromJson(Map<String, dynamic> json) {
     return DiseaseModel(
       diseaseId: json['disease_id'],
@@ -32,8 +41,8 @@ class DiseaseModel {
           : DateTime.now().millisecondsSinceEpoch,
     );
   }
-  // Convertir objeto disease a JSON
 
+  /// Convertir DiseaseModel a JSON
   Map<String, dynamic> toJson() {
     return {
       'disease_id': diseaseId,
@@ -46,28 +55,19 @@ class DiseaseModel {
     };
   }
 
-  // Convierte un Disease a un Map para la inserción en la base de datos
-  Map<String, dynamic> toMap() {
-    return {
-      "disease_id": diseaseId,
-      "name_disease": namedisease,
-      "image_disease": imagedisease,
-      "description_disease": descriptiondisease,
-      "symptoms": symptoms,
-      "sync_status": syncstatus,
-      "last_updated": lastupdated,
-    };
-  }
+  /// Convertir a Map (para base de datos)
+  Map<String, dynamic> toMap() => toJson();
 
+  /// Crear DiseaseModel desde un Map (por ejemplo, desde SQLite)
   factory DiseaseModel.fromMap(Map<String, dynamic> map) {
     return DiseaseModel(
-      diseaseId: map["disease_id"],
-      namedisease: map["name_disease"],
-      imagedisease: map["image_disease"],
-      descriptiondisease: map["description_disease"],
-      symptoms: map["symptoms"],
-      syncstatus: map["sync_status"],
-      lastupdated: map["last_updated"],
+      diseaseId: map['disease_id'],
+      namedisease: map['name_disease'],
+      imagedisease: map['image_disease'],
+      descriptiondisease: map['description_disease'],
+      symptoms: map['symptoms'],
+      syncstatus: map['sync_status'],
+      lastupdated: map['last_updated'],
     );
   }
 }

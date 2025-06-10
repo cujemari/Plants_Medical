@@ -1,31 +1,33 @@
-class MedicinalPlantModel {
-  final int plantId;
-  final String nameplant;
-  final String imageplant;
-  final String vulgarsynomaly;
-  final String cientificname;
-  final String family;
-  final String botanicaldescription;
-  final String habitat;
-  final String chemicalcomposition;
-  final String syncStatus;
-  final int lastUpdated;
+import 'package:app_plants/domain/entities/medicinal_plant.dart';
+
+class MedicinalPlantModel extends MedicinalPlant {
   MedicinalPlantModel({
-    required this.plantId,
-    required this.nameplant,
-    required this.imageplant,
-    required this.vulgarsynomaly,
-    required this.cientificname,
-    required this.family,
-    required this.botanicaldescription,
-    required this.habitat,
-    required this.chemicalcomposition,
-    required this.syncStatus,
-    required this.lastUpdated,
-  });
+    required int plantId,
+    required String nameplant,
+    required String imageplant,
+    required String vulgarsynomaly,
+    required String cientificname,
+    required String family,
+    required String botanicaldescription,
+    required String habitat,
+    required String chemicalcomposition,
+    required String syncStatus,
+    required int lastUpdated,
+  }) : super(
+         plantId: plantId,
+         nameplant: nameplant,
+         imageplant: imageplant,
+         vulgarsynomaly: vulgarsynomaly,
+         cientificname: cientificname,
+         family: family,
+         botanicaldescription: botanicaldescription,
+         habitat: habitat,
+         chemicalcomposition: chemicalcomposition,
+         syncStatus: syncStatus,
+         lastUpdated: lastUpdated,
+       );
 
-  // Convertir JSON a objeto plant
-
+  /// Convierte un JSON a una instancia de [MedicinalPlantModel]
   factory MedicinalPlantModel.fromJson(Map<String, dynamic> json) {
     return MedicinalPlantModel(
       plantId: json['plant_id'],
@@ -43,8 +45,25 @@ class MedicinalPlantModel {
           : DateTime.now().millisecondsSinceEpoch,
     );
   }
-  // Convertir objeto plant a JSON
 
+  /// Convierte un [Map] de base de datos a una instancia de [MedicinalPlantModel]
+  factory MedicinalPlantModel.fromMap(Map<String, dynamic> map) {
+    return MedicinalPlantModel(
+      plantId: map['plant_id'],
+      nameplant: map['name_plant'],
+      imageplant: map['image_plant'],
+      vulgarsynomaly: map['vulgar_synomaly'],
+      cientificname: map['scientific_name'],
+      family: map['family'],
+      botanicaldescription: map['botanical_description'],
+      habitat: map['habitat'],
+      chemicalcomposition: map['chemical_composition'],
+      syncStatus: map['sync_status'],
+      lastUpdated: map['last_updated'],
+    );
+  }
+
+  /// Convierte el objeto a JSON para envío remoto o APIs
   Map<String, dynamic> toJson() {
     return {
       'plant_id': plantId,
@@ -61,7 +80,7 @@ class MedicinalPlantModel {
     };
   }
 
-  // Convierte un MedicinalPlant a un Map para la inserción en la base de datos
+  /// Convierte el objeto a [Map] para base de datos local
   Map<String, dynamic> toMap() {
     return {
       'plant_id': plantId,
@@ -76,21 +95,5 @@ class MedicinalPlantModel {
       'sync_status': syncStatus,
       'last_updated': lastUpdated,
     };
-  }
-
-  factory MedicinalPlantModel.fromMap(Map<String, dynamic> map) {
-    return MedicinalPlantModel(
-      plantId: map["plant_id"],
-      nameplant: map["name_plant"],
-      imageplant: map["image_plant"],
-      vulgarsynomaly: map["vulgar_synomaly"],
-      cientificname: map["scientific_name"],
-      family: map["family"],
-      botanicaldescription: map["botanical_description"],
-      habitat: map["habitat"],
-      chemicalcomposition: map["chemical_composition"],
-      syncStatus: map["sync_status"],
-      lastUpdated: map["last_updated"],
-    );
   }
 }

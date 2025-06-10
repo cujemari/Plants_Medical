@@ -1,5 +1,5 @@
 import 'package:app_plants/core/services/auth_service.dart';
-import 'package:app_plants/presentation/views/home/start_page.dart';
+import 'package:app_plants/presentation/views/home/start_page_screen.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -10,7 +10,7 @@ class LoginScreen extends StatelessWidget {
     if (user != null) {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (_) => StartPage()),
+        MaterialPageRoute(builder: (_) => StartPageScreen()),
       );
     } else {
       ScaffoldMessenger.of(
@@ -22,7 +22,7 @@ class LoginScreen extends StatelessWidget {
   void _continueOffline(BuildContext context) {
     Navigator.pushReplacement(
       context,
-      MaterialPageRoute(builder: (_) => StartPage()),
+      MaterialPageRoute(builder: (_) => StartPageScreen()),
     );
   }
 

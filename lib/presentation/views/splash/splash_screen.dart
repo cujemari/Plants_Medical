@@ -1,4 +1,3 @@
-import 'package:app_plants/presentation/views/auth/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 
@@ -11,16 +10,12 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    _navigateToHome();
-  }
 
-  // Navegar automáticamente después de un retraso
-  _navigateToHome() async {
-    await Future.delayed(const Duration(seconds: 3));
-    Navigator.pushReplacement(
-      context,
-      MaterialPageRoute(builder: (context) => LoginScreen()),
-    );
+    Future.delayed(const Duration(seconds: 2), () {
+      if (mounted) {
+        Navigator.pushReplacementNamed(context, '/login');
+      }
+    });
   }
 
   @override
@@ -29,10 +24,7 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Stack(
         fit: StackFit.expand,
         children: [
-          // Imagen de fondo
           Image.asset("assets/logos/fondo.jpeg", fit: BoxFit.cover),
-
-          // Contenido central
           Center(
             child: Column(
               mainAxisSize: MainAxisSize.min,

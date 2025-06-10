@@ -1,5 +1,5 @@
-import 'package:app_plants/presentation/views/detalle/distribution/detail_distribution.dart';
-import 'package:app_plants/presentation/views/detalle/use/detail_use_for_plant.dart';
+import 'package:app_plants/presentation/views/details/distribution/detail_distribution.dart';
+import 'package:app_plants/presentation/views/details/use/detail_use_for_plant.dart';
 import 'package:flutter/material.dart';
 
 class ActionButtons extends StatelessWidget {
