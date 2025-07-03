@@ -50,7 +50,7 @@ class _DetailUsoState extends State<DetailUseForPlant> {
 
     final filteredUses = widget.enfermedadId != null
         ? allUses.where((u) => u.diseplantId == widget.enfermedadId).toList()
-        : allUses.toList(); // copiar para ordenar
+        : allUses.toList();
     filteredUses.sort((a, b) => a.diseplantId.compareTo(b.diseplantId));
 
     final diseasesMap = <int, DiseaseModel>{};
@@ -82,10 +82,6 @@ class _DetailUsoState extends State<DetailUseForPlant> {
       appBar: AppBar(
         backgroundColor: const Color(0xFF0A2D1A),
         iconTheme: const IconThemeData(color: Colors.white),
-        title: const Text(
-          'Detalles de uso',
-          style: TextStyle(color: Colors.white),
-        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -122,12 +118,26 @@ class _DetailUsoState extends State<DetailUseForPlant> {
               return Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
-                    'Tratamiento para: $diseaseName',
-                    style: const TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                  RichText(
+                    text: TextSpan(
+                      children: [
+                        const TextSpan(
+                          text: 'Tratamiento para: ',
+                          style: TextStyle(
+                            fontSize: 18,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.blue, // Color para el texto fijo
+                          ),
+                        ),
+                        TextSpan(
+                          text: diseaseName,
+                          style: const TextStyle(
+                            fontSize: 18,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.orangeAccent,
+                          ),
+                        ),
+                      ],
                     ),
                   ),
                   const SizedBox(height: 10),
@@ -153,7 +163,7 @@ class _DetailUsoState extends State<DetailUseForPlant> {
           style: const TextStyle(
             fontSize: 16,
             fontWeight: FontWeight.bold,
-            color: Colors.white,
+            color: Colors.blue,
           ),
         ),
         const SizedBox(height: 5),

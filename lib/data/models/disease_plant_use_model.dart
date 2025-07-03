@@ -1,11 +1,27 @@
-class DiseasePlantUseModel {
+import 'package:json_annotation/json_annotation.dart';
+import 'package:app_plants/domain/entities/disease_plant_use.dart';
+
+part 'disease_plant_use_model.g.dart';
+
+@JsonSerializable()
+class DiseasePlantUseModel extends DiseasePlantUse {
+  @JsonKey(name: 'diseplant_id')
   final int diseplantId;
+
+  @JsonKey(name: 'disease_id')
   final int diseaseId;
+
+  @JsonKey(name: 'plant_id')
   final int? plantId;
+
   final String use;
   final String preparation;
   final String indication;
+
+  @JsonKey(name: 'sync_status')
   final String? syncstatus;
+
+  @JsonKey(name: 'last_updated')
   final int? lastupdated;
 
   DiseasePlantUseModel({
@@ -17,64 +33,33 @@ class DiseasePlantUseModel {
     required this.indication,
     required this.syncstatus,
     required this.lastupdated,
-  });
+  }) : super(
+         diseplantId: diseplantId,
+         diseaseId: diseaseId,
+         plantId: plantId,
+         use: use,
+         preparation: preparation,
+         indication: indication,
+         syncstatus: syncstatus,
+         lastupdated: lastupdated,
+       );
 
-  // Convertir JSON a objeto preparation_use
+  factory DiseasePlantUseModel.fromJson(Map<String, dynamic> json) =>
+      _$DiseasePlantUseModelFromJson(json);
 
-  factory DiseasePlantUseModel.fromJson(Map<String, dynamic> json) {
-    return DiseasePlantUseModel(
-      diseplantId: json['diseplant_id'],
-      diseaseId: json['disease_id'],
-      plantId: json['plant_id'],
-      use: json['use'],
-      preparation: json['preparation'],
-      indication: json['indication'],
-      syncstatus: json['sync_status'] ?? 'pending',
-      lastupdated: json['last_updated'] is int
-          ? json['last_updated']
-          : DateTime.now().millisecondsSinceEpoch,
-    );
-  }
-  // Convertir objeto preparation_use a JSON
+  Map<String, dynamic> toJson() => _$DiseasePlantUseModelToJson(this);
 
-  Map<String, dynamic> toJson() {
-    return {
-      'diseplant_id': diseplantId,
-      'disease_id': diseaseId,
-      'plant_id': plantId,
-      'use': use,
-      'preparation': preparation,
-      'indication': indication,
-      'sync_status': syncstatus,
-      'last_updated': lastupdated,
-    };
-  }
+  factory DiseasePlantUseModel.fromMap(Map<String, dynamic> map) =>
+      DiseasePlantUseModel(
+        diseplantId: map["diseplant_id"],
+        diseaseId: map["disease_id"],
+        plantId: map["plant_id"],
+        use: map['use'],
+        preparation: map['preparation'],
+        indication: map['indication'],
+        syncstatus: map["sync_status"],
+        lastupdated: map["last_updated"],
+      );
 
-  // Convierte un preparation_use a un Map para la inserción en la base de datos
-
-  Map<String, dynamic> toMap() {
-    return {
-      "diseplant_id": diseplantId,
-      "disease_id": diseaseId,
-      "plant_id": plantId,
-      "use": use,
-      "preparation": preparation,
-      "indication": indication,
-      "sync_status": syncstatus,
-      "last_updated": lastupdated,
-    };
-  }
-
-  factory DiseasePlantUseModel.fromMap(Map<String, dynamic> map) {
-    return DiseasePlantUseModel(
-      diseplantId: map["diseplant_id"],
-      diseaseId: map["disease_id"],
-      plantId: map["plant_id"],
-      use: map['use'],
-      preparation: map['preparation'],
-      indication: map['indication'],
-      syncstatus: map["sync_status"],
-      lastupdated: map["last_updated"],
-    );
-  }
+  Map<String, dynamic> toMap() => toJson();
 }

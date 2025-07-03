@@ -5,10 +5,10 @@ class ProfileGuestWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return const Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: const [
+        children: [
           Icon(Icons.person_outline, size: 100, color: Colors.white70),
           SizedBox(height: 20),
           Text(

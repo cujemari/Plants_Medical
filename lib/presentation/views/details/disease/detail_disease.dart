@@ -1,7 +1,7 @@
-import 'package:app_plants/presentation/views/details/plant/plants_for_disease_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:app_plants/data/models/disease_model.dart';
 import 'package:app_plants/data/repositories/disease_repository_impl.dart';
+import 'package:app_plants/presentation/views/details/plant/plants_for_disease_screen.dart';
 
 class DetailDisease extends StatefulWidget {
   final int diseaseId;
@@ -15,8 +15,13 @@ class DetailDisease extends StatefulWidget {
 class _DetailDiseaseState extends State<DetailDisease> {
   DiseaseModel? _disease;
   bool _isLoading = true;
-
   final DiseaseRepositoryImpl _diseaseRepository = DiseaseRepositoryImpl();
+
+  @override
+  void initState() {
+    super.initState();
+    _fetchDisease();
+  }
 
   Future<void> _fetchDisease() async {
     try {
@@ -32,12 +37,6 @@ class _DetailDiseaseState extends State<DetailDisease> {
   }
 
   @override
-  void initState() {
-    super.initState();
-    _fetchDisease();
-  }
-
-  @override
   Widget build(BuildContext context) {
     if (_isLoading) {
       return const Scaffold(body: Center(child: CircularProgressIndicator()));
@@ -50,9 +49,9 @@ class _DetailDiseaseState extends State<DetailDisease> {
     }
 
     return Scaffold(
-      backgroundColor: Color(0xFF0A2D1A),
+      backgroundColor: const Color(0xFF0A2D1A),
       appBar: AppBar(
-        backgroundColor: Color(0xFF0A2D1A),
+        backgroundColor: const Color(0xFF0A2D1A),
         iconTheme: const IconThemeData(color: Colors.white),
       ),
       body: SingleChildScrollView(
@@ -60,90 +59,66 @@ class _DetailDiseaseState extends State<DetailDisease> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            // Título
             Center(
               child: Text(
                 _disease!.namedisease,
+                textAlign: TextAlign.center,
                 style: const TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
                   color: Colors.green,
                 ),
-                textAlign: TextAlign.center,
-              ),
-            ),
-            const SizedBox(height: 8),
-            Image.asset(
-              _disease!.imagedisease,
-              width: double.infinity,
-              height: 200,
-              fit: BoxFit.cover,
-              errorBuilder: (context, error, stackTrace) =>
-                  const Icon(Icons.broken_image, size: 200),
-            ),
-            const SizedBox(height: 22),
-            const Text(
-              'Descripción:',
-              style: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
               ),
             ),
             const SizedBox(height: 12),
-            Center(
-              child: Text(
-                _disease!.descriptiondisease,
-                style: const TextStyle(
-                  fontSize: 15,
-                  color: Colors.white,
-                  fontFamily: "Arial",
-                ),
+
+            // Imagen
+            ClipRRect(
+              borderRadius: BorderRadius.circular(15),
+              child: Image.asset(
+                _disease!.imagedisease,
+                width: double.infinity,
+                height: 200,
+                fit: BoxFit.cover,
+                errorBuilder: (_, __, ___) =>
+                    const Icon(Icons.broken_image, size: 100),
               ),
             ),
             const SizedBox(height: 22),
-            const Text(
-              'Sintomas:',
-              style: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
-              ),
-            ),
-            const SizedBox(height: 12),
-            Center(
-              child: Text(
-                _disease!.symptoms,
-                style: const TextStyle(
-                  fontSize: 15,
-                  color: Colors.white,
-                  fontFamily: "Arial",
-                ),
-              ),
-            ),
+
+            // Descripción
+            _buildSectionTitle('Descripción:'),
+            _buildSectionContent(_disease!.descriptiondisease),
+
+            // Síntomas
+            _buildSectionTitle('Síntomas:'),
+            _buildSectionContent(_disease!.symptoms),
+
             const SizedBox(height: 24),
+
+            // Botón ver plantas
             Center(
               child: ElevatedButton.icon(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.lightBlueAccent,
-
+                  backgroundColor: Colors.green,
                   elevation: 4,
                   padding: const EdgeInsets.symmetric(
                     horizontal: 20,
                     vertical: 12,
                   ),
                 ),
-
                 onPressed: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => PlantsForDiseaseScreen(
+                      builder: (_) => PlantsForDiseaseScreen(
                         diseaseId: _disease!.diseaseId,
                       ),
                     ),
                   );
                 },
-                icon: const Icon(Icons.local_florist, color: Colors.green),
+                icon: const Icon(Icons.local_florist, color: Colors.blueAccent),
                 label: const Text(
                   'Ver plantas medicinales',
                   style: TextStyle(color: Colors.white),
@@ -155,4 +130,29 @@ class _DetailDiseaseState extends State<DetailDisease> {
       ),
     );
   }
+
+  Widget _buildSectionTitle(String title) => Padding(
+    padding: const EdgeInsets.only(bottom: 8, top: 22),
+    child: Text(
+      title,
+      style: const TextStyle(
+        fontSize: 20,
+        fontWeight: FontWeight.bold,
+        color: Colors.blue,
+        fontFamily: 'Times New Roman',
+      ),
+    ),
+  );
+
+  Widget _buildSectionContent(String text) => Center(
+    child: Text(
+      text,
+      textAlign: TextAlign.left,
+      style: const TextStyle(
+        fontSize: 15,
+        color: Colors.white,
+        fontFamily: 'Arial',
+      ),
+    ),
+  );
 }

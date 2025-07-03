@@ -38,11 +38,16 @@ class _PlantsForDiseaseScreenState extends State<PlantsForDiseaseScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF0B918A),
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       appBar: AppBar(
-        title: const Text('Plantas Recomendadas'),
+        title: Text(
+          'Plantas Recomendadas',
+          style: TextStyle(
+            color: Theme.of(context).appBarTheme.foregroundColor,
+          ),
+        ),
         iconTheme: const IconThemeData(color: Colors.white),
-        backgroundColor: const Color(0xFF0B918A),
+        backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       ),
 
       body: _isLoading

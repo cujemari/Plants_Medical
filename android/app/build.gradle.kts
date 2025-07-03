@@ -1,21 +1,26 @@
+import java.util.Properties
+import java.io.FileInputStream
+
 plugins {
     id("com.android.application")
-    id("kotlin-android")
-    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    id("org.jetbrains.kotlin.android")
     id("dev.flutter.flutter-gradle-plugin")
-
     id("com.google.gms.google-services")
 }
 
-dependencies{
-    implementation(platform("com.google.firebase:firebase-bom:33.15.0"))
+// Cargar key.properties
+val keystoreProperties = Properties()
+val keystorePropertiesFile = rootProject.file("key.properties")
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(FileInputStream(keystorePropertiesFile))
+} else {
+    throw GradleException("El archivo key.properties no fue encontrado en: ${keystorePropertiesFile.absolutePath}")
 }
 
 android {
     namespace = "com.example.app_plants"
     compileSdk = 35
     ndkVersion = "27.0.12077973"
-
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -27,25 +32,58 @@ android {
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId = "com.example.app_plants"
-        // You can update the following values to match your application needs.
-        // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = 23
         targetSdk = 33
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+
+        ndk {
+            abiFilters.addAll(listOf("armeabi-v7a", "arm64-v8a", "x86", "x86_64"))
+        }
+    }
+
+    signingConfigs {
+        create("release") {
+            val keyAliasValue = keystoreProperties.getProperty("keyAlias")
+            val keyPasswordValue = keystoreProperties.getProperty("keyPassword")
+            val storeFilePath = keystoreProperties.getProperty("storeFile")
+            val storePasswordValue = keystoreProperties.getProperty("storePassword")
+
+            if (storeFilePath.isNullOrBlank()) {
+                throw GradleException("Falta la propiedad storeFile en key.properties")
+            }
+
+            val storeFileObject = rootProject.file(storeFilePath)
+            if (!storeFileObject.exists()) {
+                throw GradleException("El archivo .jks no existe en la ruta: $storeFilePath")
+            }
+
+            keyAlias = keyAliasValue ?: throw GradleException("Falta keyAlias en key.properties")
+            keyPassword = keyPasswordValue ?: throw GradleException("Falta keyPassword en key.properties")
+            storeFile = storeFileObject
+            storePassword = storePasswordValue ?: throw GradleException("Falta storePassword en key.properties")
+        }
     }
 
     buildTypes {
-        release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.getByName("debug")
+        getByName("release") {
+            isMinifyEnabled = false
+            isShrinkResources = false
+            signingConfig = signingConfigs.getByName("release")
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
         }
     }
 }
 
 flutter {
     source = "../.."
+}
+
+dependencies {
+    implementation(platform("com.google.firebase:firebase-bom:33.15.0"))
+    implementation("com.google.firebase:firebase-dynamic-links")
 }

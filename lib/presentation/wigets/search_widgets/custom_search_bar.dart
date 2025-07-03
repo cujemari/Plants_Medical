@@ -12,28 +12,31 @@ class SearchBarWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final screenWidth = MediaQuery.of(context).size.width;
     return Container(
-      width: screenWidth * 0.9,
+      margin: const EdgeInsets.symmetric(horizontal: 16),
       height: 50,
-      padding: const EdgeInsets.symmetric(horizontal: 8),
+      padding: const EdgeInsets.symmetric(horizontal: 12),
       decoration: BoxDecoration(
         color: Colors.green,
-        borderRadius: BorderRadius.circular(10),
-      ),
-      child: Center(
-        child: TextField(
-          controller: controller,
-          decoration: const InputDecoration(
-            hintText:
-                "Buscar por nombre de la planta, cientifico, familia, descrión u otros",
-            prefixIcon: Icon(Icons.search, color: Colors.white),
-            hintStyle: TextStyle(color: Colors.grey),
-            border: InputBorder.none,
+        borderRadius: BorderRadius.circular(12),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.white.withOpacity(0.2),
+            blurRadius: 4,
+            offset: const Offset(0, 2),
           ),
-          style: const TextStyle(color: Colors.white),
-          onChanged: onChanged,
+        ],
+      ),
+      child: TextField(
+        controller: controller,
+        onChanged: onChanged,
+        decoration: const InputDecoration(
+          hintText: "Buscar por nombre, científico, familia u otros",
+          prefixIcon: Icon(Icons.search, color: Colors.white),
+          hintStyle: TextStyle(color: Colors.green),
+          border: InputBorder.none,
         ),
+        style: const TextStyle(color: Colors.white),
       ),
     );
   }

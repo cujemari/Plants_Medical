@@ -16,28 +16,27 @@ class PlantGridItem extends StatelessWidget {
         children: [
           ClipRRect(
             borderRadius: BorderRadius.circular(12),
-            child: SizedBox(
+            child: Image.asset(
+              planta.imageplant,
               height: 140,
               width: double.infinity,
-              child: Image.asset(planta.imageplant, fit: BoxFit.cover),
+              fit: BoxFit.cover,
             ),
           ),
           const SizedBox(height: 12),
           Container(
             padding: const EdgeInsets.symmetric(vertical: 9),
             decoration: BoxDecoration(
-              color: const Color.fromARGB(255, 3, 50, 27),
+              color: const Color(0xFF185A1A),
               borderRadius: BorderRadius.circular(8),
             ),
-            child: Center(
-              child: Text(
-                planta.nameplant,
-                style: const TextStyle(
-                  fontSize: 14,
-                  color: Colors.white,
-                  fontWeight: FontWeight.bold,
-                ),
-                textAlign: TextAlign.center,
+            child: Text(
+              planta.nameplant,
+              textAlign: TextAlign.center,
+              style: const TextStyle(
+                fontSize: 13,
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
               ),
             ),
           ),

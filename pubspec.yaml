@@ -31,6 +31,29 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # SQLite y almacenamiento local
+  sqflite: ^2.4.2
+  path: ^1.9.0
+  path_provider: ^2.1.5
+  shared_preferences: ^2.5.3
+
+  # Firebase
+  firebase_core: ^3.13.1
+  firebase_auth: ^5.5.4
+  google_sign_in: ^6.2.0
+  firebase_dynamic_links: ^6.1.7
+  cloud_firestore: ^5.6.9 
+
+  # Consumo de API con Retrofit
+  dio: ^5.4.0
+  retrofit: ^4.1.0  
+  json_annotation: ^4.8.1
+
+  # Otros paquetes
+  carousel_slider: ^5.0.0
+  share_plus: ^11.0.0
+
+
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
@@ -39,22 +62,23 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-    #SqLite
-  sqflite: ^2.4.2
-  path: ^1.9.0
-  path_provider: ^2.1.5
-   # State Management
-  provider: ^6.1.1
-  # Firebase
-  firebase_core: ^3.13.1
-  firebase_auth: ^5.5.4 
-  google_sign_in: ^6.2.0
 
-  carousel_slider: ^5.0.0
-  share_plus: ^11.0.0
-  shared_preferences: ^2.5.3
+  #Consumo de API retrofit
+  retrofit_generator: ^8.1.0
+  build_runner: ^2.4.8
+  json_serializable: ^6.7.1
 
 
+ # Ícono de la app
+  flutter_launcher_icons: ^0.14.4
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logos/image_icon.webp"
+  adaptive_icon_foreground: "assets/logos/image_icon.webp"
+  adaptive_icon_background: "#4CAF50"
 
 
   # The "flutter_lints" package below contains a set of recommended lints to
@@ -84,7 +108,6 @@ flutter:
     - assets/data/diseases.json
     - assets/data/distribution.json
     - assets/data/uses.json
-    - assets/elements/ui_elements.json
 
   #   - images/a_dot_ham.jpeg
 

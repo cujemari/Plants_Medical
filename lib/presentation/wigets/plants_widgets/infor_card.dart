@@ -38,10 +38,10 @@ class InfoCard extends StatelessWidget {
               content,
               style: TextStyle(
                 fontSize: 16,
-                fontStyle: isItalic ? FontStyle.italic : FontStyle.normal,
                 color: Colors.white,
+                fontStyle: isItalic ? FontStyle.italic : null,
               ),
-              textAlign: isJustified ? TextAlign.justify : TextAlign.start,
+              textAlign: isJustified ? TextAlign.justify : null,
             ),
           ],
         ),

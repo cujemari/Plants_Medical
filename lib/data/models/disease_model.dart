@@ -1,12 +1,28 @@
+import 'package:json_annotation/json_annotation.dart';
 import 'package:app_plants/domain/entities/disease.dart';
 
+part 'disease_model.g.dart';
+
+@JsonSerializable()
 class DiseaseModel extends Disease {
+  @JsonKey(name: 'disease_id')
   final int diseaseId;
+
+  @JsonKey(name: 'name_disease')
   final String namedisease;
+
+  @JsonKey(name: 'image_disease')
   final String imagedisease;
+
+  @JsonKey(name: 'description_disease')
   final String descriptiondisease;
+
   final String symptoms;
+
+  @JsonKey(name: 'sync_status')
   final String syncstatus;
+
+  @JsonKey(name: 'last_updated')
   final int lastupdated;
 
   DiseaseModel({
@@ -27,38 +43,13 @@ class DiseaseModel extends Disease {
          lastupdated: lastupdated,
        );
 
-  /// Convertir JSON a DiseaseModel
-  factory DiseaseModel.fromJson(Map<String, dynamic> json) {
-    return DiseaseModel(
-      diseaseId: json['disease_id'],
-      namedisease: json['name_disease'],
-      imagedisease: json['image_disease'],
-      descriptiondisease: json['description_disease'],
-      symptoms: json['symptoms'],
-      syncstatus: json['sync_status'] ?? 'pending',
-      lastupdated: json['last_updated'] is int
-          ? json['last_updated']
-          : DateTime.now().millisecondsSinceEpoch,
-    );
-  }
+  /// Para Retrofit (JSON)
+  factory DiseaseModel.fromJson(Map<String, dynamic> json) =>
+      _$DiseaseModelFromJson(json);
 
-  /// Convertir DiseaseModel a JSON
-  Map<String, dynamic> toJson() {
-    return {
-      'disease_id': diseaseId,
-      'name_disease': namedisease,
-      'image_disease': imagedisease,
-      'description_disease': descriptiondisease,
-      'symptoms': symptoms,
-      'sync_status': syncstatus,
-      'last_updated': lastupdated,
-    };
-  }
+  Map<String, dynamic> toJson() => _$DiseaseModelToJson(this);
 
-  /// Convertir a Map (para base de datos)
-  Map<String, dynamic> toMap() => toJson();
-
-  /// Crear DiseaseModel desde un Map (por ejemplo, desde SQLite)
+  /// Para SQLite (base de datos local)
   factory DiseaseModel.fromMap(Map<String, dynamic> map) {
     return DiseaseModel(
       diseaseId: map['disease_id'],
@@ -69,5 +60,17 @@ class DiseaseModel extends Disease {
       syncstatus: map['sync_status'],
       lastupdated: map['last_updated'],
     );
+  }
+
+  Map<String, dynamic> toMap() {
+    return {
+      'disease_id': diseaseId,
+      'name_disease': namedisease,
+      'image_disease': imagedisease,
+      'description_disease': descriptiondisease,
+      'symptoms': symptoms,
+      'sync_status': syncstatus,
+      'last_updated': lastupdated,
+    };
   }
 }

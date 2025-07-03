@@ -75,9 +75,884 @@
         "distribution_id":10,
         "plant_id":10,
         "image_map":"assets/logos/map.png",
-        "description_distribution":"Apurímac, Cusco, Puno. Loreto",
+        "description_distribution":"Apurímac, Cusco, Puno. Loreto.",
+        "sync_status":"",
+        "last_updated":null
+
+
+    }
+    ,
+     {
+        "distribution_id":10,
+        "plant_id":10,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Apurímac, Cusco, Puno. Loreto.",
+        "sync_status":"",
+        "last_updated":null
+
+
+    }
+    ,
+     {
+        "distribution_id":10,
+        "plant_id":10,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Apurímac, Cusco, Puno. Loreto.",
+        "sync_status":"",
+        "last_updated":null
+
+
+    }
+    ,
+     {
+        "distribution_id":10,
+        "plant_id":10,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Apurímac, Cusco, Puno. Loreto.",
+        "sync_status":"",
+        "last_updated":null
+
+
+    }
+    ,
+     {
+        "distribution_id":10,
+        "plant_id":10,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Apurímac, Cusco, Puno. Loreto.",
+        "sync_status":"",
+        "last_updated":null
+
+
+    }
+    ,
+     {
+        "distribution_id":11,
+        "plant_id":11,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazonas, Ancash, Ayacucho, Cajamarca, Cusco, Huanuco, La Libertad, Junín, Lima, Loreto, Pasco y Piura.",
+        "sync_status":"",
+        "last_updated":null
+
+
+    }
+    ,
+     {
+        "distribution_id":12,
+        "plant_id":12,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazonas, Cusco, Huánuco, Loreto, Madre de Dios, San Martín.",
+        "sync_status":"",
+        "last_updated":null
+
+
+    }
+    ,
+     {
+        "distribution_id":13,
+        "plant_id":13,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazonas, Ancash, Apurímac, Cusco, Huánuco, Junín, La Libertad, Lambayeque, Lima, Loreto, San Martín, Pasco y Ucayali.",
+        "sync_status":"",
+        "last_updated":null
+
+
+    }
+    ,
+     {
+        "distribution_id":14,
+        "plant_id":14,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Todos los departamentos del Perú.",
+        "sync_status":"",
+        "last_updated":null
+
+
+    }
+    ,
+     {
+        "distribution_id":15,
+        "plant_id":15,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"AApurímac, Arequipa, Cusco, Lima, Puno, Loreto.",
+        "sync_status":"",
+        "last_updated":null
+
+
+    }
+    ,
+     {
+        "distribution_id":16,
+        "plant_id":16,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Apurímac, Cusco, Puno y Loreto.",
+        "sync_status":"",
+        "last_updated":null
+
+
+    }
+    ,
+     {
+        "distribution_id":17,
+        "plant_id":18,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Cusco, Huánuco, Junín, Lambayeque, Loreto, Pasco, San Martin y Ucayali.",
+        "sync_status":"",
+        "last_updated":null
+
+
+    }
+    ,
+     {
+        "distribution_id":18,
+        "plant_id":18,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazonas, Ancash, Cajamarca, Cusco, La Libertad, Lima y Loreto.",
+        "sync_status":"",
+        "last_updated":null
+
+
+    }
+    ,
+     {
+        "distribution_id":19,
+        "plant_id":19,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Apurímac, Amazonas, Cajamarca, Cusco, La Libertad, Lima, Loreto y Ucayali.",
+        "sync_status":"",
+        "last_updated":null
+
+
+    }
+    ,
+     {
+        "distribution_id":20,
+        "plant_id":20,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazonas, Cusco, Huánuco, Junín, Loreto, Madre de Dios, Pasco, Puno y San Martín.",
+        "sync_status":"",
+        "last_updated":null
+
+
+    },
+     
+     {
+        "distribution_id":21,
+        "plant_id":21,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazonas, Ancash, Arequipa, Cajamarca, Cusco, Huánuco, Junín, Lima, Loreto, Tacna, San Martín.",
+        "sync_status":"",
+        "last_updated":null
+
+
+    },
+     
+     {
+        "distribution_id":22,
+        "plant_id":22,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Originaria del área indomalaya. Cultivada en toda la Amazonía.",
+        "sync_status":"",
+        "last_updated":null
+
+
+    },
+
+    {
+        "distribution_id":11,
+        "plant_id":22,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":" Originaria del área indomalaya. Cultivada en toda la Amazonía.",
+        "sync_status":"",
+        "last_updated":null
+    },
+    {
+        "distribution_id":12,
+        "plant_id":23,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Departamentos de Amazonas, Huánuco, Loreto (Tamshiyacu, Valentín e Indiana, río Amazonas; Llachapa y Corazón de Jesús, río Napo; Padre Cocha, río Nanay; Contamana, río Ucayali) y San Martín.",
+        "sync_status":"",
+        "last_updated":null
+    },
+
+     {
+        "distribution_id":13,
+        "plant_id":24,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"En Perú se distribuye en la costa, selva y en algunas areas de la sierra.",
+        "sync_status":"",
+        "last_updated":null
+    },
+     {
+        "distribution_id":14,
+        "plant_id":25,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazonas, Ayacucho, Cajamarca, Cuzco, Huánuco, Junín, La Libertad, Loreto, Madre de Dios, San Martín.",
+        "sync_status":"",
+        "last_updated":null
+    },
+     {
+        "distribution_id":15,
+        "plant_id":26,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Húanuco, Loreto, Madre de Dios, San Martín y Ucayali.",
+        "sync_status":"",
+        "last_updated":null
+    },
+     {
+        "distribution_id":16,
+        "plant_id":27,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"En el Perú, en los departamentos de Loreto y San Martín. También se localiza en todo el Neotrópico, el Pacífico y Madagascar.",
+        "sync_status":"",
+        "last_updated":null
+    },
+     {
+        "distribution_id":17,
+        "plant_id":28,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"En el Perú se encuentra en los departamentos de Madre de Dios (ríos Tahuamanú e Iberia); Loreto (Corazón de Jesús, río Mazán; Llachapa, río Napo; Tamshiyacu, Quistococha, río Amazonas; Tahuayo, Panguana 1º y 2º zona, río Tahuayo)., San Martín; Amazonas y Cajamarca. También en las regiones tropicales del Ecuador.",
+        "sync_status":"",
+        "last_updated":null
+    },
+     {
+        "distribution_id":18,
+        "plant_id":29,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Loreto, Madre de Dios.",
+        "sync_status":"",
+        "last_updated":null
+    },
+     {
+        "distribution_id":19,
+        "plant_id":30,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Se encuentra en los departamentos de Amazonas, San Martín, Huánuco, Madre de Dios, Loreto y Ucayali.",
+        "sync_status":"",
+        "last_updated":null
+    },
+    
+     {
+        "distribution_id":20,
+        "plant_id":31,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazonas, Cajamarca, Loreto, Madre de Dios, San Martín, Ucayali. Amazonas, Cajamarca, Loreto, Madre de Dios, San Martín, Ucayali.",
+        "sync_status":"",
+        "last_updated":null
+    },
+    
+     {
+        "distribution_id":32,
+        "plant_id":32,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazonas, Huánuco, Loreto, Madre de Dios, Paseo, San Martín, Ucayali.",
+        "sync_status":"",
+        "last_updated":null
+
+
+    },
+     
+     {
+        "distribution_id":33,
+        "plant_id":33,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"En el Perú en la ceja de selva y en los departamentos de Ucayali, San Martín y Loreto.",
+        "sync_status":"",
+        "last_updated":null
+
+
+    },
+    
+     {
+        "distribution_id":34,
+        "plant_id":34,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"En la Amazonía Peruana se encuentra en los departamentos de Ucayali (TahuaniaAtalaya), Madre de Dios y Loreto (Carretera Iquitos-Nauta km 45 y, abundantemente, en el bajo Huallaga).",
+        "sync_status":"",
+        "last_updated":null
+
+
+    },
+      {
+        "distribution_id":35,
+        "plant_id":35,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"En la Mazonia de la Region Loreto.",
+        "sync_status":"",
+        "last_updated":null
+
+
+    },
+      {
+        "distribution_id":36,
+        "plant_id":36,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazonas, Cuzco, Huánuco, Junín, Loreto, San Martín, Ucayali. Cultivado en América Tropical.",
+        "sync_status":"",
+        "last_updated":null
+
+
+    },
+      {
+        "distribution_id":37,
+        "plant_id":37,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Originaria del sur-este de Asia probablemente de la península India distribuida en las zonas tropicales. En el Perú se cultiva en selva alta y baja; en condición de planta silvestre, se encuentra distribuida en casi toda la selva peruana. La mayor concentración de cultivos se encuentra en los departamentos de Ayacucho. Cusco y Ucayali (Yarinacocha).",
+        "sync_status":"",
+        "last_updated":null
+
+
+    },
+      {
+        "distribution_id":38,
+        "plant_id":38,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"En el Perú se encuentra en Loreto (Indiana. Tamshiyacu. Panguana 1º y 2º zona, río Amazonas. Ushpacaño, río Itaya; Contamana. Tapiro, distrito Fernando Lores, Corazón de Jesús, distrito Mazán).",
+        "sync_status":"",
+        "last_updated":null
+
+
+    },
+      {
+        "distribution_id":39,
+        "plant_id":39,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"En la Amazonía Peruana se encuentra en los departamentos de Ucayali (TahuaniaAtalaya), Madre de Dios y Loreto (Carretera Iquitos-Nauta km 45 y, abundantemente, en el bajo Huallaga).",
+        "sync_status":"",
+        "last_updated":null
+
+
+    },
+      {
+        "distribution_id":40,
+        "plant_id":40,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"En Perú se le observa en los departamentos de Loreto y Ucayali (Atalaya).",
+        "sync_status":"",
+        "last_updated":null
+
+
+    },
+     {
+        "distribution_id":41,
+        "plant_id":41,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazonas, Cusco, Huánuco, Loreto, Madre de Dios, Pasco, San Martín, Ucayali.",
+        "sync_status":"",
+        "last_updated":null
+
+
+    },
+     {
+        "distribution_id":42,
+        "plant_id":42,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"En el Perú es común en el departamento de Loreto (Caseríos Horizonte y Panguana, distrito Fernando Lores; San José y Ushpacaño, río Itaya; Padre Cocha y Paiche Cocha, río Nanay; Corazón de Jesús, río Mazán; Yarina y Llachapa, río Napo).",
+        "sync_status":"",
+        "last_updated":null
+
+
+    },
+     {
+        "distribution_id":43,
+        "plant_id":43,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazonas, Cajamarca, Junín, Loreto, Madre de Dios, Paseo, San Martín.",
         "sync_status":"",
         "last_updated":null
     }
+    ,
+     {
+        "distribution_id":44,
+        "plant_id":44,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"departamentos de Loreto, Ucayali y Madre de Dios.",
+        "sync_status":"",
+        "last_updated":null
+    }
+     ,
+     {
+        "distribution_id":45,
+        "plant_id":45,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Cultivada en toda la Amazonía.",
+        "sync_status":"",
+        "last_updated":null
+    }
+     ,
+     {
+        "distribution_id":46,
+        "plant_id":46,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazonas, Cuzco, Loreto, Madre de Dios, San Martín, Ucayali.",
+        "sync_status":"",
+        "last_updated":null
+    }
+     ,
+     {
+        "distribution_id":47,
+        "plant_id":47,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Cultivado. Amazonas, Huánuco, La Libertad, Loreto, Pasco, San Martín, Ucayali.",
+        "sync_status":"",
+        "last_updated":null
+    }
+     ,
+     {
+        "distribution_id":48,
+        "plant_id":48,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Cajamarca, Cuzco, Huánuco, Loreto, San Martín.",
+        "sync_status":"",
+        "last_updated":null
+    }
+     ,
+     {
+        "distribution_id":49,
+        "plant_id":49,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazonas, Ayacucho, Huánuco, Junín, Loreto, San Martín, Ucayali.",
+        "sync_status":"",
+        "last_updated":null
+    }
+    ,
+     {
+        "distribution_id":50,
+        "plant_id":50,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Loreto.",
+        "sync_status":"",
+        "last_updated":null
+    }
+    ,
+     {
+        "distribution_id":51,
+        "plant_id":51,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"En la Amazonia Peruana.",
+        "sync_status":"",
+        "last_updated":null
+    },
+    
+     {
+        "distribution_id":52,
+        "plant_id":52,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"ordena de forma horizont<l: En el Perú, en los departamentos de Loreto (Yarina, río Napo; Momón, río Nanay; Pan guana 1º y 2º zona, río Amazonas; Ushpacaño y San José, río Itaya; Tamshiyacu y Tapiro, Fernando Lores; Indiana, Corazón de Jesús, Mazán; Carretera Iquitos-Nauta km 45); Ucayali, Piura (Huancabamba), Cajamarca; San Martín (Tarapoto); Lima y Cusco.",
+        "sync_status":"",
+        "last_updated":null
+    }
+     ,
+     {
+        "distribution_id":53,
+        "plant_id":53,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"En el Perú en los departamentos de San Martín (Chazuta y Tarapoto), Loreto (Yarina, río Napo; Momón, río Nanay, Panguana 1º y 2º zona, río Amazonas; San José y Ushpacaño, río Itaya, Corazón de Jesús, río Mazán, Horizonte, Fernando Lores; Indiana; Tamshiyacu; Carretera Iquitos Nauta km 45, Caballococha).",
+        "sync_status":"",
+        "last_updated":null
+    }
+     ,
+     {
+        "distribution_id":54,
+        "plant_id":54,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Loreto, San Martín.",
+        "sync_status":"",
+        "last_updated":null
+    }
+     ,
+     {
+        "distribution_id":55,
+        "plant_id":55,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazonas, Ayacucho, Cajamarca, Cuzco, Huánuco, Junín, La Libertad, Loreto, Madre de Dios y San Martín.",
+        "sync_status":"",
+        "last_updated":null
+    }
+     ,
+     {
+        "distribution_id":56,
+        "plant_id":56,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazonas, Ayacucho, Cuzco, Huánuco, Junín, Loreto, Madre de Dios, San Martín, Ucayali.",
+        "sync_status":"",
+        "last_updated":null
+    }
+     ,
+     {
+        "distribution_id":57,
+        "plant_id":57,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"En la Mazonia de la Region Loreto y los andes.",
+        "sync_status":"",
+        "last_updated":null
+    }
+     ,
+     {
+        "distribution_id":58,
+        "plant_id":58,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":" En la Amazonía Peruana, está ampliamente distribuido en estado silvestre en el departamento de Loreto (Iquitos) y Ucayali (Pucallpa), en la cuenca del río Tambo y escasamente en Madre de Dios y Tingo María. También se encuentra en Huánuco, Pasco y San Martín.",
+        "sync_status":"",
+        "last_updated":null
+    }
+     ,
+     {
+        "distribution_id":59,
+        "plant_id":59,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"En el Perú se encuentra en la zona central y ceja de selva, específicamente en las regiones de Loreto, Ucayali (Yarinacocha), San Martín, Inca, Mariscal Cáceres y Wari. ",
+        "sync_status":"",
+        "last_updated":null
+    }
+     ,
+     {
+        "distribution_id":60,
+        "plant_id":60,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Ampliamente cultivada como planta alimenticia. Ayacucho, Cuzco, Huánuco, Junín, Loreto, Madre de Dios, San Martín, Ucayali. ",
+        "sync_status":"",
+        "last_updated":null
+    }
+     ,
+     {
+        "distribution_id":60,
+        "plant_id":60,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Ampliamente cultivada como planta alimenticia. Ayacucho, Cuzco, Huánuco, Junín, Loreto, Madre de Dios, San Martín, Ucayali.",
+        "sync_status":"",
+        "last_updated":null
+    }
+     ,
+     {
+        "distribution_id":61,
+        "plant_id":61,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Ampliamente cultivada como planta alimenticia.",
+        "sync_status":"",
+        "last_updated":null
+    }
+     ,
+     {
+        "distribution_id":62,
+        "plant_id":62,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazónica, Andina, Costa.",
+        "sync_status":"",
+        "last_updated":null
+    }
+     ,
+     {
+        "distribution_id":63,
+        "plant_id":63,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Amazonas, Cuzco, Huánuco, Junín, La Libertad, Loreto, San Martín. ",
+        "sync_status":"",
+        "last_updated":null
+    }
+     ,
+     {
+        "distribution_id":64,
+        "plant_id":64,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"Se distribuye en la amazonía peruana.",
+        "sync_status":"",
+        "last_updated":null
+    }
+    ,
+     {
+        "distribution_id":65,
+        "plant_id":65,
+        "image_map":"assets/logos/map.png",
+        "description_distribution":"San Martín, Piura, Loreto, Huánuco, Tumbes, Ucayali y Amazonas.",
+        "sync_status":"",
+        "last_updated":null
+    }
+     ,
+     {
+        "distribution_id":66,
+        "plant_id":66,
+        "image_map":"assets/logos/map.png",
+       "description_distribution": "Piura, Tumbes, Ucayali, Madre de Dios, Junín, Amazonas y Loreto.",
+        "sync_status":"",
+        "last_updated":null
+    }
+     ,
+     {
+        "distribution_id":67,
+        "plant_id":67,
+        "image_map":"assets/logos/map.png",
+        "description_distribution": "Cajamarca, San Martín, Junín, Amazonas y Cusco.",
+        "sync_status":"",
+        "last_updated":null
+    }
+     ,
+     {
+        "distribution_id":68,
+        "plant_id":68,
+        "image_map":"assets/logos/map.png",
+        "description_distribution": "Cusco, Puno, Ayacucho, Huánuco, Áncash, Junín, La Libertad y, en menor medida, Loreto.",
+        "sync_status":"",
+        "last_updated":null
+    },
+        {
+    "distribution_id": 69,
+    "plant_id": 69,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Amazonas, Huánuco, Loreto, Madre de Dios y Ucayali.",
+    "sync_status": "",
+    "last_updated": null
+    },
+     {
+    "distribution_id": 70,
+    "plant_id": 70,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Loreto, zonas del río Amazonas y Nanay.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 71,
+    "plant_id": 71,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Madre de Dios, Tambopata y Manu.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 72,
+    "plant_id": 72,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "San Martín, Rioja y Moyobamba.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 73,
+    "plant_id": 73,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Amazonas y partes de Cajamarca.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 74,
+    "plant_id": 74,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Ucayali y Alto Amazonas.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 75,
+    "plant_id": 75,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Junín, Chanchamayo y Satipo.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 76,
+    "plant_id": 76,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Cusco y Madre de Dios.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 77,
+    "plant_id": 77,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Huánuco y Ucayali.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 78,
+    "plant_id": 78,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Selva central: Junín, Pasco y Huánuco.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 79,
+    "plant_id": 79,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Cajamarca, Amazonas y San Martín.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 80,
+    "plant_id": 80,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Loreto, Iquitos y zonas rurales del río Itaya.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 81,
+    "plant_id": 81,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Loreto, región del Napo y del Mazán.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 82,
+    "plant_id": 82,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "San Martín y zonas de transición hacia el Amazonas.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 83,
+    "plant_id": 83,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Ucayali, Atalaya y Yarinacocha.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 84,
+    "plant_id": 84,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Regiones bajas del río Ucayali.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 85,
+    "plant_id": 85,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Regiones húmedas de Loreto y San Martín.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 86,
+    "plant_id": 86,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Madre de Dios y zonas del Manu.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 87,
+    "plant_id": 87,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Amazonas y Alto Mayo.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 88,
+    "plant_id": 88,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Loreto, alrededores de Nauta y Tamshiyacu.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 89,
+    "plant_id": 89,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Cuzco, Quillabamba.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 90,
+    "plant_id": 90,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Junín y zonas amazónicas de Pasco.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 91,
+    "plant_id": 91,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Selva baja de Loreto y Ucayali.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 92,
+    "plant_id": 92,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Distribuida ampliamente en la Amazonía peruana.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 93,
+    "plant_id": 93,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Huánuco, Pachitea y alrededores.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 94,
+    "plant_id": 94,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Selva alta de San Martín y Amazonas.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 95,
+    "plant_id": 95,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Ucayali, Pucallpa y Aguaytía.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 96,
+    "plant_id": 96,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Loreto, zona del río Putumayo.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 97,
+    "plant_id": 97,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "San Martín y áreas limítrofes con Loreto.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 98,
+    "plant_id": 98,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Amazonas y Huánuco.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 99,
+    "plant_id": 99,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Madre de Dios y Alto Purús.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "distribution_id": 100,
+    "plant_id": 100,
+    "image_map": "assets/logos/map.png",
+    "description_distribution": "Loreto, especialmente en zonas inundables.",
+    "sync_status": "",
+    "last_updated": null
+  }
+ 
+
+    
 
 ]

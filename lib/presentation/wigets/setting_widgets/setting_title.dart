@@ -6,11 +6,11 @@ class SettingTile extends StatelessWidget {
   final VoidCallback onTap;
 
   const SettingTile({
-    super.key,
+    Key? key,
     required this.icon,
     required this.title,
     required this.onTap,
-  });
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

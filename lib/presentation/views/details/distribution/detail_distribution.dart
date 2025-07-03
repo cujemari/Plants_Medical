@@ -1,22 +1,21 @@
-import 'package:app_plants/data/models/Geographic_distribution_model.dart';
-import 'package:app_plants/data/models/medicinal_plant_model.dart';
-import 'package:app_plants/data/repositories/geographicdistribution_repository_impl.dart';
-import 'package:app_plants/data/repositories/plant_repository_impl.dart';
 import 'package:flutter/material.dart';
+import 'package:app_plants/data/models/distribution_model.dart';
+import 'package:app_plants/data/models/medicinal_plant_model.dart';
+import 'package:app_plants/data/repositories/distribution_repository_impl.dart';
+import 'package:app_plants/data/repositories/plant_repository_impl.dart';
 
 class DetailDistribution extends StatefulWidget {
   final int plantaId;
 
-  const DetailDistribution({Key? key, required this.plantaId})
-    : super(key: key);
+  const DetailDistribution({super.key, required this.plantaId});
 
   @override
   State<DetailDistribution> createState() => _DetailDistributionState();
 }
 
 class _DetailDistributionState extends State<DetailDistribution> {
-  final _plantRepository = PlantRepositoryImpl();
-  final _distributionRepository = GeographicDistributionRepositoryImpl();
+  final _plantRepo = PlantRepositoryImpl();
+  final _distributionRepo = DistributionRepositoryImpl();
 
   MedicinalPlantModel? _plant;
   DistributionModel? _distribution;
@@ -25,14 +24,15 @@ class _DetailDistributionState extends State<DetailDistribution> {
   @override
   void initState() {
     super.initState();
-    _fetchData();
+    _loadData();
   }
 
-  Future<void> _fetchData() async {
-    final plant = await _plantRepository.getPlantaById(widget.plantaId);
-    final distribution = await _distributionRepository.getDistribucionById(
+  Future<void> _loadData() async {
+    final plant = await _plantRepo.getPlantaById(widget.plantaId);
+    final distribution = await _distributionRepo.getDistribucionById(
       widget.plantaId,
     );
+
     setState(() {
       _plant = plant;
       _distribution = distribution;
@@ -47,14 +47,13 @@ class _DetailDistributionState extends State<DetailDistribution> {
     }
 
     return Scaffold(
-      backgroundColor: Color(0XFF0A2D14),
+      backgroundColor: const Color(0xFF0A2D14),
       appBar: AppBar(
-        backgroundColor: Color(0XFF0A2D14),
+        backgroundColor: const Color(0xFF0A2D14),
         iconTheme: const IconThemeData(color: Colors.white),
       ),
-
       body: Padding(
-        padding: const EdgeInsets.all(23.0),
+        padding: const EdgeInsets.all(23),
         child: ListView(
           children: [
             Center(
@@ -69,12 +68,12 @@ class _DetailDistributionState extends State<DetailDistribution> {
               ),
             ),
             const SizedBox(height: 30),
+
             if (_distribution?.imagenmap != null)
               Container(
-                margin: const EdgeInsets.only(
-                  left: 16.0,
-                  right: 16.0,
-                  bottom: 20,
+                margin: const EdgeInsets.symmetric(
+                  horizontal: 16,
+                  vertical: 10,
                 ),
                 decoration: BoxDecoration(
                   border: Border.all(color: Colors.white, width: 2),
@@ -85,14 +84,21 @@ class _DetailDistributionState extends State<DetailDistribution> {
                   child: Image.asset(
                     _distribution!.imagenmap,
                     height: 200,
+                    width: double.infinity,
                     fit: BoxFit.cover,
+                    errorBuilder: (_, __, ___) => const Icon(
+                      Icons.broken_image,
+                      color: Colors.white,
+                      size: 100,
+                    ),
                   ),
                 ),
               ),
+
             const SizedBox(height: 20),
 
             const Padding(
-              padding: EdgeInsets.symmetric(horizontal: 16.0),
+              padding: EdgeInsets.symmetric(horizontal: 16),
               child: Text(
                 'Distribución:',
                 style: TextStyle(
@@ -102,15 +108,17 @@ class _DetailDistributionState extends State<DetailDistribution> {
                 ),
               ),
             ),
-            const SizedBox(height: 20),
+
+            const SizedBox(height: 16),
+
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16.0),
+              padding: const EdgeInsets.symmetric(horizontal: 16),
               child: Text(
                 _distribution?.descriptiondistribution ?? 'No disponible',
-                style: TextStyle(
-                  color: Colors.white,
+                style: const TextStyle(
                   fontSize: 15,
-                  fontFamily: "Arial",
+                  color: Colors.white,
+                  fontFamily: 'Arial',
                 ),
               ),
             ),

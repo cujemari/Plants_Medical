@@ -12,71 +12,63 @@ class ActionButtons extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 2.0, vertical: 5),
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          _buildButton(context, 'Usos', 'assets/logos/use.png'),
-          _buildButton(context, 'Distribución', 'assets/logos/distri.png'),
+          Expanded(
+            child: _buildButton(context, 'Usos', 'assets/logos/use.png'),
+          ),
+          const SizedBox(width: 10),
+          Expanded(
+            child: _buildButton(
+              context,
+              'Distribución',
+              'assets/logos/distri.png',
+            ),
+          ),
         ],
       ),
     );
   }
 
   Widget _buildButton(BuildContext context, String label, String imagePath) {
-    return Container(
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(15),
-        color: Colors.green[800],
+    return ElevatedButton(
+      onPressed: () {
+        final route = label == "Usos"
+            ? DetailUseForPlant(plantaId: plantaId)
+            : DetailDistribution(plantaId: plantaId);
+
+        Navigator.push(context, MaterialPageRoute(builder: (context) => route));
+      },
+      style: ElevatedButton.styleFrom(
+        backgroundColor: Colors.green[800],
+        shadowColor: Colors.transparent,
+        padding: const EdgeInsets.symmetric(
+          vertical: 10,
+        ), // ← eliminamos horizontal fijo
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
       ),
-      child: ElevatedButton(
-        onPressed: () {
-          if (label == "Usos") {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => DetailUseForPlant(plantaId: plantaId),
-              ),
-            );
-          } else if (label == "Distribución") {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => DetailDistribution(plantaId: plantaId),
-              ),
-            );
-          }
-        },
-        style: ElevatedButton.styleFrom(
-          backgroundColor: Colors.transparent,
-          shadowColor: Colors.transparent,
-          padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 10),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(10),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          ClipRRect(
+            borderRadius: BorderRadius.circular(5),
+            child: Image.asset(
+              imagePath,
+              width: 30,
+              height: 30,
+              fit: BoxFit.cover,
+            ),
           ),
-        ),
-        child: Row(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            ClipRRect(
-              borderRadius: BorderRadius.circular(5),
-              child: Image.asset(
-                imagePath,
-                width: 35,
-                height: 35,
-                fit: BoxFit.cover,
-              ),
+          const SizedBox(width: 8),
+          Text(
+            label,
+            style: const TextStyle(
+              color: Colors.white,
+              fontSize: 14,
+              fontWeight: FontWeight.bold,
+              fontFamily: 'Arial',
             ),
-            const SizedBox(height: 5),
-            Text(
-              label,
-              style: const TextStyle(
-                color: Colors.white,
-                fontSize: 14,
-                fontWeight: FontWeight.bold,
-                fontFamily: 'Arial',
-              ),
-            ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }

@@ -1,9 +1,10 @@
 [
+
     {
         "disease_id":1,
         "name_disease":"Anemia",
-        "image_disease":"assets/images_diseases/anemia.png",
-        "description_disease":"Según Ministerio de Salud: La anemia es una enfermedad que se origina cuando hay una cantidad insuficiente de hierro en la sangre.",
+        "image_disease":"assets/images_diseases/anemia.webp",
+        "description_disease":"Según Ministerio de Salud define: La anemia es una enfermedad que se origina cuando hay una cantidad insuficiente de hierro en la sangre.",
         "symptoms":"Cansancio y palidez, Incremento del sueño, Irritabilidad, Mareos, Pérdida de apetito",
         "sync_status":"",
         "last_updated":null
@@ -12,8 +13,8 @@
     {
         "disease_id":2,
         "name_disease":"Diabetes",
-        "image_disease":"assets/images_diseases/diabetes.png",
-        "description_disease":"Según la Organización Mundial de la Salud: La diabetes es una enfermedad crónica que se presenta cuando el páncreas no secreta suficiente insulina o cuando el organismo no logra utilizar eficazmente la insulina que produce. La insulina es una hormona que regula la concentración de glucosa en la sangre. Un efecto común de la diabetes no controlada es la hiperglucemia (es decir, la glucemia elevada) que, con el tiempo, daña gravemente muchos órganos y sistemas del organismo, sobre todo los nervios y los vasos sanguíneos.",
+        "image_disease":"assets/images_diseases/diabetes.webp",
+        "description_disease":"Según la Organización Mundial de la Salud(OMS) define: La diabetes es una enfermedad crónica que se presenta cuando el páncreas no secreta suficiente insulina o cuando el organismo no logra utilizar eficazmente la insulina que produce. La insulina es una hormona que regula la concentración de glucosa en la sangre. Un efecto común de la diabetes no controlada es la hiperglucemia (es decir, la glucemia elevada) que, con el tiempo, daña gravemente muchos órganos y sistemas del organismo, sobre todo los nervios y los vasos sanguíneos.",
         "symptoms":"Sensación de mucha sed, necesidad de orinar con más frecuencia de lo habitual, visión borrosa, cansancio, pérdida involuntaria de peso.",
         "sync_status":"", 
         "last_updated":null
@@ -22,26 +23,26 @@
     {
         "disease_id":3,
         "name_disease":"Fiebre",
-        "image_disease":"assets/images_diseases/fiebre.png",
-        "description_disease":"Según la Clinica Universidad de Navarra: El cuerpo mantiene una temperatura constante mediante un centro, llamado termorregulador, localizado en una parte del cerebro llamada hipotálamo. Cuando ese centro, por diferentes causas, establece una temperatura más elevada a los 38º de temperatura de calor, se produce la fiebre.",
-        "symptoms":"Fiebre interior, dolor de espalda, y sentir náuseas son síntomas asociados de sangrado vaginal y pueden ser una indicación inicial. En algunos casos se observan movimientos intestinales complejos. Tener dolor durante las relaciones sexuales también podría ser un síntoma. Calambres en la pelvis, irritabilidad y aumento de peso de agua durante los períodos menstruales.Manchado fuera del ciclo menstrual, anormal secreción vaginal, y dolor al orinar.",
+        "image_disease":"assets/images_diseases/fiebre.webp",
+        "description_disease":"Según la Clinica Universidad de Navarra define: El cuerpo mantiene una temperatura constante mediante un centro, llamado termorregulador, localizado en una parte del cerebro llamada hipotálamo. Cuando ese centro, por diferentes causas, establece una temperatura más elevada a los 38º de temperatura de calor, se produce la fiebre.",
+        "symptoms":"Los síntomas más comunes incluyen dolor de cabeza, dolores musculares (generalizados o lumbares), articulares, somnolencia y escalofríos durante el aumento de la fiebre. En niños menores de cinco años pueden presentarse convulsiones febriles, y en personas mayores, irritabilidad o delirio.",
         "sync_status":"",
         "last_updated":null
     },
     {
         "disease_id":4,
         "name_disease":"Hemorragia Menstrual",
-        "image_disease":"assets/images_diseases/hemorragia_menstrual.png",
-        "description_disease":"Según Apollo Hospitals: El sangrado vaginal anormal ocurre más allá del ciclo menstrual de una mujer o muestra algunos síntomas extremos en el momento en que tiene sus períodos. El sangrado irregular ocurre en el momento equivocado durante el mes o en cantidades inadecuadas, a diferencia de lo que sucede típicamente durante el ciclo menstrual mensual de una mujer.",
-        "symptoms":"Los sintomas mas comunes son: Dolor de cabeza, dolores musculares generalizados, o más localizados en la región lumbar, dolores articulares y somnolencia. Los escalofríos ocurren durante el ascenso de la temperatura, y son el reflejo del aumento de actividad muscular que el centro termorregulador ordena para aumentar la temperatura corporal.",
+        "image_disease":"assets/images_diseases/hemorragia_menstrual.webp",
+        "description_disease":"Según Apollo Hospitals define: El sangrado vaginal anormal ocurre más allá del ciclo menstrual de una mujer o muestra algunos síntomas extremos en el momento en que tiene sus períodos. El sangrado irregular ocurre en el momento equivocado durante el mes o en cantidades inadecuadas, a diferencia de lo que sucede típicamente durante el ciclo menstrual mensual de una mujer.",
+        "symptoms":"Síntomas asociados incluyen fiebre interior, dolor de espalda, náuseas, calambres pélvicos, dolor durante las relaciones sexuales, manchado fuera del ciclo menstrual, secreción vaginal anormal, dolor al orinar, irritabilidad y retención de líquidos durante la menstruación. También pueden presentarse movimientos intestinales complejos.",
         "sync_status":"",
         "last_updated":null
     },
      {
         "disease_id":5,
         "name_disease":"Dolor dental",
-        "image_disease":"assets/images_diseases/dolor_dental.png",
-        "description_disease":"Según la Organización Mundial de la Salud(OMS) define que: El dolor dental, o odontalgia, es una experiencia sensorial y emocional desagradable causada por daño o irritación en los tejidos de la boca, principalmente los dientes.",
+        "image_disease":"assets/images_diseases/dolor_dental.webp",
+        "description_disease":"Según la Organización Mundial de la Salud(OMS) define: El dolor dental, o odontalgia, es una experiencia sensorial y emocional desagradable causada por daño o irritación en los tejidos de la boca, principalmente los dientes.",
         "symptoms":"Pueden variar desde una molestia leve hasta un dolor intenso y agudo.",
         "sync_status":"",
         "last_updated":null
@@ -49,17 +50,17 @@
      {
         "disease_id":6,
         "name_disease":"Diarrea",
-        "image_disease":"assets/images_diseases/diarrea.png",
-        "description_disease":"Según el misniterio de salud: La diarrea se define como la expulsión de heces blandas o líquidas con más frecuencia de lo normal, generalmente tres o más veces al día.",
-        "symptoms":"Heces blandas o líquidas, mayor frecuencia de deposiciones. Otras posibles características: Puede haber sangre, moco, pus, o alimentos no digeridos en las heces.",
+        "image_disease":"assets/images_diseases/diarrea.webp",
+        "description_disease":"Según el Ministerio de Salud define: La diarrea es la expulsión de heces blandas o líquidas con más frecuencia de lo normal, generalmente tres o más veces al día.",
+        "symptoms":"Los intomas incluyen: Heces blandas o líquidas, mayor frecuencia de deposiciones. Otras posibles características: Puede haber sangre, moco, pus, o alimentos no digeridos en las heces.",
         "sync_status":"",
         "last_updated":null
     },
      {
         "disease_id":7,
-        "name_disease":"Cortes en la piel",
-        "image_disease":"assets/images_diseases/cortes_piel.png",
-        "description_disease":"según Ministerio de Salud define que: Una cortada en la piel, o laceración, es una ruptura o abertura en la piel causada por un objeto afilado.",
+        "name_disease":"Cortes y Heridas",
+        "image_disease":"assets/images_diseases/cortes_piel.webp",
+        "description_disease":"Según Ministerio de Salud define: Una cortada en la piel, o laceración, es una ruptura o abertura en la piel causada por un objeto afilado.",
         "symptoms":"Incluyen sangrado, dolor y, en algunos casos, pérdida de sensibilidad o movimiento. Los síntomas más graves pueden ser pérdida de sensibilidad o movimiento.",
         "sync_status":"",
         "last_updated":null
@@ -67,8 +68,8 @@
      {
         "disease_id":8,
         "name_disease":"Asma",
-        "image_disease":"assets/images_diseases/asma.png",
-        "description_disease":"Según el Instituto Nacional de Salud Pública: El asma es una enfermedad crónica que afecta a las vías respiratorias, causando inflamación e estrechamiento, lo que dificulta la respiración. Esta inflamación puede ser provocada por diferentes factores como alérgenos, infecciones, ejercicio o estrés.",
+        "image_disease":"assets/images_diseases/asma.webp",
+        "description_disease":"Según el Instituto Nacional de Salud Pública define: El asma es una enfermedad crónica que afecta a las vías respiratorias, causando inflamación e estrechamiento, lo que dificulta la respiración. Esta inflamación puede ser provocada por diferentes factores como alérgenos, infecciones, ejercicio o estrés.",
         "symptoms":"Sibilancias, tos, dificultad para respirar, opresión en el pecho. Otros síntomas: Pueden incluir fatiga, dolor de cabeza, dificultad para dormir y pérdida de apetito.",
         "sync_status":"",
         "last_updated":null
@@ -76,18 +77,144 @@
      {
         "disease_id":9,
         "name_disease":"Gripe",
-        "image_disease":"assets/images_diseases/gripe.png",
-        "description_disease":"Según el Ministerio de Salud: La gripe es una enfermedad infecciosa aguda que afecta al aparato respiratorio y produce síntomas generalizados. Es causada por el virus de la influenza, que se transmite de persona a persona a través de secreciones respiratorias.",
+        "image_disease":"assets/images_diseases/gripe.webp",
+        "description_disease":"Según el Ministerio de Salud define: La gripe es una enfermedad infecciosa aguda que afecta al aparato respiratorio y produce síntomas generalizados. Es causada por el virus de la influenza, que se transmite de persona a persona a través de secreciones respiratorias.",
         "symptoms":"Fiebre alta (38° o más), dolor de cabeza, malestar general, dolores musculares y articulares; Tos, generalmente seca; Dolor de garganta; Congestión o secreción nasal.",
         "sync_status":"",
         "last_updated":null
     },
-        {
+    {
         "disease_id":10,
         "name_disease":"Bronquitis",
-        "image_disease":"assets/images_diseases/bronquitis.png",
-        "description_disease":"Según el Ministerio de Salud: La bronquitis es la inflamación de los bronquios, las vías aéreas que llevan aire a los pulmones.",
+        "image_disease":"assets/images_diseases/bronquitis.webp",
+        "description_disease":"Según el Ministerio de Salud define: La bronquitis es la inflamación de los bronquios, las vías aéreas que llevan aire a los pulmones.",
         "symptoms":"Los síntomas principales son tos, a menudo con mucosidad, dificultad para respirar, sibilancias, dolor de pecho y fatiga.",
+        "sync_status":"",
+        "last_updated":null
+    },
+    {
+        "disease_id":11,
+        "name_disease":"Reumatismo ",
+        "image_disease":"assets/images_diseases/reumatismo.webp",
+        "description_disease":"Según Ministerio de Salud define: Comúnmente el término Reumatismo es utilizado para describir una serie de Trastornos Reumáticos. Es decir, se refiere a diversas condiciones que afectan las articulaciones, huesos, cartílagos, músculos, ligamentos, tendones y el tejido.",
+        "symptoms":"Los síntomas del reumatismo o enfermedades reumáticas incluyen dolor, rigidez, pesadez, cansancio, hinchazón y pinchazos.",
+        "sync_status":"",
+        "last_updated":null
+    },
+    {
+        "disease_id":12,
+        "name_disease":"Úlcera en la Piel",
+        "image_disease":"assets/images_diseases/ulcera_piel.webp",
+        "description_disease":"Según MedlinePlus define: Las úlceras en la piel son lesiones donde se pierde la epidermis y parte de la dermis. Las úlceras pueden ser simples o crónicas, y la diferenciación principal es el tiempo de cicatrización. Las úlceras crónicas persisten más de seis semanas sin mostrar signos de cicatrización.",
+        "symptoms":"Síntomas comunes incluyen: Dolor, enrojecimiento, hinchazón, secreción, cambios en la piel, como engrosamiento, sequedad o picazón.",
+        "sync_status":"",
+        "last_updated":null
+    },
+     {
+        "disease_id":13,
+        "name_disease":"Úlcera Estomacal",
+        "image_disease":"assets/images_diseases/ulcera_estomacal.webp",
+        "description_disease":"Según MedlinePlus define: Una úlcera estomacal, o úlcera péptica, es una llaga en la mucosa que recubre el estómago o el duodeno. Los síntomas más comunes incluyen dolor de estómago, ardor, náuseas y vómitos.",
+        "symptoms":"Dolor, también pueden incluir náuseas, vómitos, hinchazón abdominal, sensación de saciedad temprana, acidez estomacal y eructos.",
+        "sync_status":"",
+        "last_updated":null
+    },
+    {
+        "disease_id":14,
+        "name_disease":"Uta",
+        "image_disease":"assets/images_diseases/uta.webp",
+        "description_disease":"Según la Organización Mundial de la Salud(OMS) define: La uta, también conocida como leishmaniasis cutánea, es una enfermedad parasitaria transmitida por la picadura de un mosquito del género Lutzomyia (conocido como manta blanca en Perú).",
+        "symptoms":"Lesiones cutáneas: La uta se manifiesta con la aparición de úlceras en la piel, generalmente indoloras, que pueden ser únicas o múltiples. Otros síntomas (menos comunes) en casos mas graves son: fiebre, fatiga, pérdida de peso, abombamiento del abdomen y otros.",
+        "sync_status":"",
+        "last_updated":null
+    },
+    {
+        "disease_id":15,
+        "name_disease":"Problema Cerebral",
+        "image_disease":"assets/images_diseases/cerebro.webp",
+        "description_disease":"Según Mayo Clinic define: Un problema cerebral se refiere a cualquier enfermedad, lesión o anomalía que afecta el cerebro, alterando su función normal.",
+        "symptoms":"Incluyen dolor, enrojecimiento, ampollas, hinchazón, y en casos más graves, pérdida de piel, y en algunas ocasiones, la zona quemada puede quedar de color negro, marrón o blanco. ",
+        "sync_status":"",
+        "last_updated":null
+    },
+    {
+        "disease_id":16,
+        "name_disease":"Quemaduras",
+        "image_disease":"assets/images_diseases/quemadura.webp",
+        "description_disease":"según la Organización Mundial de la Salud(OMS) define: Una quemadura se define como una lesión en la piel o tejidos causada por calor, radiación, electricidad, fricción o contacto con químicos.",
+        "symptoms":"Los síntomas principales son tos, a menudo con mucosidad, dificultad para respirar, sibilancias, dolor de pecho y fatiga.",
+        "sync_status":"",
+        "last_updated":null
+    },
+    {
+        "disease_id":17,
+        "name_disease":"Dolor de cabeza",
+        "image_disease":"assets/images_diseases/Dolor_cabeza.webp",
+        "description_disease":"Según Ministerio de Salud define: El dolor de cabeza, o cefalea, es una sensación de dolor o molestia en la cabeza, cuero cabelludo o cuello. Puede manifestarse de forma leve o intensa, aguda o crónica, y recurrir con diferentes frecuencias.",
+        "symptoms":"Las causas pueden variar desde tensión muscular hasta afecciones más graves, como infecciones o hemorragiastomas asociados: Puede haber dolor abdominal, calambres, náuseas, vómitos y fiebre en algunos casos.",
+        "sync_status":"",
+        "last_updated":null
+    },
+    {
+        "disease_id":18,
+        "name_disease":"Gastritis",
+        "image_disease":"assets/images_diseases/gastritis.webp",
+        "description_disease":"Según el Misniterio de Salud define: La gastritis es la inflamación del revestimiento interno del estómago (mucosa gástrica). Puede ser aguda (de corta duración) o crónica (de larga duración).",
+        "symptoms":"Los síntomas pueden variar, pero incluyen dolor abdominal, náuseas, vómitos y pérdida de apetito. ",
+        "sync_status":"",
+        "last_updated":null
+    },
+    {
+        "disease_id":19,
+        "name_disease":"Malaria",
+        "image_disease":"assets/images_diseases/malaria.webp",
+        "description_disease":"Según  la Organización Mundial de la Salud (OMS): Las piedras en los riñones son pequeños cristales de minerales que se acumulan y crecen en los riñones. Estos minerales, como el calcio, el oxalato y el ácido úrico, se pueden cristalizar y formar piedras de diferentes tamaños.",
+        "symptoms":"incluyen fiebre, escalofríos, dolor de cabeza y fatiga.",
+        "sync_status":"",
+        "last_updated":null
+    },
+    {
+        "disease_id":20,        
+        "name_disease":"Piedras en los Riñones",
+        "image_disease":"assets/images_diseases/piedrillas.webp",
+        "description_disease":"Según el Ministerio de Salud define: La bronquitis es la inflamación de los bronquios, las vías aéreas que llevan aire a los pulmones.",
+        "symptoms":"Dolor intenso, sangre en la orina, secesidad de orinar con frecuencia o urgencia, orina turbia o con mal olor, náuseas y vómitos.",
+        "sync_status":"",
+        "last_updated":null
+    },
+    {
+        "disease_id":21,
+        "name_disease":"Hepatitis",
+        "image_disease":"assets/images_diseases/hepatitis.webp",
+        "description_disease":"Según la Organización de la Salud(OMS) define: La hepatitis es la inflamación del hígado, que puede ser causada por virus, bacterias, toxinas, medicamentos o enfermedades autoinmunes.",
+        "symptoms":"Incluyen fatiga, pérdida de apetito, náuseas, vómitos, dolor abdominal, orina oscura, ictericia (piel y ojos amarillentos) y heces claras.",
+        "sync_status":"",
+        "last_updated":null
+    },
+    {
+        "disease_id":22,
+        "name_disease":"Artritis",
+        "image_disease":"assets/images_diseases/artritis.webp",
+        "description_disease":"Según la Organización de la Salud(OMS) define: La artritis es una condición que afecta las articulaciones, causándolas inflamación y dolor. El término artritis puede referirse a una amplia gama de enfermedades reumáticas que comparten la característica de causar inflamación articular.",
+        "symptoms":"Dolor, rigidez, hinchazón, limitación de movimiento, enrojecimiento y calor",
+        "sync_status":"",
+        "last_updated":null
+    },
+    {
+        "disease_id":23,
+        "name_disease":"Mordedura de serpiente",
+        "image_disease":"assets/images_diseases/picadura.webp",
+        "description_disease":"Según el Ministerio de Salud define: Una mordedura de serpiente es una herida punzante causada por los colmillos de una serpiente, que puede ser venenosa o no.",
+        "symptoms":"Los síntomas de una mordedura de serpiente venenosa pueden incluir dolor, hinchazón, cambio de color en la piel, náuseas, vómitos, dificultad para respirar, y en casos graves, shock.",
+        "sync_status":"",
+        "last_updated":null
+    },
+    {
+        "disease_id":24,
+        "name_disease":"Hemorroides",
+        "image_disease":"assets/images_diseases/hemorroides.webp",
+        "description_disease":"Según la Organización de la Salud(OMS) define: Las hemorroides son venas dilatadas y con inflamación en la zona anal y rectal. Se forman debido a la presión excesiva en las venas de esta área. Pueden ser internas (dentro del recto) o externas (fuera del ano).",
+        "symptoms":"Picazón, sangrado y bultos.",
         "sync_status":"",
         "last_updated":null
     }

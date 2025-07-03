@@ -1,5 +1,9 @@
+import 'package:json_annotation/json_annotation.dart';
 import 'package:app_plants/domain/entities/medicinal_plant.dart';
 
+part 'medicinal_plant_model.g.dart';
+
+@JsonSerializable()
 class MedicinalPlantModel extends MedicinalPlant {
   MedicinalPlantModel({
     required int plantId,
@@ -27,26 +31,13 @@ class MedicinalPlantModel extends MedicinalPlant {
          lastUpdated: lastUpdated,
        );
 
-  /// Convierte un JSON a una instancia de [MedicinalPlantModel]
-  factory MedicinalPlantModel.fromJson(Map<String, dynamic> json) {
-    return MedicinalPlantModel(
-      plantId: json['plant_id'],
-      nameplant: json['name_plant'],
-      imageplant: json['image_plant'],
-      vulgarsynomaly: json['vulgar_synomaly'],
-      cientificname: json['scientific_name'],
-      family: json['family'],
-      botanicaldescription: json['botanical_description'],
-      habitat: json['habitat'],
-      chemicalcomposition: json['chemical_composition'],
-      syncStatus: json['sync_status'] ?? 'pending',
-      lastUpdated: json['last_updated'] is int
-          ? json['last_updated']
-          : DateTime.now().millisecondsSinceEpoch,
-    );
-  }
+  //Para Retrofit / JSON
+  factory MedicinalPlantModel.fromJson(Map<String, dynamic> json) =>
+      _$MedicinalPlantModelFromJson(json);
 
-  /// Convierte un [Map] de base de datos a una instancia de [MedicinalPlantModel]
+  Map<String, dynamic> toJson() => _$MedicinalPlantModelToJson(this);
+
+  //Para SQLite
   factory MedicinalPlantModel.fromMap(Map<String, dynamic> map) {
     return MedicinalPlantModel(
       plantId: map['plant_id'],
@@ -63,24 +54,6 @@ class MedicinalPlantModel extends MedicinalPlant {
     );
   }
 
-  /// Convierte el objeto a JSON para envío remoto o APIs
-  Map<String, dynamic> toJson() {
-    return {
-      'plant_id': plantId,
-      'name_plant': nameplant,
-      'image_plant': imageplant,
-      'vulgar_synomaly': vulgarsynomaly,
-      'scientific_name': cientificname,
-      'family': family,
-      'botanical_description': botanicaldescription,
-      'habitat': habitat,
-      'chemical_composition': chemicalcomposition,
-      'sync_status': syncStatus,
-      'last_updated': lastUpdated,
-    };
-  }
-
-  /// Convierte el objeto a [Map] para base de datos local
   Map<String, dynamic> toMap() {
     return {
       'plant_id': plantId,

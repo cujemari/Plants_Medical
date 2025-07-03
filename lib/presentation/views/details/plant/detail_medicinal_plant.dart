@@ -1,5 +1,5 @@
 import 'package:app_plants/data/models/medicinal_plant_model.dart';
-import 'package:app_plants/presentation/views/details/plant/plant_favorite_screen.dart';
+import 'package:app_plants/presentation/wigets/favorite_widgets/plant_favorite.dart';
 import 'package:app_plants/presentation/wigets/plants_widgets/action_buttons.dart';
 import 'package:app_plants/presentation/wigets/plants_widgets/infor_card.dart';
 import 'package:app_plants/data/repositories/plant_repository_impl.dart';
@@ -20,12 +20,16 @@ class _DetailsMedicinalPlantsState extends State<DetailsMedicinalPlants> {
   bool _isLoading = true;
 
   static const _backgroundColor = Color(0xB30A2D14);
-
   final PlantRepositoryImpl _plantRepository = PlantRepositoryImpl();
+
+  @override
+  void initState() {
+    super.initState();
+    _fetchPlant();
+  }
+
   Future<void> _fetchPlant() async {
-    print('Obteniendo planta con ID: ${widget.plantaId}');
     final plant = await _plantRepository.getPlantaById(widget.plantaId);
-    print('Resultado: $plant');
     setState(() {
       _plant = plant;
       _isLoading = false;
@@ -33,18 +37,11 @@ class _DetailsMedicinalPlantsState extends State<DetailsMedicinalPlants> {
   }
 
   @override
-  void initState() {
-    super.initState();
-    print('initState ejecutado - Cargando planta con ID: ${widget.plantaId}');
-    _fetchPlant();
-  }
-
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: _backgroundColor,
       appBar: AppBar(
-        leading: BackButton(color: Colors.white),
+        leading: const BackButton(color: Colors.white),
         backgroundColor: _backgroundColor,
         centerTitle: true,
       ),
@@ -57,40 +54,23 @@ class _DetailsMedicinalPlantsState extends State<DetailsMedicinalPlants> {
   }
 
   Widget _buildBodyContent() {
-    return OrientationBuilder(
-      builder: (context, orientation) {
-        return LayoutBuilder(
-          builder: (context, constraints) {
-            return InteractiveViewer(
-              panEnabled: true,
-              minScale: 1,
-              maxScale: 3,
-              child: SingleChildScrollView(
-                child: ConstrainedBox(
-                  constraints: BoxConstraints(minWidth: constraints.maxWidth),
-                  child: Padding(
-                    padding: const EdgeInsets.all(15.0),
-                    child: orientation == Orientation.landscape
-                        ? _buildLandscapeContent()
-                        : _buildPortraitContent(),
-                  ),
-                ),
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        return InteractiveViewer(
+          panEnabled: true,
+          minScale: 1,
+          maxScale: 3,
+          child: SingleChildScrollView(
+            child: ConstrainedBox(
+              constraints: BoxConstraints(minWidth: constraints.maxWidth),
+              child: Padding(
+                padding: const EdgeInsets.all(15),
+                child: _buildPortraitContent(),
               ),
-            );
-          },
+            ),
+          ),
         );
       },
-    );
-  }
-
-  Widget _buildLandscapeContent() {
-    return Row(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Expanded(flex: 1, child: Column()),
-        const SizedBox(width: 15),
-        Expanded(flex: 2, child: _buildPlantDetails()),
-      ],
     );
   }
 
@@ -98,23 +78,33 @@ class _DetailsMedicinalPlantsState extends State<DetailsMedicinalPlants> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Center(
-          child: Text(
-            _plant?.nameplant ?? '',
-            style: const TextStyle(
-              color: Color(0xFFF5EF49),
-              fontSize: 25,
-              fontWeight: FontWeight.bold,
-              fontFamily: 'Georgia',
-            ),
-          ),
-        ),
-
-        const SizedBox(height: 5),
-        PlantFavoriteScreen(plant: _plant),
-        const SizedBox(height: 5),
+        _buildPlantTitle(),
+        const SizedBox(height: 10),
+        _buildActionButtons(),
+        const SizedBox(height: 10),
         _buildPlantDetails(),
       ],
+    );
+  }
+
+  Widget _buildPlantTitle() {
+    return Center(
+      child: Text(
+        _plant?.nameplant ?? '',
+        style: const TextStyle(
+          color: Color(0xFFF5EF49),
+          fontSize: 25,
+          fontWeight: FontWeight.bold,
+          fontFamily: 'Georgia',
+        ),
+      ),
+    );
+  }
+
+  Widget _buildActionButtons() {
+    return Align(
+      alignment: Alignment.centerRight,
+      child: PlantFavorite(plant: _plant),
     );
   }
 
@@ -131,7 +121,7 @@ class _DetailsMedicinalPlantsState extends State<DetailsMedicinalPlants> {
         ),
         InfoCard(title: "Familia:", content: _plant!.family),
         InfoCard(
-          title: "Descripción:",
+          title: "Descripción Bótanica:",
           content: _plant!.botanicaldescription,
           isJustified: true,
         ),

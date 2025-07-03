@@ -1,32 +1,80 @@
-import 'package:app_plants/presentation/viewmodels/start_page_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:firebase_dynamic_links/firebase_dynamic_links.dart';
+import 'package:app_plants/presentation/viewmodels/start_page_view_model.dart';
 
-class StartPageScreen extends StatelessWidget {
+class StartPageScreen extends StatefulWidget {
   const StartPageScreen({super.key});
 
   @override
+  State<StartPageScreen> createState() => _StartPageScreenState();
+}
+
+class _StartPageScreenState extends State<StartPageScreen> {
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _initDynamicLinks();
+    });
+  }
+
+  void _initDynamicLinks() async {
+    FirebaseDynamicLinks.instance.onLink.listen(
+      (dynamicLinkData) {
+        _handleDeepLink(dynamicLinkData.link);
+      },
+      onError: (error) {
+        debugPrint('Error en el enlace dinámico: $error');
+      },
+    );
+
+    final initialLink = await FirebaseDynamicLinks.instance.getInitialLink();
+    if (initialLink != null) {
+      _handleDeepLink(initialLink.link);
+    }
+  }
+
+  void _handleDeepLink(Uri link) {
+    final plantId = int.tryParse(link.queryParameters['plant_id'] ?? '');
+    if (plantId != null) {
+      Navigator.pushNamed(context, '/detallePlanta', arguments: plantId);
+    }
+  }
+
+  @override
   Widget build(BuildContext context) {
-    final viewModel = Provider.of<StartPageViewModel>(context);
+    final viewModel = context.watch<StartPageViewModel>();
+    final orientation = MediaQuery.of(context).orientation;
+    final bool isLandscape = orientation == Orientation.landscape;
 
     return Scaffold(
-      backgroundColor: Colors.green,
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       appBar: AppBar(
-        backgroundColor: Colors.green,
         centerTitle: true,
-        title: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          mainAxisSize: MainAxisSize.min,
+        backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
+        title: Stack(
+          alignment: Alignment.center,
           children: [
-            Image.asset('assets/logos/logo.png', height: 50),
-            const SizedBox(width: 10),
+            Align(
+              alignment: Alignment.centerLeft,
+              child: Padding(
+                padding: const EdgeInsets.only(left: 8.0),
+                child: Image.asset(
+                  'assets/logos/logo.png',
+                  height: isLandscape ? 50 : 60,
+                ),
+              ),
+            ),
             const Text(
               'PLANTAS MEDICINALES',
+              textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 15,
+                fontFamily: "Georgia",
                 fontWeight: FontWeight.bold,
-                letterSpacing: 1.3,
+                letterSpacing: 0.10,
               ),
             ),
           ],
@@ -40,9 +88,9 @@ class StartPageScreen extends StatelessWidget {
         backgroundColor: Colors.white,
         selectedItemColor: Colors.green,
         unselectedItemColor: Colors.black,
-        iconSize: 30.0,
-        selectedFontSize: 14.0,
-        unselectedFontSize: 12.0,
+        iconSize: 30,
+        selectedFontSize: 12,
+        unselectedFontSize: 10,
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Inicio'),
           BottomNavigationBarItem(icon: Icon(Icons.search), label: 'Buscar'),

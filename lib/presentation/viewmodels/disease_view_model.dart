@@ -16,17 +16,22 @@ class DiseaseViewModel extends ChangeNotifier {
   DiseaseViewModel(this._getDiseaseById);
 
   Future<void> fetchDisease(int id) async {
-    _isLoading = true;
-    notifyListeners();
+    _setLoading(true);
 
     try {
-      _disease = await _getDiseaseById(id);
-      _error = _disease == null ? "No encontrada" : null;
+      final result = await _getDiseaseById(id);
+      _disease = result;
+      _error = result == null ? "No encontrada" : null;
     } catch (e) {
       _error = "Error: $e";
+      _disease = null;
     }
 
-    _isLoading = false;
+    _setLoading(false);
+  }
+
+  void _setLoading(bool value) {
+    _isLoading = value;
     notifyListeners();
   }
 }

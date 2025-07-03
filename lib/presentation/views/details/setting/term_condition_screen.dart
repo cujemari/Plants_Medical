@@ -8,10 +8,7 @@ class TermConditionScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0XFF0A2D14),
       appBar: AppBar(
-        title: const Text(
-          'Términos y Condiciones',
-          style: TextStyle(fontSize: 18),
-        ),
+        title: const Text('Términos y Condiciones'),
         backgroundColor: const Color(0XFF0A2D14),
         iconTheme: const IconThemeData(color: Colors.white),
         titleTextStyle: const TextStyle(

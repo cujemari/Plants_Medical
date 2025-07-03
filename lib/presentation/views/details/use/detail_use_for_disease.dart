@@ -1,5 +1,3 @@
-import 'package:app_plants/data/models/disease_model.dart';
-import 'package:app_plants/data/models/disease_plant_use_model.dart';
 import 'package:app_plants/data/models/medicinal_plant_model.dart';
 import 'package:app_plants/data/repositories/disease_repository_impl.dart';
 import 'package:app_plants/data/repositories/plant_repository_impl.dart';
@@ -26,8 +24,8 @@ class _DetailUseForDiseaseState extends State<DetailUseForDisease> {
   final _diseaseRepository = DiseaseRepositoryImpl();
 
   MedicinalPlantModel? _plant;
-  List<DiseasePlantUseModel> _uses = [];
-  Map<int, DiseaseModel> _diseasesMap = {};
+  List _uses = [];
+  Map<int, dynamic> _diseasesMap = {};
   bool _isLoading = true;
 
   @override
@@ -47,8 +45,7 @@ class _DetailUseForDiseaseState extends State<DetailUseForDisease> {
           ? allUses.where((u) => u.diseaseId == widget.enfermedadId).toList()
           : allUses;
 
-      // Cargar las enfermedades asociadas
-      final diseasesMap = <int, DiseaseModel>{};
+      final diseasesMap = <int, dynamic>{};
       for (var use in filteredUses) {
         if (!diseasesMap.containsKey(use.diseaseId)) {
           final disease = await _diseaseRepository.getDiseaseById(
@@ -85,7 +82,7 @@ class _DetailUseForDiseaseState extends State<DetailUseForDisease> {
           style: const TextStyle(
             fontSize: 16,
             fontWeight: FontWeight.bold,
-            color: Colors.white,
+            color: Colors.blue,
           ),
         ),
         const SizedBox(height: 5),
@@ -138,17 +135,31 @@ class _DetailUseForDiseaseState extends State<DetailUseForDisease> {
             )
           else
             ..._uses.map((use) {
-              final diseaseName =
+              final name =
                   _diseasesMap[use.diseaseId]?.namedisease ?? 'Desconocida';
               return Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
-                    'Tratamiento para: $diseaseName',
-                    style: const TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                  RichText(
+                    text: TextSpan(
+                      children: [
+                        const TextSpan(
+                          text: 'Tratamiento para: ',
+                          style: TextStyle(
+                            fontSize: 18,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.blue,
+                          ),
+                        ),
+                        TextSpan(
+                          text: name,
+                          style: const TextStyle(
+                            fontSize: 18,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.orangeAccent,
+                          ),
+                        ),
+                      ],
                     ),
                   ),
                   const SizedBox(height: 10),

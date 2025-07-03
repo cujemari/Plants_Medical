@@ -9,8 +9,71 @@
     "sync_status":"",
     "last_updated": null
   },
-  {
+   {
     "diseplant_id": 2,
+    "disease_id": 1,
+    "plant_id": 58,
+    "use": "Frutos: Una porción de los frutos de ubos.",
+    "preparation": "Lavar bien los frutos, en un recipiente machucarlos con un cuarto de agua tibia y fria, colarlo.",
+    "indication": "Tomar la esencia del jugo de los frutos o tambien comer los frutos.",
+    "sync_status":"",
+    "last_updated": null
+  },
+   {
+    "diseplant_id": 3,
+    "disease_id": 1,
+    "plant_id":85,
+    "use": "Hojas: 40 g de hojas frescas o 10 g de hojas secas de la palta.",
+    "preparation": "Hervir las hojas por 5 minutos.",
+    "indication": "Tomar la infusión de las hojas dos veces al día.",
+    "sync_status":"",
+    "last_updated": null
+  },
+   {
+    "diseplant_id": 4,
+    "disease_id": 1,
+    "plant_id": 43,
+    "use": "Frutos: Cuatro frutos del huito.",
+    "preparation": "Lavar bien los frutos, en un recipiente machucarlos con un cuarto de agua tibia y fría, colarlo.",
+    "indication": "Tomar el jugo de los frutos.",
+    "sync_status":"",
+    "last_updated": null
+  },
+
+   {
+    "diseplant_id": 5,
+    "disease_id": 1,
+    "plant_id": 73,
+    "use": "Hojas y Tallo: Cuatro hojas y dos tallos de la caña brava.",
+    "preparation": "Lavar bien las hojas y el tallo. En un recipiente, machacarlos y hervir con tres tazas de agua por díez minutos.",
+    "indication": "Tomar la infusión de hojas y tallos una vez al día, como agua de tiempo.",
+    "sync_status":"",
+    "last_updated": null
+  },
+
+   {
+    "diseplant_id": 6,
+    "disease_id": 1,
+    "plant_id": 46,
+    "use": "Hojas: 3 hojas del oje.",
+    "preparation": "Para que resalte la esencia de la hoja, darle una machacada, agregar en un recipiente con media taza de agua y ponerlo a hervir por 3 minutos.",
+    "indication": "Tomar el cocimiento de las hojas dos veces al día, por una semana.",
+    "sync_status":"",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 7,
+    "disease_id": 2,
+    "plant_id": 92,
+    "use": "Corteza: 10 g de la corteza del tahuari.",
+    "preparation": "El cocimiento de 10 g de corteza interna en un litro de agua.",
+    "indication": "Se bebe diariamente durante 1 mes. Muy útil para tratar el diabetes.",
+    "sync_status":"",
+    "last_updated": null
+  },
+
+  {
+    "diseplant_id": 8,
     "disease_id": 2,
     "plant_id": 1,
     "use": "Corteza: Un trozo de la corteza de la abuta blanca.",
@@ -20,104 +83,2291 @@
     "last_updated": null
   },
   {
-    "diseplant_id": 3,
+    "diseplant_id": 9,
     "disease_id": 2,
     "plant_id": 4,
     "use": "Raíz: Tres raíces de la bolsa mullaca.",
     "preparation": "Macerar tres raíces, en trozos menudos, en una botella de aguardiente (un cuarto de litro) durante siete días. Agregar media botella de miel de abeja.",
-    "indication": "Tomar media copita dos veces al día por sesenta días (dos meses).",
-    "sync_status":"",
+    "indication": "Se toma medio vaso, dos veces al día durante 60 días.",
+    "sync_status": "",
     "last_updated": null
   },
   {
-    "diseplant_id": 4,
+    "diseplant_id": 10,
+    "disease_id": 2,
+    "plant_id": 87,
+    "use": "Hojas: Cuatro hojas de la papailla.",
+    "preparation": "Cocinar las hojas en un recipiente con una taza de agua por 3 minutos.",
+    "indication": "El cocimiento de las hojas se toma como agua de tiempo durante 60 días.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 11,
+    "disease_id": 2,
+    "plant_id": 48,
+    "use": "Hojas: Cinco hojas del paico macho.",
+    "preparation": "Hervir las hojas con media taza de agua por cinco minutos.",
+    "indication": "Tomar la infusión de las hojas de la planta.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 12,
+    "disease_id": 2,
+    "plant_id": 24,
+    "use": "Hojas: Diez hojas de la albahaca.",
+    "preparation": "Lavar bien las hojas, picarlas en trozos pequeños y añadir las hojas picadas en una taza con agua hervida.",
+    "indication": "Tomar una taza de infusión tres veces al día.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 13,
     "disease_id": 2,
     "plant_id": 8,
-    "use": "Fruto: Cuatro frutos de cocona.",
-    "preparation": "En un recipiente cocinar los frutos de cocona, una vez cocinados licuarlos, colarlos en un recipiente.",
-    "indication": "Tomar un vaso al día del jugo de los frutos por treinta días.",
-    "sync_status":"",
+    "use": "Fruto: Cuatro frutos de la cocona.",
+    "preparation": "Cocinar los frutos, enfriarlos, machucarlos o licuarlos, colar en un recipiente.",
+    "indication": "Tomar el jugo de los frutos por un mes.",
+    "sync_status": "",
     "last_updated": null
   },
   {
-    "diseplant_id": 5,
+    "diseplant_id": 14,
     "disease_id": 2,
     "plant_id": 15,
-    "use": "Granos o mazorcas del choclo del maíz.",
-    "preparation": "Cocimiento del choclo del maíz en un recipiente y tomar el líquido del cocimiento.",
-    "indication": "Tomar el líquido del cocimiento 2 veces por día.",
-   "sync_status":"",
+    "use": "Mazorcas: Tres masorcas choclos de maíz.",
+    "preparation": "Hervir el choclo del maíz en un recipiente, con un litro de agua por treinta minutos.",
+    "indication": "Tomar el líquido del cocimiento dos veces por día.",
+    "sync_status": "",
     "last_updated": null
   },
   {
-    "diseplant_id": 6,
+    "diseplant_id": 15,
     "disease_id": 2,
     "plant_id": 21,
-    "use": "Hojas y tallo de la verbena negra.",
+    "use": "Hojas y Tallo: Cinco hojas y dos tallos de la verbena negra.",
     "preparation": "Machacar en un recipiente las hojas y tallos de la verbena en agua.",
-    "indication": "Tomar medio vaso una vez al día del jugo de la verbena. El tratamiento debe seguirse durante tres meses consecutivos.",
-    "sync_status":"",
+    "indication": "Tomar medio vaso del jugo fresco, una vez al día. El tratamiento debe seguirse durante tres meses consecutivos.",
+    "sync_status": "",
     "last_updated": null
   },
   {
-    "diseplant_id": 7,
-    "disease_id": 4,
-    "plant_id": 1,
-    "use": "Raíz: Cuatro raíces de la abuta blanca.",
-    "preparation": "En un recipiente poner a cocer por 10 minutos las raíces machacadas.",
-    "indication": "Tomar el cocimiento de la raíz por siete días.",
-   "sync_status":"",
-    "last_updated": null
-  },
-  {
-    "diseplant_id": 8,
-    "disease_id": 4,
-    "plant_id": 13,
-    "use": "Raíz: Cuatro raíces de la lauraymana.",
-    "preparation": "Cocinar las raíces por diez minutos.",
-    "indication": "Tomar el cocimiento de la raíz por siete días.",
-    "sync_status":"",
+    "diseplant_id": 16,
+    "disease_id": 2,
+    "plant_id": 40,
+    "use": "Raíz: Cinco raíces del huasai.",
+    "preparation": "Lavar las raíces, machacar con un mazo y poner a hervir con una taza de agua por díez minutos.",
+    "indication": "Tomar el cocimiento de las raíces combinadas con las de huicungo y ungurahui.",
+    "sync_status": "",
     "last_updated": null
   },
    {
-    "diseplant_id": 9,
-    "disease_id": 3,
-    "plant_id": 2,
-    "use": "Corteza: Tres trozos de corteza de la abuta colorada.",
-    "preparation": "Cortar la corteza en cuadros pequños y en un recipiente cocinar la corteza por veinticinco minutos.",
-    "indication": "Realizar baños con la decocción de la corteza.",
-    "sync_status":"",
-    "last_updated": null
-  },
-   {
-    "diseplant_id": 10,
-    "disease_id": 3,
-    "plant_id": 3,
-    "use": "Raíz: Cuatro Raices del achiote.",
-    "preparation": "Lavarlos bien, machacarlo con un mazo y en un recipiente con una tasa de agua pornerlo a hervir por cinco minutos.",
-    "indication": "Tomar el cocimiento de la raíz por tres dias.",
-    "sync_status":"",
-    "last_updated": null
-  },
-  
-   {
-    "diseplant_id": 11,
+    "diseplant_id": 17,
     "disease_id": 3,
     "plant_id": 1,
     "use": "Hojas: Tres hojas de abuta blanca.",
     "preparation": "Hacer hervir las hojas con media taza de agua por cinco minutos.",
     "indication": "Tomar la infusión de las hojas.",
-    "sync_status":"",
+    "sync_status": "",
     "last_updated": null
   },
    {
-    "diseplant_id": 12,
+    "diseplant_id": 18,
+    "disease_id": 3,
+    "plant_id": 66,
+    "use": "Cogollos: Cinco cogollos de las hojas del café.",
+    "preparation": "Triturar y hacer hervir los cogollos con una taza de agua por tres minutos.",
+    "indication": "Tomar la infusión de de los cogollos dos veces al día, en forma de té.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 19,
+    "disease_id": 3,
+    "plant_id": 2,
+    "use": "Corteza: Tres trozos de corteza de la abuta colorada.",
+    "preparation": "Cortar la corteza en cuadros pequeños y cocinarla en un recipiente por veinticinco minutos.",
+    "indication": "Realizar baños con la decocción de la corteza.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 20,
+    "disease_id": 3,
+    "plant_id": 3,
+    "use": "Raíz: Cuatro raíces del achiote.",
+    "preparation": "Lavar bien las raíces, machacarlas con un mazo y hervirlas en una taza de agua por cinco minutos.",
+    "indication": "Realizar baños con la decocción de la corteza.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 21,
     "disease_id": 3,
     "plant_id": 6,
-    "use": "Hojas: Veinticinco hojas de la chanca piedra.",
-    "preparation": "En un recipiente mediano cocinar las hojas con dos litros de agua por treinta minutos.",
-    "indication": "Tomar el cocimiento de la hojas como agua de tiempo dos veces por dia, hasta completar un mes.",
-    "sync_status":"",
+    "use": "Hojas: 25 g de hojas de la chanca piedra.",
+    "preparation": "En un recipiente mediano, cocinar las hojas con dos litros de agua por treinta minutos.",
+    "indication": "Tomar el cocimiento de las hojas como agua de tiempo dos veces por día, hasta completar un mes.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 22,
+    "disease_id": 3,
+    "plant_id": 7,
+    "use": "Raíz: Tres raíces del chiri sanango.",
+    "preparation": "Cocinar las raíces por diez minutos.",
+    "indication": "Tomar el cocimiento de las raíces por tres días.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 23,
+    "disease_id": 3,
+    "plant_id": 42,
+    "use": "Fruto: Dos frutos del huingo.",
+    "preparation": "Cortar el fruto, sacar la pulpa y hervirla con dos tazas de agua por quince minutos.",
+    "indication": "Tomar el cocimiento de la pulpa por tres días.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 24,
+    "disease_id": 3,
+    "plant_id": 47,
+    "use": "Hojas: Cinco hojas del pampa orégano.",
+    "preparation": "Hacer hervir las hojas con media taza de agua por cinco minutos.",
+    "indication": "Tomar la infusión de las hojas por tres días.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 25,
+    "disease_id": 3,
+    "plant_id": 46,
+    "use": "Hojas: Tres hojas del oje.",
+    "preparation": "Hervir las hojas con una taza de agua por tres minutos.",
+    "indication": "Tomar el cocimiento de las hojas por tres días (bajo la supervisión de un médico).",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 26,
+    "disease_id": 3,
+    "plant_id": 98,
+    "use": "Tallos: Dos tallo de caña agria.",
+    "preparation": "Pelar la caña, machacarlo y extraer el jugo. El jugo del tallo mezclado con miel de abejas.",
+    "indication": "Tomar una copita tres veces al día.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 27,
+    "disease_id": 3,
+    "plant_id": 89,
+    "use": "Planta: Una planta completa de la ruda.",
+    "preparation": "Machacar la planta completa y en una bottella añadir junto con aguardiente.",
+    "indication": "Aplicar sobre el vientre y la cabeza del enfermo dos veces al día.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 28,
+    "disease_id": 3,
+    "plant_id": 44,
+    "use": "Hojas: 5 g de las hojas de la lancetilla.",
+    "preparation": "En un recipiente con agua fria triturarlo y mesclar hasta obteber la esencia de las hojas.",
+    "indication": "Lavar la la cabeza con las hojas de la lancetilla hasta el medio cuerpo para retirar el calor corporal.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 29,
+    "disease_id": 3,
+    "plant_id": 52,
+    "use": "Hojas: Cuatro hojas del piñón blanco.",
+    "preparation": "En un recipiente con agua fresca, estrujar las hojas y añadir rodajas de limón.",
+    "indication": "Lavar la cabeza hasta el medio cuerpo para retirar el calor corporal.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 30,
+    "disease_id": 3,
+    "plant_id": 53,
+    "use": "Hojas: Cuatro hojas del piñón negro.",
+    "preparation": "En un recipiente con agua fresca estrujar las hojas.",
+    "indication": "Aplicar las hojas estrujadas en forma de baños.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 31,
+    "disease_id": 3,
+    "plant_id": 25,
+    "use": "Hojas: Tres hojas de algodón.",
+    "preparation": "Hervir las hojas con una taza de agua por tres minutos.",
+    "indication": "Tomar la infusión caliente, una taza dos veces al día.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 32,
+    "disease_id": 3,
+    "plant_id": 76,
+    "use": "Hojas: Cinco hojas de la ayasisa.",
+    "preparation": "Triturar las hojas, esprimirlo en una tela blanca transparente para obtener el jugo.",
+    "indication": "El jugo que se obtiene, triturando las hojas, se toma diluido en agua caliente.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 33,
+    "disease_id": 3,
+    "plant_id": 16,
+    "use": "Hojas: Cuatro hojas de la malva.",
+    "preparation": "Triturar las hojas, esprimirlas en un colador para obtener el jugo.",
+    "indication": "Se da de beber al paciente cuatro veces al día.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 34,
+    "disease_id": 3,
+    "plant_id": 11,
+    "use": "Fruto: Tres frutos de granadilla.",
+    "preparation": "Cocinar los frutos rajados con dos tazas de agua, machucarlos y colarlos.",
+    "indication": "Tomar el jugo del fruto por tres días.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 35,
+    "disease_id": 3,
+    "plant_id": 15,
+    "use": "Tallo: Un trozo del tallo del maíz.",
+    "preparation": "Cortar en trozos pequeños y cocinar con medio litro de agua por quince minutos.",
+    "indication": "Tomar el líquido en serenado por tres días.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 36,
+    "disease_id": 3,
+    "plant_id": 24,
+    "use": "Hojas: 10 g de hojas frescas de albahaca.",
+    "preparation": "Decocción en 250 ml de agua por cinco minutos.",
+    "indication": "Tomar dos veces al día hasta que pase la fiebre.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 37,
+    "disease_id": 3,
+    "plant_id": 40,
+    "use": "Semillas: Cinco semillas del huasai.",
+    "preparation": "Tostar las semillas, molerlas y hervirlas en una taza de agua por tres minutos.",
+    "indication": "Tomar la infusión por tres días.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 38,
+    "disease_id": 3,
+    "plant_id": 59,
+    "use": "Hojas: Tres hojas de la uña de gato.",
+    "preparation": "Cocinar las hojas machacadas con una taza de agua por cinco minutos.",
+    "indication": "Tomar el líquido serenado tres veces al día.",
+    "sync_status": "",
+    "last_updated": null
+  },
+
+{
+    "diseplant_id": 39,
+    "disease_id": 4,
+    "plant_id": 1,
+    "use": "Raíz: Cuatro raíces de la abuta blanca.",
+    "preparation": "En un recipiente poner a cocer por 10 minutos las raíces machacadas.",
+    "indication": "Tomar el cocimiento de la raíz por siete días.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 40,
+    "disease_id": 4,
+    "plant_id": 73,
+    "use": "Bulbo: Tres bulbos del yahuar piri piri.",
+    "preparation": "Cocinar los bulbos cortados en cuatro partes por 10 minutos.",
+    "indication": "Tomar una copita del preparado tres veces al día.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 41,
+    "disease_id": 4,
+    "plant_id": 47,
+    "use": "Hojas: Cinco hojas del pampa orégano.",
+    "preparation": "Machacar las hojas y hacer hervir con media taza de agua por cinco minutos.",
+    "indication": "Tomar la infusión de las hojas por siete días.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 42,
+    "disease_id": 4,
+    "plant_id": 13,
+    "use": "Raíz: Cuatro raíces de la lauraymana.",
+    "preparation": "Cocinar las raíces por diez minutos.",
+    "indication": "Tomar la infusión de las raíces por siete días.",
+    "sync_status": "",
+    "last_updated": null
+  },
+   {
+    "diseplant_id": 43,
+    "disease_id": 4,
+    "plant_id": 95,
+    "use": "Corteza: dos trozos de la corteza del ushaquiro.",
+    "preparation": "El cocimiento de la corteza con dos litros de agua, por media hora.",
+    "indication": "Se utiliza en lavados vaginales en el postparto..",
+    "sync_status": "",
+    "last_updated": null
+  },
+
+   {
+    "diseplant_id": 44,
+    "disease_id": 5,
+    "plant_id": 26,
+    "use": "Retoño: Un manojo del retoño de las hojas de la ayahuma.",
+    "preparation": "Triturar las hojas retoñadas y aplicar localmente en la pieza adolorida.",
+    "indication": "Analgésico dental.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 45,
+    "disease_id": 5,
+    "plant_id": 52,
+    "use": "Resina: Un cuarto de la resina del piñon blanco.",
+    "preparation": "Extaer la resina de la corteza en un recipiente.",
+    "indication": "Aplicar la Recs directamente en la zona afectada.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 46,
+    "disease_id": 5,
+    "plant_id": 85,
+    "use": "Corteza: Una trozo de corteza de la palta.",
+    "preparation": "En un recipiente raspar la corteza, en una taza con agua caliente añadir.",
+    "indication": "Realizar enjuagues bucales con la infusión de la corteza.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 47,
+    "disease_id": 5,
+    "plant_id": 86,
+    "use": "Raíz: Tres raíces del pan del árbol",
+    "preparation": "Enjuagues bucales con el cocimiento de la raíz.",
+    "indication": "Reduce molestias dentales.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 48,
+    "disease_id": 5,
+    "plant_id": 46,
+    "use": "Resina: Un frasco de resina del oje",
+    "preparation": "Aplicar el látex en la zona afectada.",
+    "indication": "Calma el dolor dental.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 49,
+    "disease_id": 5,
+    "plant_id": 42,
+    "use": "Hojas: Cuatro hojas del huingo.",
+    "preparation": "Masticar las hojas frescas, pero bien lavadas.",
+    "indication": "Alivio natural para el dolor de muelas.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 50,
+    "disease_id": 5,
+    "plant_id": 1,
+    "use": "Corteza y Tallo: Un trozo de corteza y dos tallos de la abuta blanca.",
+    "preparation": "Hervir la corteza y tallo con medio litro de agua por quince minutos.",
+    "indication": "Utilizar el cocimiento o infusión como analgésico dental. Reduce el dolor dental.",
+    "sync_status": "",
+    "last_updated": null
+  },
+   {
+    "diseplant_id": 51,
+    "disease_id": 5,
+    "plant_id": 91,
+    "use": "Hoja: Una hoja del tabaco.",
+    "preparation": "Lavando las hojas se mastica directamente hasta aliviar el dolor.",
+    "indication": "Reduce el dolor dental.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 52,
+    "disease_id": 6,
+    "plant_id": 25,
+    "use": "Hojas: Cinco hojas del cogollo del algodón.",
+    "preparation": "Infusión de las hojas. Tomar caliente, una taza dos veces al día.",
+    "indication": "Tratamiento tradicional para la diarrea.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 53,
+    "disease_id": 5,
+    "plant_id": 29,
+    "use": "Corteza: 5 g de la corteza del azúcar huayo.",
+    "preparation": "Cocimiento de 5 g de corteza fresca en un litro de agua.",
+    "indication": "Se toma una copa del cocimiento de 5 g de corteza fresca en un litro de agua, cada 8 horas. Tratamiento tradicional para la diarrea.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 54,
+    "disease_id": 6,
+    "plant_id": 47,
+    "use": "Raíz: Tres raíces del pampa oregano",
+    "preparation": "Extraer el zumo de la raíz trituradas.",
+    "indication": "Se bebe el zumo que se extrae de la raíz triturada. Tratamiento tradicional para la diarrea.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 55,
+    "disease_id": 6,
+    "plant_id": 44,
+    "use": "Hojas: Cinco hojas de la lancetilla.",
+    "preparation": "Infusión de las hojas.",
+    "indication": "Tratamiento tradicional para la diarrea.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 56,
+    "disease_id": 6,
+    "plant_id": 32,
+    "use": "Corteza: Dos trozos de cortezas del chuchuhuasi.",
+    "preparation": "Tomar la maceración en alcohol. Dos veces al dia por tres dias.",
+    "indication": "Tratamiento tradicional para la diarrea.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 57,
+    "disease_id": 6,
+    "plant_id": 43,
+    "use": "Fruto: Tres frutos verde del huito.",
+    "preparation": "Tomar el cocimiento del fruto verde.",
+    "indication": "Tratamiento tradicional para la diarrea.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  
+   {
+    "diseplant_id": 58,
+    "disease_id": 6,
+    "plant_id": 39,
+    "use": "Corteza: Dos trozoa de corteza del huacapurana.",
+    "preparation": "Cocimiento de 50 g de corteza en un litro de agua.",
+    "indication": "Tomar una taza del cocimiento de 50 g de corteza. Tratamiento para la diarrea persistente.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 59,
+    "disease_id": 6,
+    "plant_id": 71,
+    "use": "Hojas: Tres hojas del cogollos de la ishanga.",
+    "preparation": "Tomar la infusión de los cogollos. Por las mañanas una vez al dia.",
+    "indication": "Alivio de la diarrea leve.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 60,
+    "disease_id": 6,
+    "plant_id": 58,
+    "use": "Corteza y Hojas: Un trozo de corteza, tres hojas del ubos.",
+    "preparation": "Tomar el cocimiento como té. Por tres dias.",
+    "indication": "Tradicionalmente usado para detener la diarrea.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 61,
+    "disease_id": 6,
+    "plant_id": 84,
+    "use": "Resina: Un frasco de la resina del palo rosa",
+    "preparation": "En tela o venda añadir la recina. Aplicar con fricciones en el abdomen.",
+    "indication": "Usado por gota para aliviar dolores estomacales y diarrea.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 62,
+    "disease_id": 6,
+    "plant_id": 64,
+    "use": "Fruto:  Tres frutos del guineo.",
+    "preparation": "Cocimiento de los frutos cortados en rodajas. Tomar en forma de infusión el liquido del cocimiento.",
+    "indication": "Usado como antidiarreico suave.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 63,
+    "disease_id": 6,
+    "plant_id": 87,
+    "use": "Frutos: Tres frutos de la papailla.",
+    "preparation": "Triturar los frutos y extraer el liquido. Tomar por las mañanas el jugo del fruto triturado.",
+    "indication": " Tres cucharadas para adultos y una para niños. Regula el tránsito intestinal.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 64,
+    "disease_id": 6,
+    "plant_id": 88,
+    "use": "Hojas: Tres hojas de la retama.",
+    "preparation": "Cocimiento de las hojas.",
+    "indication": "Tomar el cocimiento de las hojas como infusión. Ayuda a cortar la diarrea rápidamente.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 65,
+    "disease_id": 6,
+    "plant_id": 74,
+    "use": "Rizoma: Tres rizomas de la shimipamapana.",
+    "preparation": "Secar, moler y cernir los rizomas. Hervir una cucharada por taza de agua. Beber el líquido por las mañanas por tres dias.",
+    "indication": "Tradicionalmente empleado como regulador intestinal.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 66,
+    "disease_id": 6,
+    "plant_id": 85,
+    "use": "Semillas: Dos semillas de la palta.",
+    "preparation": "Infusión o cocción de las semillas. Tomar el líquido combinada con pan y azúcar quemados (opcional) por tres dias.",
+    "indication": "Tratamiento para diarrea amebiana.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 67,
+    "disease_id": 6,
+    "plant_id": 57,
+    "use": "Hojas: Cinco hojas del cogollo de la toronja.",
+    "preparation": "Hervir cuatro hojas en una taza de agua por tres minutos.",
+    "indication": "Tradicionalmente usada contra diarrea leve.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 68,
+    "disease_id": 6,
+    "plant_id": 53,
+    "use": "Resina: Un frasco de la resina del piñon negro.",
+    "preparation": "Extraer la resina del arbusto.",
+    "indication": "Tomar la resina fresca con jugo de limón. Usado como purgante y regulador digestivo.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 69,
+    "disease_id": 6,
+    "plant_id": 52,
+    "use": "Hojas: Cinco hojas del cogollo del piñon blanco.",
+    "preparation": "Extraer el zumo de los cogollos con hojas de café y mezclar con tres gotas de limón.",
+    "indication": "Remedio popular para la diarrea.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 70,
+    "disease_id": 6,
+    "plant_id": 48,
+    "use": "Hojas: 20 g de las hojas del paico.",
+    "preparation": "Infusión de 20 g en un litro de agua. Tomar tres a cuatro tazas al día.",
+    "indication": "Muy utilizado contra la diarrea infantil.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 71,
+    "disease_id": 6,
+    "plant_id": 42,
+    "use": "Frutos: dos frutos verdes o jóvenes del huingo.",
+    "preparation": "Tomar el jugo de los frutos jóvenes.",
+    "indication": "Tratamiento natural para malestares digestivos.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 72,
+    "disease_id": 6,
+    "plant_id": 6,
+    "use": "Raíz: Cinco raíces de la chanca piedra.",
+    "preparation": "Cocinar la raíz y tomar como agua de tiempo.",
+    "indication": "Tradicionalmente usada para depurar y aliviar diarrea.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 73,
+    "disease_id": 6,
+    "plant_id": 36,
+    "use": "Brotes, hojas y corteza: 5 g de brotes, hojas y corteza de la guayaba.",
+    "preparation": "Cocimiento de las partes con medio litro de agua, por 15 minutos hasta obtener la esencia.",
+    "indication": "Tomar en forma de té dos veces al día. Muy eficaz para cortar la diarrea.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 74,
+    "disease_id": 6,
+    "plant_id": 2,
+    "use": "Corteza: Dos trozos de corteza de la buta blanca.",
+    "preparation": "Decocción de la corteza raspada.",
+    "indication": " Tomar dos veces al día. Antidiarreico natural tradicional.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 75,
+    "disease_id": 6,
+    "plant_id": 22,
+    "use": "Rizoma: Tres rizomas del jengibre.",
+    "preparation": "Machacar el rizoma y cocinarlo. Dejar reposar y beber por las mañanas por tres dias.",
+    "indication": "Estimula la digestión y combate diarreas.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 76,
+    "disease_id": 6,
+    "plant_id": 5,
+    "use": "Hojas y rizomas: 5 g de hojas y rizomas de la calahuala",
+    "preparation": "Preparar en infusiones y/o cocimientos.",
+    "indication": "Tomar la infusión o cocimiento dos veces al dia. Usado para controlar diarrea e infecciones intestinales.",
+    "sync_status": "",
+    "last_updated": null
+  },
+   {
+    "diseplant_id": 77,
+    "disease_id": 6,
+    "plant_id": 97,
+    "use": "Cáscaras: 10 semillas del coco seco.",
+    "preparation": "Moler las cascaras secas, ponerlo a hervir con 1 1/2 de agua, combinanlo con dos hojas de hierva luisa.",
+    "indication": "Tomar 3 veces al día, de forma oral.",
+    "sync_status": "",
+    "last_updated": null
+  },
+   {
+    "diseplant_id": 78,
+    "disease_id": 6,
+    "plant_id": 99,
+    "use": "Raícez y Tallo: Dos raíces y dos tallo del cetico.",
+    "preparation": "lavar bien, machacar las raíces y tallos, ponerlo a cocinar con tres tazas de agua.",
+    "indication": "Tomar  2 veces al dia, de forma oral.",
+    "sync_status": "",
+    "last_updated": null
+  },
+    {
+    "diseplant_id": 79,
+    "disease_id": 6,
+    "plant_id": 67,
+    "use": "Hojas: Cinco hojas de la coca.",
+    "preparation": "lavar bien, machacar las hojas, ponerlo a cocinar con dos tazas de agua.",
+    "indication": "Tomar  2 veces al dia, de forma oral.",
+    "sync_status": "",
+    "last_updated": null
+  },
+    
+   {
+    "diseplant_id": 80,
+    "disease_id": 7,
+    "plant_id": 27,
+    "use": "Corteza: Un trozo de corteza de la amasisa.",
+    "preparation": "Cocimiento de la corteza.",
+    "indication": "Aplicar el cocimiento de la corteza en forma de lavados. Ayuda en la limpieza y cicatrización de heridas.",
+    "sync_status": "",
+    "last_updated": null
+  },
+ 
+  {
+    "diseplant_id": 81,
+    "disease_id": 7,
+    "plant_id": 70,
+    "use": "Hojas: Diez hojas frescas del hoja del aire (paico hembra).",
+    "preparation": "Machacar las hojas.",
+    "indication": "Aplicar en toda la zona afectada, con una venda amarrarlo. Cicatriza las heridas.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 82,
+    "disease_id": 7,
+    "plant_id": 49,
+    "use": "Hojas: Tres hojas frescas de la papaya.",
+    "preparation": "Estrujar las hojas y aplicar sobre la lesión.",
+    "indication": "Favorece la cicatrización.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 83,
+    "disease_id": 7,
+    "plant_id": 47,
+    "use": "Hojas y flores: 5 g de hohas y flores del pampa oregano.",
+    "preparation": "Cocinar las hojas y flores en un recipiente con un litrp de agua.",
+    "indication": "Hacer lavados con la infusión. Usado para desinfectar y cicatrizar heridas.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 84,
+    "disease_id": 7,
+    "plant_id": 52,
+    "use": "Resina: Un frasco de resina del piñón blanco.",
+    "preparation": "Extraer la resina del arbusto.",
+    "indication": "Aplicar la resina directamente sobre la herida. Promueve la regeneración de tejidos.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 85,
+    "disease_id": 7,
+    "plant_id": 48,
+    "use": "Hojas: 10 g del hoja de paico macho.",
+    "preparation": "Cocimiento de las hojas o machacadas como emplasto.",
+    "indication": "Cocimiento para lavados; hojas machacadas como emplasto. Alivia la inflamación y favorece la cicatrización.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 86,
+    "disease_id": 7,
+    "plant_id": 61,
+    "use": "Resina del zapallo.",
+    "preparation": "Aplicar la resina sobre la herida.",
+    "indication": "Desinfectante y cicatrizante tradicional.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 87,
+    "disease_id": 7,
+    "plant_id": 100,
+    "use": "Hojas: 5 g de las hojas de mucura.",
+    "preparation": "Machacar las hojas frescas hasta obtener una crema.",
+    "indication": "Aplicación tópica para acelerar la curación.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 88,
+    "disease_id": 7,
+    "plant_id": 87,
+    "use": "Semillas: 10 g de las semillas de la papailla.",
+    "preparation": "Semillas trituradas con manteca de cerdo.",
+    "indication": "Aplicar en la zona afectada. Calma el dolor y ayuda a la regeneración.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 89,
+    "disease_id": 7,
+    "plant_id": 83,
+    "use": "Tallo: Dos tallo de la lengua de perro.",
+    "preparation": "Secar y moler en polvo fino para aplicar sobre heridas.",
+    "indication": "Detiene el sangrado y ayuda a cicatrizar.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 90,
+    "disease_id": 7,
+    "plant_id": 64,
+    "use": "Resina: un frasco de la resina del tallo del guineo.",
+    "preparation": "Cortamos el tallo del guineo, en el centro hacemos un orificio para la acumulación de la resina, una vez aculadad la recina, se lo junta en frasco o recipiente.",
+    "indication": "Aplicar con un paño sobre la zona afectada. Ayuda a cerrar heridas abiertas.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 91,
+    "disease_id": 7,
+    "plant_id": 58,
+    "use": "Resina: Un frasco de la resina del árbol del ubos.",
+    "preparation": "Aplicar directamente sobre la herida.",
+    "indication": "Tradicionalmente usado como cicatrizante natural.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 92,
+    "disease_id": 7,
+    "plant_id": 25,
+    "use": "Hojas y Semillas: 5 g de las ojas y semillas del algodón.",
+    "preparation": "Hacer un emplasto con hojas y semillas trituradas, aplicar en la lesión.",
+    "indication": "Cura heridas, rozaduras y escaldaduras.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 93,
+    "disease_id": 7,
+    "plant_id": 56,
+    "use": "Hojas: Cinco hojas de la santa maria.",
+    "preparation": "Aplicar el jugo o sabia de las hojas sobre la herida.",
+    "indication": "Antiséptico y regenerador de tejidos.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 94,
+    "disease_id": 7,
+    "plant_id": 55,
+    "use": "Fruto: Tres frutos del árbol de la renaquilla.",
+    "preparation": "Hervir el frutos y limpiar las heridas con él.",
+    "indication": "Actúa como desinfectante natural.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 95,
+    "disease_id": 7,
+    "plant_id": 34,
+    "use": "Resina: Un frasco de la resina de la copaiba.",
+    "preparation": "Extraer la resina del árbol de la copiaba.",
+    "indication": "Aplicar la oleoresina sobre la parte afectada. Promueve la cicatrización de heridas infectadas.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 96,
+    "disease_id": 7,
+    "plant_id": 30,
+    "use": "Corteza: Dos trozos de corteza de la capirona.",
+    "preparation": "Raspar la corteza.",
+    "indication": "Aplicar en forma de emplasto la corteza raspada. Favorece el cierre rápido de la herida.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 97,
+    "disease_id": 7,
+    "plant_id": 37,
+    "use": "Rizomas: Cinco rizomas del guisador.",
+    "preparation": "Triturar o moler las rizomas para obtener una crema.",
+    "indication": "Aplicar la crema de las rizomas sobre la herida. Eficaz contra infecciones superficiales.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 98,
+    "disease_id": 7,
+    "plant_id": 2,
+    "use": "Corteza: Dos trozos de la corteza de la abuta colorada.",
+    "preparation": "Raspar la corteza.",
+    "indication": "Aplicar el polvo directamente sobre cortes. Usado tradicionalmente para detener el sangrado.",
+    "sync_status": "",
+    "last_updated": null
+  },
+   {
+    "diseplant_id": 99,
+    "disease_id": 7,
+    "plant_id": 68,
+    "use": "Hojas: Diez hojas del cordoncillo.",
+    "preparation": "Machacar las hojas hasta obterner una crema. Aplicar directamente en la zona afectada y luego cubrirlo con una venda.",
+    "indication": "Usado tradicionalmente para ciccatrizar heridas.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 100,
+    "disease_id": 7,
+    "plant_id": 79,
+    "use": "Hojas: Cinco hojas del camote.",
+    "preparation": "Machacar las hojas y ponerlo a hervir por cinco minutos. lavar la zona afectada con la coción de las hpjas.",
+    "indication": "Usado tradicionalmente para detener las infecciones de las heridas.",
+    "sync_status": "",
+    "last_updated": null
+  },
+    {
+    "diseplant_id": 101,
+    "disease_id": 8,
+    "plant_id": 3,
+    "use": "Raíz: Tres raíces del tronco del maíz.",
+    "preparation": "Cocimiento de la raíz.",
+    "indication": "Tomar el cocimiento de la raíz mañana y tarde, por cinco dias. Tratamiento tradicional para aliviar los síntomas del asma.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 102,
+    "disease_id": 8,
+    "plant_id": 42,
+    "use": "Frutos: tres frutos jóvenes del huingo.",
+    "preparation": "Rallar los frutos y extraer el jugo. Tomar el jugo de los frutos jóvenes, mañana y tarde, por cinco dias.",
+    "indication": "Ayuda a despejar las vías respiratorias.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 103,
+    "disease_id": 8,
+    "plant_id": 43,
+    "use": "Fruto: Cinco frutos del huito.",
+    "preparation": "Pelar y hacer trozos la pulpa del fruto, macerralo en alcohol por siete dias. Tomar la maceración en alcohol del fruto, mañana y tarde, por cinco dias.",
+    "indication": "Calma las crisis asmáticas leves.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 104,
+    "disease_id": 8,
+    "plant_id": 80,
+    "use": "Hojas: Tres hojas tiernas de la caña brava.",
+    "preparation": "Cocimiento de las hojas tiernas.",
+    "indication": "Tomar el cocimiento de las hojas tiernas por cinco dias. Tradicionalmente empleada para abrir los bronquios.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 105,
+    "disease_id": 8,
+    "plant_id": 53,
+    "use": "Resina: Un frasco de la resina fresca del piñón negro.",
+    "preparation": "Extraer el látex del piñón negro directamente del tallo o rama.",
+    "indication": "Tomar la resina fresca con jugo de limón por tres dias. Alivia la congestión respiratoria.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 106,
+    "disease_id": 8,
+    "plant_id": 52,
+    "use": "Resina: Un frasco de la resina fresca del piñón blanco.",
+    "preparation": "Extraer la resina del arbusto.",
+    "indication": "Tomar la resina fresca con jugo de limón por tres dias. Utilizada tradicionalmente para despejar las vías respiratorias.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 107,
+    "disease_id": 8,
+    "plant_id": 77,
+    "use": "Corteza: 5 g de la corteza del bellaco caspi.",
+    "preparation": "Infusión de 5 g de corteza en un litro de agua.",
+    "indication": "Después de las comidas se bebe un vaso de la infusión de 5 g de corteza en un litro de agua, durante quince días. Fortalece el sistema respiratorio y reduce episodios asmáticos.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 108,
+    "disease_id": 8,
+    "plant_id": 34,
+    "use": "Recina: Un frasco de la resina de la copaiba.",
+    "preparation": "Tomar la oleoresina en gotas, en una cuchara con agua tibia.",
+    "indication": "Empleada para reducir inflamación de vías respiratorias.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 109,
+    "disease_id": 8,
+    "plant_id": 4,
+    "use": "Hojas: Diez hojas del cogollo de la bolsa mullaca.",
+    "preparation": "Infusión de la parte aérea de la planta; tomar una taza tres veces al día, caliente o como agua de tiempo.",
+    "indication": "Ayuda a calmar ataques de asma y mejora la función pulmonar.",
+    "sync_status": "",
+    "last_updated": null
+  },
+    {
+    "diseplant_id": 110,
+    "disease_id": 8,
+    "plant_id": 66,
+    "use": "Semillas: 20 g de semillas del café.",
+    "preparation": "Secar y moler las semillas. Tomar en forma de té diluyendo una cucharada del polvo del café.",
+    "indication": "Ayuda a calmar ataques de asma.",
+    "sync_status": "",
+    "last_updated": null
+  },
+   {
+    "diseplant_id": 111,
+    "disease_id": 9,
+    "plant_id": 22,
+    "use": "Rizomas: dos rizoma de jengibre.",
+    "preparation": "Masticar el rizoma crudo o hervirlo machacado con azúcar y aguardiente. Otra preparación incluye rallar un rizoma y una cebolla, diluir en una taza de agua y añadir una cucharada de azúcar.",
+    "indication": "Alivia la tos, el escozor de garganta y síntomas de la gripe.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 112,
+    "disease_id": 9,
+    "plant_id": 62,
+    "use": "Raíz: Tres raíces de hierva luisa.",
+    "preparation": "Machacar las raíces y hervir en un recipiente con agua por cinco minutos.",
+    "indication": "Tomar una taza dos veces al día. Uso tradicional para reducir fiebre y aliviar síntomas gripales.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 113,
+    "disease_id": 9,
+    "plant_id": 75,
+    "use": "Hojas: Siete hojas de atadijo.",
+    "preparation": "Estrujar las hojas en agua, añadir el jugo de un limón. Tomar tres veces al día.",
+    "indication": "Remedio casero para aliviar gripe y congestión.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 114,
+    "disease_id": 9,
+    "plant_id": 78,
+    "use": "Cascaras: 5g de cáscara de la semilla del cacao.",
+    "preparation": "Secar, moler y cocinar el polvo de las cascaras para obtener un chocolate espeso. Tomar una taza tres veces al día.",
+    "indication": "Usado para fortalecer el cuerpo durante gripes intensas.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 115,
+    "disease_id": 9,
+    "plant_id": 45,
+    "use": "Frutos: Tres fruto del limón.",
+    "preparation": "Hacer jarabe de limón con jengibre y miel de abeja. También se hacen gárgaras con jugo de limón y sal, y vaporizaciones con limón cocido y mentol.",
+    "indication": "Calma la garganta, reduce fiebre y descongestiona.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 116,
+    "disease_id": 9,
+    "plant_id": 62,
+    "use": "Tallos: Tres tallos de la hierva luisa.",
+    "preparation": "Hervir los tallos con medio litro de agua.",
+    "indication": "Tomar en forma de té. Alivia el malestar gripal, la tos y fiebre.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 117,
+    "disease_id": 9,
+    "plant_id": 53,
+    "use": "Resina: un frasco de la resina fresca del piñón negro.",
+    "preparation":"Extraer La recsina de la corteza",
+    "indication": "Tomar la resina fresca mezclada con jugo de limón.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 118,
+    "disease_id": 9,
+    "plant_id": 42,
+    "use": "Frutos: Tres fruto maduros del huingo.",
+    "preparation": "Rallar la pulpa del fruto y colar el liquido en un recipiente.",
+    "indication": "Tomar jarabe preparado con los frutos maduros.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 119,
+    "disease_id": 9,
+    "plant_id": 100,
+    "use": "Hojas:  Cinco hojas de mucura.",
+    "preparation": "Hervir las hojas trituradas con una taza de agua por tres minutos. Tomar dos cucharadas mañana y tarde por cinco dias.",
+    "indication": "Alivia resfriado común, congestión nasal y fiebre.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 120,
+    "disease_id": 9,
+    "plant_id": 57,
+    "use": "Fruto: un fruto de la toronja.",
+    "preparation": "Extraer el jugo del fruto, hervir con una cuarta parte de agua por dos minutos.",
+    "indication": "Tomar una cucharada y Hacer gargaras añadiendo sal o mentol. Refuerza el sistema inmunológico y alivia síntomas de gripe.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 121,
+    "disease_id": 9,
+    "plant_id": 44,
+    "use": "Hojas: Cuatro hojas de la lancetilla.",
+    "preparation": "Triturar las hojas en una taza con agua hervida.",
+    "indication": "Infusión de las hojas dos veces al dia.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 122,
+    "disease_id": 9,
+    "plant_id": 43,
+    "use": "Fruto: Tres frutos maduro del huito.",
+    "preparation": "Rallar la pulpa del fruto para extraer el jugo y prepararlos con limón y miel de abeja.",
+    "indication": " Tomar el jarabe preparado con los frutos maduros. Calma tos seca y molestias en la garganta.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 123,
+    "disease_id": 9,
+    "plant_id": 47,
+    "use": "Hojas: Siete hojas del pampa oregano.",
+    "preparation": "Triturar las hojas en una taza con agua hervida.",
+    "indication": "Infusión de las hojas mezcladas con miel.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 124,
+    "disease_id": 9,
+    "plant_id": 16,
+    "use": "Hojas: Tres hojas de la malva.",
+    "preparation": "Infusión de las hojas.",
+    "indication": "Tomar la infusión de las hojas. Suaviza las mucosas irritadas por tos.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 125,
+    "disease_id": 9,
+    "plant_id": 27,
+    "use": "Flores: Un manojo de flores de la amasisa.",
+    "preparation": "Cocimiento de las flores.",
+    "indication": "Tomar el cocimiento de las flores. Alivia fiebre y congestión respiratoria.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 126,
+    "disease_id": 9,
+    "plant_id": 24,
+    "use": "Hojas: Cinco hojas de la albahaca.",
+    "preparation": "Infusión de una cucharada picada en una taza de agua hervida. Tomar una taza tres veces al día.",
+    "indication": "Alivia la tos, la congestión y fiebre.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 127,
+    "disease_id": 9,
+    "plant_id": 32,
+    "use": "Corteza: Dos trozo de la corteza del chuchuhuasi.",
+    "preparation": "Realizar trozos en cuadros y en una botella ponerlo a macerar con aguardiente. Tomar la maceración en alcohol de la corteza.",
+    "indication": "Fortalece el sistema inmunológico y combate infecciones respiratorias.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 128,
+    "disease_id": 9,
+    "plant_id": 7,
+    "use": "Raíz: Seis raíces del chiri sanango",
+    "preparation": "Realizar trozos en cuadros y en una botella ponerlo a macerar con aguardiente. Tomar la maceración en alcohol de las raíces.",
+    "indication": "Reduce los síntomas de gripe y resfriado.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 129,
+    "disease_id": 9,
+    "plant_id": 70,
+    "use": "Raíz: Seis raíces del hoja del aire",
+    "preparation": "Machacar las raíces y ponerlo a hervir por tres minutos. Tomar el liquido en forma de té dos veces al dia.",
+    "indication": "Reduce los síntomas de tos.",
+    "sync_status": "",
+    "last_updated": null
+  },
+   {
+    "diseplant_id": 130,
+    "disease_id": 9,
+    "plant_id": 65,
+    "use": "Hojas: Tres hojas del aji macusari",
+    "preparation": "Lavar bien las hojas, en un recipiente ponerlo a hervir por dos minutos. Tomar una cucharada tres veces al dia.",
+    "indication": "Reduce los síntomas de la gripe.",
+    "sync_status": "",
+    "last_updated": null
+  },
+   {
+    "diseplant_id": 131,
+    "disease_id": 10,
+    "plant_id": 4,
+    "use": "Tallo: 10 cm del tallo de la bolsa mullaca.",
+    "preparation": "Moler diez centímetros del tallo, ingerir una cucharadita del jugo tres veces al día por diez días.",
+    "indication": "Uso oral para aliviar inflamación bronquial y favorecer la expectoración.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 132,
+    "disease_id": 10,
+    "plant_id": 44,
+    "use": "Hojas: Diez hojas de la lancetilla.",
+    "preparation": "Preparar infusión de las hojas.",
+    "indication": "Uso tradicional para calmar la tos y reducir la irritación bronquial.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 133,
+    "disease_id": 10,
+    "plant_id": 76,
+    "use": "Planta: Una planta entera de la amasisa.",
+    "preparation": "Machacar toda la planta y agregralo en un recipiente con agua hervida caliente. Tomar una taza en infusión dos veces al dia.",
+    "indication": "Utilizada como expectorante natural y descongestionante en casos de bronquitis.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 134,
+    "disease_id": 10,
+    "plant_id": 34,
+    "use": "Resina: 3 gotas de la resina de la copaiba.",
+    "preparation": "Tomar tres gotas en una cucharada de agua tibia.",
+    "indication": "Uso oral como antiinflamatorio y antiséptico de las vías respiratorias.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+  "diseplant_id": 135,
+  "disease_id": 10,
+  "plant_id": 43,
+  "use": "Fruto: Tres frutos del huingo.",
+  "preparation": "Comer los frutos al natural o tomar el jarabe preparado con los frutos maduros.",
+  "indication": "Uso tradicional como suavizante y calmante de garganta y bronquios.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 136,
+  "disease_id": 10,
+  "plant_id": 32,
+  "use": "Corteza: Dos trozos de la corteza del chuchuhuasi.",
+  "preparation": "Tomar la maceración en alcohol de la corteza.",
+  "indication": "Usado como tónico pulmonar para combatir infecciones respiratorias.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 137,
+  "disease_id": 10,
+  "plant_id": 5,
+  "use": "Hojas y rizomas de la calaguala.",
+  "preparation": "Usar en infusiones y/o cocimiento.",
+  "indication": "Tomar la infusión o cocimiento. Descongestiona las vías respiratorias y mejora la función pulmonar.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 138,
+  "disease_id": 10,
+  "plant_id": 68,
+  "use": "Hojas y Tallos: Tres hojas y dos tallos del cordoncillo.",
+  "preparation": "Lavar, Machacar las hojas y tallo en un recipiente con tres tazas de agua, ponerlo a hervir por cinco minutos. Tomar como infusiones y/o cocimiento.",
+  "indication": "útil para desinflamar las vias respiratorias.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 139,
+  "disease_id": 11,
+  "plant_id": 1,
+  "use": "Raíz: Tres raíces de la abuta blanca.",
+  "preparation": "Machacarlas y macerarlas con una botella de aguardiente por una semana.",
+  "indication": "Tomar la macerarción una vez al día por un mes. Uso tradicional para aliviar el dolor y la inflamación reumática.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 140,
+  "disease_id": 11,
+  "plant_id": 22,
+  "use": "Rizoma: 3 kg de rizomas de jengibre.",
+  "preparation": "Hervir en agua, pelados y machacados. Añadir 3 kg de azúcar y dejar reposar varias semanas. Tomar una vez al día, hasta completar un mes.",
+  "indication": "Alivia el dolor y mejora la circulación; usado como bebida caliente contra el reumatismo.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 141,
+  "disease_id": 11,
+  "plant_id": 3,
+  "use": "Raíz: Cinco raíces de achiote.",
+  "preparation": "Lavar y macerar las raíces en aguardiente.",
+  "indication": "Tomar una vez al día, hasta completar un mes. Utilizado para dolores articulares crónicos.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 142,
+  "disease_id": 11,
+  "plant_id": 3,
+  "use": "Hojas: Tres hojas de achiote macho, hembra y rojo.",
+  "preparation": "Cocinar con tres litros de agua por 15 minutos.",
+  "indication": "Baños o compresas para aliviar el dolor y la inflamación articular.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 143,
+  "disease_id": 11,
+  "plant_id": 5,
+  "use": "Hojas y rizomas: Tres hojas y tres rizomas.",
+  "preparation": "Hervir machacadas con una taza de agua por tres minutos.",
+  "indication": "Uso como antiinflamatorio natural para el reumatismo.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 144,
+  "disease_id": 11,
+  "plant_id": 23,
+  "use": "Raíz y hojas: cinco raíces y varias hojas.",
+  "preparation": "Raíz: macerar cinco raíces en aguardiente por dos días y tomar en ayunas. Hojas: cocimiento de tres hojas macho, tres hembra y cuatro de achiote rojo, para baños y emplastos.",
+  "indication": "Alivia el dolor y la rigidez articular. Usado como tónico y en terapias externas.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 145,
+  "disease_id": 11,
+  "plant_id": 43,
+  "use": "Fruto: Cuatro frutos del huito.",
+  "preparation": "Picar los frutos y ponerlos a macerar en aguardiente. Tomar la maceración en alcohol.",
+  "indication": "Uso tradicional interno para aliviar el reumatismo.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 146,
+  "disease_id": 11,
+  "plant_id": 63,
+  "use": "Hojas: Cuatro hojas de la achira.",
+  "preparation": "Hervir y aplicar el vapor sobre la zona afectada.",
+  "indication": "Uso externo para desinflamar y aliviar el dolor articular.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 147,
+  "disease_id": 11,
+  "plant_id": 82,
+  "use": "Corteza: 100 g de cumaceba.",
+  "preparation": "Macerar en 1 litro de aguardiente; tomar una copita como aperitivo.",
+  "indication": "Uso interno como tónico para el dolor reumático.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 148,
+  "disease_id": 11,
+  "plant_id": 96,
+  "use": "Hojas: 10 g de hojas frescas de sanango.",
+  "preparation": "Calentar al fuego y aplicar directamente sobre la zona afectada.",
+  "indication": "Uso externo como calmante para articulaciones inflamadas.",
+  "sync_status": "",
+  "last_updated": null
+},
+  {
+    "diseplant_id": 149,
+    "disease_id": 11,
+    "plant_id": 46,
+    "use": "Resina: Un frasco de la resina del oje.",
+    "preparation": "Extraer la resina del árbol y almacenarla en un frasco cuentagotas. Aplicar el látex en la zona afectada.",
+    "indication": "Tradicionalmente utilizado como antiinflamatorio local.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 150,
+    "disease_id": 11,
+    "plant_id": 81,
+    "use": "Hojas: Cinco hojas del cogollo de la chambira.",
+    "preparation": "Hervir varias hojas en 20 litros de agua y tomar baños de vapor.",
+    "indication": "Baños corporales para aliviar el dolor y relajar el cuerpo.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 151,
+    "disease_id": 11,
+    "plant_id": 38,
+    "use": "Corteza: Dos trozos de la corteza del árbol del huacapú.",
+    "preparation": "Macerar 200 g en alcohol o en 1 litro de aguardiente de caña. Tomar una copita en ayunas durante 15 días.",
+    "indication": "Uso tradicional para desinflamar articulaciones y aliviar dolores reumáticos.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 152,
+    "disease_id": 11,
+    "plant_id": 77,
+    "use": "Corteza: 10 g de la corteza del bellaco caspi.",
+    "preparation": "Cocer la corteza y tomar una copa del cocimiento cada 8 horas.",
+    "indication": "Usado como antiinflamatorio natural contra el reumatismo.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 153,
+    "disease_id": 11,
+    "plant_id": 39,
+    "use": "Corteza: 100 g de la huacapurana.",
+    "preparation": "Macerar en un litro de aguardiente durante 15 días. Tomar una copita por la mañana antes del baño.",
+    "indication": "Uso interno como tónico para aliviar dolores articulares crónicos.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 154,
+    "disease_id": 11,
+    "plant_id": 85,
+    "use": "Hojas: 100 g de hojas frescas del árbol de palta.",
+    "preparation": "Preparar una infusión en un litro de agua.",
+    "indication": "Uso oral como depurativo y antiinflamatorio natural para articulaciones.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 155,
+    "disease_id": 11,
+    "plant_id": 50,
+    "use": "Hojas: Tres hojas frescas de la patiquina.",
+    "preparation": "Asar las hojas y aplicar sobre la zona inflamada con una gasa. Repetir durante tres días sin mojar la zona por cuatro días.",
+    "indication": "Uso externo como antiinflamatorio local para dolores musculares o articulares.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 156,
+    "disease_id": 11,
+    "plant_id": 48,
+    "use": "Hojas: 5 g de hojas frescas de paico.",
+    "preparation": "Tomar la infusión de las hojas.",
+    "indication": "Uso oral para aliviar malestares generales, incluido el reumatismo leve.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 157,
+    "disease_id": 11,
+    "plant_id": 37,
+    "use": "Rizomas: Cinco rizomas del guisador.",
+    "preparation": "Rallar y aplicar en forma de emplastos sobre las zonas doloridas.",
+    "indication": "Calma el dolor reumático mediante aplicación externa.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 158,
+    "disease_id": 11,
+    "plant_id": 34,
+    "use": "Corteza: Dos trozos de la corteza de copaiba.",
+    "preparation": "Aplicar el cocimiento en forma de baños.",
+    "indication": "Baños medicinales para reducir inflamación articular.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 159,
+    "disease_id": 11,
+    "plant_id": 29,
+    "use": "Corteza: 5 g del árbol de azúcar huayo.",
+    "preparation": "Preparar cocimiento en un litro de agua. Tomar una copa cada 8 horas.",
+    "indication": "Antiinflamatorio natural de uso oral para aliviar el reumatismo.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 160,
+    "disease_id": 11,
+    "plant_id": 33,
+    "use": "Raíces y tallos: 10 g del las ríces y tallos del clavo huasca.",
+    "preparation": "Preparar la maceración de las raíces y tallos en alcohol. Tomar la maceración en alcohol.",
+    "indication": "Usado como bebida tradicional para fortalecer los huesos y aliviar reumatismo.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 161,
+    "disease_id": 11,
+    "plant_id": 32,
+    "use": "Corteza o raíz: Tres trozos de corteza o raíces del chuchuhuasi.",
+    "preparation": "Preparar la macerarción en alcohol. Tomar la maceración en alcohol.",
+    "indication": "Uso interno como tónico general y analgésico para dolores articulares.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 162,
+    "disease_id": 11,
+    "plant_id": 6,
+    "use": "Raíz: Tres raíces de la chanca piedra.",
+    "preparation": "Preparar una infusión y tomar como agua de tiempo.",
+    "indication": "Uso oral prolongado como desintoxicante y antiinflamatorio.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 163,
+    "disease_id": 11,
+    "plant_id": 18,
+    "use": "Flores del ayahuasca zapatilla.",
+    "preparation": "Preparar una infusión como bebida caliente o en cocimiento para baños.",
+    "indication": "Uso doble: interno como bebida, externo como baño medicinal contra dolores reumáticos.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 164,
+    "disease_id": 11,
+    "plant_id": 7,
+    "use": "Raíz: siete raíces del chiri sanango.",
+    "preparation": "Macerar en 5 litros de agua, dar a beber en ayunas y luego bañarse. También: macerar dos raíces en un litro de aguardiente por dos días y tomar una copita tres veces al día.",
+    "indication": "Planta potente en tratamientos amazónicos para el reumatismo, utilizada tanto en agua como en aguardiente.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 165,
+    "disease_id": 11,
+    "plant_id": 94,
+    "use": "Hojas: Tres hojas del sanango.",
+    "preparation": "las hojas frescas se calientan al fuego y se colocan directamente sobre la zona afectada.",
+    "indication": "Planta para tratamientos del reumatismo.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+  "diseplant_id": 166,
+  "disease_id": 12,
+  "plant_id": 2,
+  "use": "Aplicar el polvo de la corteza sobre las heridas de la úlcera externa.",
+  "preparation": "Secar y pulverizar la corteza de la planta hasta obtener un polvo fino.",
+  "indication": "Tratamiento tópico tradicional para úlceras externas en la piel; ayuda como cicatrizante.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 167,
+  "disease_id": 12,
+  "plant_id": 14,
+  "use": "Aplicar en forma de emplastos, cataplasmas, baños o lavados.",
+  "preparation": "Hervir las hojas, raíces o semillas. Usar el cocimiento o el zumo fresco para aplicar externamente.",
+  "indication": "Alivio de úlceras simples o crónicas de la piel por sus propiedades antiinflamatorias y regenerativas.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 168,
+  "disease_id": 12,
+  "plant_id": 32,
+  "use": "Aplicar el polvo de la corteza quemada en las heridas.",
+  "preparation": "Quemar la corteza seca y triturarla hasta obtener un polvo fino.",
+  "indication": "Uso externo como cicatrizante para úlceras cutáneas persistentes.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 169,
+  "disease_id": 12,
+  "plant_id": 63,
+  "use": "Lavar las úlceras de la piel con el líquido de las hojas hervidas.",
+  "preparation": "Hervir las hojas en agua limpia. Dejar enfriar y usar el líquido para lavar las zonas afectadas.",
+  "indication": "Tratamiento limpiador y calmante para úlceras dérmicas.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 170,
+  "disease_id": 12,
+  "plant_id": 27,
+  "use": "Aplicar la corteza rallada directamente sobre la úlcera.",
+  "preparation": "Rallar la corteza fresca de la planta hasta obtener virutas finas.",
+  "indication": "Alivio tópico tradicional de úlceras dérmicas con efecto protector y cicatrizante.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 171,
+  "disease_id": 12,
+  "plant_id": 16,
+  "use": "Aplicar mediante lavados, baños, vaporizaciones o emplastos.",
+  "preparation": "Cocer el tallo, hojas y flores en agua. Utilizar el cocimiento tibio o frío, según el caso.",
+  "indication": "Calma la inflamación y favorece la regeneración de la piel con úlceras.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 172,
+  "disease_id": 12,
+  "plant_id": 11,
+  "use": "Aplicar en forma de emplastos.",
+  "preparation": "Machacar el bulbo (papa) fresco o hervido y aplicar sobre la zona afectada.",
+  "indication": "Ayuda a la cicatrización de úlceras simples mediante aplicación directa.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 173,
+  "disease_id": 13,
+  "plant_id": 1,
+  "use": "Tomar el cocimiento del tallo.",
+  "preparation": "Hervir el tallo limpio de abuta blanca hasta obtener un cocimiento. Tomar como infusión.",
+  "indication": "Alivio de úlceras estomacales mediante tratamiento tradicional.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 174,
+  "disease_id": 13,
+  "plant_id": 20,
+  "use": "Usar el látex y la savia en cocimientos, infusiones, baños o colutorios.",
+  "preparation": "Recolectar el látex y la savia de la planta; preparar en cocimiento o infusión, según la necesidad.",
+  "indication": "Tratamiento tradicional para cicatrizar úlceras y aliviar inflamaciones internas.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 175,
+  "disease_id": 13,
+  "plant_id": 52,
+  "use": "Tomar la resina durante 15 días por las mañanas.",
+  "preparation": "Recolectar la resina fresca del piñón blanco. Tomar una pequeña cantidad en ayunas cada mañana durante 15 días.",
+  "indication": "Alivio y mejora progresiva de las úlceras estomacales mediante tratamiento tradicional.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 176,
+  "disease_id": 13,
+  "plant_id": 90,
+  "use": "Tomar el jugo extraído de las hojas.",
+  "preparation": "Triturar las hojas y exprimir para obtener el jugo. Tomar un cuarto de vaso por la mañana durante 15 días.",
+  "indication": "Tratamiento tradicional para úlceras estomacales mediante el consumo de jugo fresco.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 177,
+  "disease_id": 13,
+  "plant_id": 52,
+  "use": "Tomar la resina durante 15 días por las mañanas.",
+  "preparation": "Recolectar la resina fresca del piñón blanco y tomar una dosis adecuada en ayunas.",
+  "indication": "Alivio y mejoría de las úlceras estomacales.",
+  "sync_status": "",
+  "last_updated": null
+},
+ 
+  {
+  "diseplant_id": 178,
+  "disease_id": 13,
+  "plant_id": 34,
+  "use": "Tomar la oleorresina en gotas.",
+  "preparation": "Recolectar la oleorresina del árbol de copaiba. Tomar cinco gotas diluidas en una cucharada de agua tibia, en ayunas, durante siete días.",
+  "indication": "Tratamiento tradicional para aliviar y cicatrizar las úlceras estomacales.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 179,
+  "disease_id": 13,
+  "plant_id": 21,
+  "use": "Tomar el cocimiento de la planta entera triturada.",
+  "preparation": "Triturar 250 g de la planta entera y hervir para obtener un cocimiento. Ingerir directamente.",
+  "indication": "Alivio de dolores asociados a úlceras estomacales.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 180,
+  "disease_id": 13,
+  "plant_id": 34,
+  "use": "Tomar cinco gotas de aceite diluidas en agua tibia en ayunas durante siete días.",
+  "preparation": "Recolectar la oleorresina de copaiba y dosificar cinco gotas diluidas en una cucharada de agua tibia.",
+  "indication": "Alivia las úlceras estomacales y contribuye a la regeneración del tejido gástrico.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 181,
+  "disease_id": 13,
+  "plant_id": 2,
+  "use": "Tomar la decocción de la corteza raspada dos veces al día.",
+  "preparation": "Raspar la corteza, hervirla para preparar una decocción. Tomar en la mañana y en la noche.",
+  "indication": "Alivia molestias estomacales y ayuda en el tratamiento de úlceras gástricas.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 182,
+  "disease_id": 14,
+  "plant_id": 2,
+  "use": "Aplicar el polvo de la corteza sobre las heridas.",
+  "preparation": "Secar y pulverizar la corteza hasta obtener un polvo fino.",
+  "indication": "Tratamiento tradicional para cicatrizar heridas producidas por la uta.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 183,
+  "disease_id": 14,
+  "plant_id": 46,
+  "use": "Aplicar el látex fresco directamente sobre la zona afectada.",
+  "preparation": "Extraer el látex fresco del tronco del árbol de oje.",
+  "indication": "Uso tópico para tratar lesiones cutáneas causadas por la uta.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 184,
+  "disease_id": 14,
+  "plant_id": 32,
+  "use": "Aplicar el polvo de la corteza quemada sobre las heridas.",
+  "preparation": "Quemar la corteza, dejar enfriar y pulverizar antes de aplicar.",
+  "indication": "Tratamiento tradicional como antiséptico y cicatrizante en casos de uta.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 185,
+  "disease_id": 14,
+  "plant_id": 7,
+  "use": "Aplicar el líquido espeso obtenido de la cocción de la corteza sobre la zona afectada y cubrir con una venda.",
+  "preparation": "Hervir la corteza hasta obtener un líquido espeso.",
+  "indication": "Tratamiento tópico tradicional para curar heridas por uta. Repetir la aplicación cada dos días hasta la sanación.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 186,
+  "disease_id": 15,
+  "plant_id": 1,
+  "use": "Tomar el cocimiento de la raíz como tónico cerebral.",
+  "preparation": "Lavar y machacar cuatro raíces de abuta blanca. Hervirlas en un recipiente con agua durante cinco minutos. Tomar en forma de té, dos veces al día por un mes.",
+  "indication": "Tratamiento tradicional como tónico para fortalecer el cerebro o en casos de problemas cerebrales.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 187,
+  "disease_id": 16,
+  "plant_id": 2,
+  "use": "Aplicar el polvo de la corteza tópicamente sobre las quemaduras.",
+  "preparation": "Secar y pulverizar la corteza de abuta colorada hasta obtener un polvo fino.",
+  "indication": "Uso tradicional como cicatrizante para quemaduras leves y heridas.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 188,
+  "disease_id": 16,
+  "plant_id": 85,
+  "use": "Aplicar el aceite extraído de la pulpa del fruto.",
+  "preparation": "Extraer el aceite de la pulpa madura del fruto de palta.",
+  "indication": "Alivio de quemaduras y regeneración de la piel.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 189,
+  "disease_id": 16,
+  "plant_id": 3,
+  "use": "Aplicar las semillas frescas trituradas sobre la zona afectada.",
+  "preparation": "Triturar las semillas frescas de achiote hasta formar una pasta.",
+  "indication": "Tratamiento tradicional para quemaduras superficiales.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 190,
+  "disease_id": 16,
+  "plant_id": 16,
+  "use": "Aplicar las hojas trituradas en la zona afectada en forma de compresas o soasadas.",
+  "preparation": "Triturar las hojas frescas de malva o calentarlas ligeramente antes de aplicar.",
+  "indication": "Alivio de quemaduras e infecciones leves de la piel.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 191,
+  "disease_id": 16,
+  "plant_id": 53,
+  "use": "Aplicar la resina directamente sobre la zona quemada.",
+  "preparation": "Recolectar la resina natural del piñón negro.",
+  "indication": "Uso cicatrizante y protector contra infecciones en quemaduras.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 192,
+  "disease_id": 16,
+  "plant_id": 52,
+  "use": "Aplicar el látex en la zona afectada.",
+  "preparation": "Extraer el látex del piñón blanco directamente del tallo o rama.",
+  "indication": "Tratamiento tradicional para quemaduras e irritaciones de la piel.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 193,
+  "disease_id": 16,
+  "plant_id": 2,
+  "use": "Aplicar el jugo obtenido de hojas y fruto machacados directamente sobre la herida.",
+  "preparation": "Machacar las hojas y el fruto crudos de cocona hasta extraer el jugo.",
+  "indication": "Uso tradicional para calmar quemaduras y heridas superficiales.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 194,
+  "disease_id": 16,
+  "plant_id": 8,
+  "use": "Baños con la decocción de la corteza.",
+  "preparation": "Hervir la corteza de abuta colorada para preparar una decocción.",
+  "indication": "Alivio del dolor de cabeza mediante baños con el cocimiento.",
+  "sync_status": "",
+  "last_updated": null
+},
+ {
+  "diseplant_id": 195,
+  "disease_id": 17,
+  "plant_id": 2,
+  "use": "Baños con la decocción de la corteza.",
+  "preparation": "Hervir la corteza de abuta colorada para preparar una decocción.",
+  "indication": "Alivio del dolor de cabeza mediante baños con el cocimiento.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 196,
+  "disease_id": 17,
+  "plant_id": 72,
+  "use": "Tomar el cocimiento de las hojas jóvenes en forma de té.",
+  "preparation": "Hervir hojas jóvenes de mishquipanga para preparar un té.",
+  "indication": "Uso tradicional para aliviar el dolor de cabeza.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 197,
+  "disease_id": 17,
+  "plant_id": 100,
+  "use": "Refrescar la cabeza en baño con hojas trituradas en agua fresca.",
+  "preparation": "Triturar un manojo de hojas de mucura en un recipiente con agua fresca hasta obtener un color verde.",
+  "indication": "Tratamiento tradicional para calmar dolores de cabeza mediante baño refrescante.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 198,
+  "disease_id": 17,
+  "plant_id": 44,
+  "use": "Lavar la cabeza con hojas de lancetilla.",
+  "preparation": "Preparar una infusión o cocimiento de las hojas para lavar la cabeza.",
+  "indication": "Uso tradicional contra el dolor de cabeza mediante lavado de la cabeza.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 199,
+  "disease_id": 17,
+  "plant_id": 3,
+  "use": "Aplicar el producto de la cocción o infusión de las hojas en forma de mates o lavados.",
+  "preparation": "Hervir las hojas de achiote para preparar cocimiento o infusión.",
+  "indication": "Alivio del dolor de cabeza mediante lavados o mates.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 200,
+  "disease_id": 18,
+  "plant_id": 3,
+  "use": "Tomar el cocimiento de la raíz.",
+  "preparation": "Hervir la raíz de achiote en agua para obtener un cocimiento.",
+  "indication": "Tratamiento natural de la gastritis mediante el consumo del cocimiento de la raíz.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 201,
+  "disease_id": 19,
+  "plant_id": 27,
+  "use": "Tomar el cocimiento de las raíces.",
+  "preparation": "Hervir las raíces de amasisa para obtener el cocimiento.",
+  "indication": "Tratamiento tradicional contra la malaria.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 202,
+  "disease_id": 19,
+  "plant_id": 1,
+  "use": "Tomar el cocimiento del tallo.",
+  "preparation": "Hervir el tallo de abuta blanca para preparar un cocimiento.",
+  "indication": "Uso tradicional contra los síntomas de la malaria.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 203,
+  "disease_id": 19,
+  "plant_id": 89,
+  "use": "Tomar una infusión de la raíz.",
+  "preparation": "Preparar infusión con la raíz de ruda.",
+  "indication": "Tratamiento natural de la malaria con raíz de ruda.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 204,
+  "disease_id": 19,
+  "plant_id": 54,
+  "use": "Tomar un vaso del cocimiento de la corteza triturada tres veces al día antes de las comidas.",
+  "preparation": "Triturar la corteza de remocaspi, hervirla en agua y dejar reposar el líquido obtenido.",
+  "indication": "Tratamiento tradicional de la malaria en la Amazonía.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 205,
+  "disease_id": 19,
+  "plant_id": 77,
+  "use": "Tomar una copa del cocimiento de la corteza (10 g) cada 8 horas.",
+  "preparation": "Hervir 10 g de corteza de bellaco caspi para obtener el cocimiento.",
+  "indication": "Uso tradicional antipalúdico.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 206,
+  "disease_id": 19,
+  "plant_id": 30,
+  "use": "Tomar el cocimiento de la corteza.",
+  "preparation": "Hervir la corteza de capirona para obtener el cocimiento.",
+  "indication": "Tratamiento natural para la malaria.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 207,
+  "disease_id": 19,
+  "plant_id": 4,
+  "use": "Tomar como agua de tiempo el cocimiento de las partes aéreas.",
+  "preparation": "Preparar un cocimiento de las partes aéreas de la planta en 5 litros de agua.",
+  "indication": "Uso tradicional como antipalúdico y purificante.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 208,
+  "disease_id": 19,
+  "plant_id": 28,
+  "use": "Tomar la infusión de la parte aérea de la planta.",
+  "preparation": "Preparar una infusión con la parte aérea de ayahuasca.",
+  "indication": "Tratamiento complementario para la malaria.",
+  "sync_status": "",
+  "last_updated": null
+},
+{
+  "diseplant_id": 209,
+  "disease_id": 19,
+  "plant_id": 3,
+  "use": "Tomar en forma de mates y usar lavados con la cocción o infusión de las hojas.",
+  "preparation": "Hervir las hojas de achiote para preparar infusión o cocimiento.",
+  "indication": "Apoyo tradicional al tratamiento de la malaria mediante limpieza y purificación.",
+  "sync_status": "",
+  "last_updated": null
+},
+  {
+    "diseplant_id": 210,
+    "disease_id": 20,
+    "plant_id": 3,
+    "use": "Tomar en forma de mates y usar en lavados el producto de la cocción o infusión de las hojas.",
+    "preparation": "Hervir las hojas de achiote para preparar infusión o cocimiento.",
+    "indication": "Uso tradicional para eliminar cálculos renales.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 211,
+    "disease_id": 20,
+    "plant_id": 6,
+    "use": "Tomar como agua de tiempo la cocción de toda la planta todos los días hasta que desaparezcan los síntomas; también tomar la decocción con cola de caballo y huasaí, serenar y beber tres veces al día por una semana.",
+    "preparation": "Cocinar toda la planta de chanca piedra. Para el preparado combinado: hervir hojas con cola de caballo (Equisetum giganteum) y huasaí (Euterpe precatoria), dejar serenar.",
+    "indication": "Tratamiento tradicional para disolver y eliminar piedras en los riñones. Evitar ají, carne de chancho, pescado y condimentos durante el tratamiento.",
+    "sync_status": "",
+    "last_updated": null
+  },
+   {
+    "diseplant_id": 212,
+    "disease_id": 20,
+    "plant_id": 69,
+    "use": "Raíces: cinco raices de la cortadera.",
+    "preparation": "Cocinar toda la raíces machacadas con medio litro de agua por cinco minutos. tomar el liquido una vez al dia, asociar con jugo de piña.",
+    "indication": "Tratamiento tradicional para disolver y eliminar inflamación de riñones. Evitar ají, carne de chancho, pescado y condimentos durante el tratamiento.",
+    "sync_status": "",
+    "last_updated": null
+  },
+   
+   {
+    "diseplant_id": 213,
+    "disease_id": 21,
+    "plant_id": 4,
+    "use": "Tomar una cucharadita del jugo de hojas tres veces al día por diez días, o tomar infusión de raíces.",
+    "preparation": "Machacar las hojas para extraer el jugo; o preparar infusión de las raíces.",
+    "indication": "Tratamiento tradicional para hepatitis con dieta estricta (evitar manteca de chancho, carne de res, ají, ácidos y relaciones sexuales).",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 214,
+    "disease_id": 21,
+    "plant_id": 25,
+      "use": "Tomar una taza de decocción de flores tres veces al día.",
+    "preparation": "Hervir 10 g de flores en agua (decocción).",
+    "indication": "Tratamiento tradicional para hepatitis.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 215,
+    "disease_id": 21,
+    "plant_id": 40,
+    "use": "Tomar el cocimiento de raíces combinadas con huicungo y ungurahui.",
+    "preparation": "Hervir las raíces de huasai, huicungo y ungurahui.",
+    "indication": "Desintoxicación hepática en casos de hepatitis.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 216,
+    "disease_id": 21,
+    "plant_id": 18,
+    "use": "Tomar infusión caliente de las flores y usar cocimiento para baños.",
+    "preparation": "Hervir las flores para infusión y preparar cocimiento para uso externo.",
+    "indication": "Tratamiento hepático y alivio sintomático.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 217,
+    "disease_id": 21,
+    "plant_id": 61,
+    "use": "Tomar el agua de las hojas hervidas.",
+    "preparation": "Hervir las hojas en agua.",
+    "indication": "Uso tradicional para aliviar síntomas hepáticos.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 218,
+    "disease_id": 21,
+    "plant_id": 56,
+    "use": "Tomar la infusión de las hojas.",
+    "preparation": "Preparar infusión con hojas de Santa María.",
+    "indication": "Tratamiento hepático tradicional.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 219,
+    "disease_id": 21,
+    "plant_id": 51,
+    "use": "Tomar como té la cáscara y la pulpa cocida.",
+    "preparation": "Hervir la cáscara y pulpa para preparar el té.",
+    "indication": "Alivio digestivo y desintoxicación hepática.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 220,
+    "disease_id": 21,
+    "plant_id": 98,
+    "use": "Beber el jugo del tallo.",
+    "preparation": "Exprimir el jugo del tallo fresco.",
+    "indication": "Uso tradicional como depurativo hepático.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 221,
+    "disease_id": 21,
+    "plant_id": 37,
+    "use": "Tomar el jugo de los rizomas.",
+    "preparation": "Moler o exprimir los rizomas frescos.",
+    "indication": "Tratamiento depurativo hepático.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 222,
+    "disease_id": 21,
+    "plant_id": 3,
+    "use": "Tomar infusión o cocción de hojas como mate o usar en lavados.",
+    "preparation": "Hervir las hojas para obtener infusión o cocción.",
+    "indication": "Desintoxicante hepático tradicional.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 223,
+    "disease_id": 21,
+    "plant_id": 38,
+    "use": "Tomar el cocimiento y usarlo también para baños.",
+    "preparation": "Hervir la madera o corteza para obtener cocimiento.",
+    "indication": "Purificación hepática y tratamiento externo.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 224,
+    "disease_id": 21,
+    "plant_id": 28,
+    "use": "Tomar la infusión de las raíces.",
+    "preparation": "Preparar infusión con raíces limpias.",
+    "indication": "Uso tradicional para desintoxicación hepática (con supervisión).",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 225,
+    "disease_id": 21,
+    "plant_id": 6,
+    "use": "Tomar como agua de tiempo hasta que desaparezca el color amarillo (ictericia).",
+    "preparation": "Cocinar de 15 a 20 raíces limpias en 2 litros de agua durante 30 minutos.",
+    "indication": "Tratamiento natural de la hepatitis e ictericia.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 226,
+    "disease_id": 21,
+    "plant_id": 92,
+    "use": "Corteza: 10 g de la corteza del tahuari.",
+    "preparation": "El cocimiento de 10 g de corteza interna en un litro de agua se bebe diariamente durante 1 mes. ",
+    "indication": "Tratamiento natural de la hepatitis e ictericia.",
+    "sync_status": "",
+    "last_updated": null
+  },
+    {
+    "diseplant_id": 227,
+    "disease_id": 22,
+    "plant_id": 32,
+    "use": "Tomar el cocimiento o la maceración alcohólica de la corteza o raíz.",
+    "preparation": "Hervir la corteza o raíz para obtener un cocimiento, o macerarlas en alcohol por varios días.",
+    "indication": "Alivio de dolores articulares causados por artritis.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 228,
+    "disease_id": 22,
+    "plant_id": 46,
+    "use": "Aplicar el látex directamente sobre la zona afectada.",
+    "preparation": "Recolectar la resina (látex) directamente del tronco de la planta.",
+    "indication": "Uso externo tradicional para aliviar inflamaciones por artritis.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 229,
+    "disease_id": 22,
+    "plant_id": 31,
+    "use": "Resina: un frasco de la gota de resina de catahua.",
+    "preparation": "Recolectar la resina fresca del árbol.",
+    "indication": "Aplicar la resina directamente sobre la mordedura de serpiente. Tratamiento tradicional para mordedura de serpiente.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 230,
+    "disease_id": 22,
+    "plant_id": 93,
+    "use": "Frutas:  cinco frutas fresco del tomate.",
+    "preparation": "Extraer jugo. Tomar el jugo, 1 vaso por día por un mes.",
+    "indication": "Tratamiento tradicional para mordedura de serpiente.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 231,
+    "disease_id": 23,
+    "plant_id": 73,
+    "use": "Bulbos: Cinco bulbos del yahuar piri piri.",
+    "preparation": "Triturar los bulbos frescos y extraer el jugo.",
+    "indication": "Tomar el jugo de cuatro a seis bulbos triturados. Tratamiento tradicional para mordedura de serpiente.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 232,
+    "disease_id": 23,
+    "plant_id": 85,
+    "use": "Lavar la herida con el cocimiento de la semilla.",
+    "preparation": "Hervir la semilla en agua para preparar el cocimiento.",
+    "indication": "Tratamiento externo para mordedura de serpiente.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 233,
+    "disease_id": 23,
+    "plant_id": 48,
+    "use": "Aplicar en baños de asiento con la infusión de las hojas.",
+    "preparation": "Preparar una infusión con hojas de paico.",
+    "indication": "Uso externo para mordedura de serpiente.",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 234,
+    "disease_id": 23,
+    "plant_id": 52,
+    "use": "Aplicar el látex directamente sobre la herida.",
+    "preparation": "Recolectar el látex (resina) directamente de la planta.",
+    "indication": "Uso tradicional para mordedura de serpiente (con precaución por toxicidad).",
+    "sync_status": "",
+    "last_updated": null
+  },
+  {
+    "diseplant_id": 235,
+    "disease_id": 24,
+    "plant_id": 41,
+    "use": "Recibir los vapores del cocimiento en baño de asiento por las noches durante 15 días.",
+    "preparation": "Tostar siete semillas de huayruro, triturarlas y ponerlas en cocimiento.",
+    "indication": "Tratamiento tradicional para hemorroides mediante baños de vapor.",
+    "sync_status": "",
     "last_updated": null
   }
+
 ]
+
+
+
+
+
+
+
+  
+
+ 

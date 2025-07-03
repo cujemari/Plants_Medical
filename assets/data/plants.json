@@ -2,13 +2,12 @@
   {
     "plant_id":1,
     "name_plant": "ABUTA BLANCA",
-    "image_plant": "assets/images_plants/abuta_blanca.png",
+    "image_plant": "assets/images_plants/abuta_blanca.webp",
     "vulgar_synomaly": "Trompetero sacha, sanango, caimitillo, ancabesux (siona), motelo sanango, soga; oje-ji-ka-ka (andoke), taquepuraque (kubeo), vibuajeira-mirsimarika (macuna), pancha muca (shipibo-conibo, palo de motelo (Ecuador), bofrusiri (Surinam).",
     "scientific_name": "Abuta grandifolia (Mart.) Sandwith",
     "family": "Menispermaceae",
     "botanical_description": "Planta silvestre, liana enredadera de tallo leñoso de forma triangular, con hebras fibrosas, de color verde oscuro. Hojas ovaladas, flores de color rojo. Florece en la época de invierno.",
-    "habitat":
-        "De climas cálidos, bosque primario, bosque secundario. Desarrolla en altitudes de 0 a 600 m.",
+    "habitat": "De climas cálidos, bosque primario, bosque secundario. Desarrolla en altitudes de 0 a 600 m.",
     "chemical_composition":
         "Saponinas, flavonas, alcaloides (bencil-isoquinolínico, palmatina) y taninos.",
     "sync_status":"",
@@ -18,13 +17,12 @@
   {
   "plant_id":2, 
     "name_plant": "ABUTA COLORADA",
-    "image_plant": "assets/images_plants/abuta_colorada.png",
+    "image_plant": "assets/images_plants/abuta_colorada.webp",
     "vulgar_synomaly": "Jimi mashaman rao (Shipibo-Conibo), yairipini (Machiguenga), cochllepar (Yanesha).",
     "scientific_name": "Paullinia bracteosa Radlkofer",
     "family": "Sapindaceae",
     "botanical_description": "Planta silvestre, liana enredadera de tallo leñoso de forma triangular, con hebras fibrosas, de color verde oscuro. Hojas ovaladas, flores de color rojo. Florece en la época de invierno.",
-    "habitat":
-        "Soga que crece en el bajío. Desarrolla en altitudes de 0 a 600 m.",
+    "habitat": "Soga que crece en el bajío. Desarrolla en altitudes de 0 a 600 m.",
     "chemical_composition":"No reportada",
     "sync_status":"",
     "last_updated":null
@@ -32,7 +30,7 @@
  {
  "plant_id":3, 
     "name_plant": "ACHIOTE",
-    "image_plant": "assets/images_plants/achiote.png",
+    "image_plant": "assets/images_plants/achiote.webp",
     "vulgar_synomaly": "Achiote",
     "scientific_name": "Bixa orellana L.",
     "family": "Bixaceae",
@@ -45,7 +43,7 @@
     {
     "plant_id":4,
     "name_plant": "BOLSA MULLACA",
-    "image_plant": "assets/images_plants/bolsa_mullaca.png",
+    "image_plant": "assets/images_plants/bolsa_mullaca.webp",
     "vulgar_synomaly": "Mullaca; capulí cimarrón; shimon (shipibo-conibo).",
     "scientific_name": "Physalis angulata L.",
     "family": "Solanaceae",
@@ -62,7 +60,7 @@
     {
     "plant_id":5, 
     "name_plant": "CALAHUALA",
-    "image_plant": "assets/images_plants/calahuala.png",
+    "image_plant": "assets/images_plants/calahuala.webp",
     "vulgar_synomaly": "Calahuala, huacsaro, ccallahuala fina, huajcho, huesaru, kalahuala, pontu- pontu.",
     "scientific_name": "Campyloneurum angustifolium (Sw.) Fee",
     "family": "Polypodiaceae",
@@ -77,7 +75,7 @@
         {
     "plant_id":6, 
     "name_plant": "CHANCA PIEDRA",
-    "image_plant": "assets/images_plants/chanca_piedra.png",
+    "image_plant": "assets/images_plants/chanca_piedra.webp",
     "vulgar_synomaly": "Chanca piedra blanca, piedra con piedra, nirure, hierba de la niña, quinina, elechito, macantohue (shipibo-conibo) kshanate.",
     "scientific_name": "Phyllantus niruri L.",
     "family": "Euphorbiaceae",
@@ -91,7 +89,7 @@
     {
     "plant_id":7, 
     "name_plant": "CHIRI SANANGO",
-    "image_plant": "assets/images_plants/chiri_sanango.png",
+    "image_plant": "assets/images_plants/chiri_sanango.webp",
     "vulgar_synomaly": "Chiri caspi, borrachero, mucapari, (Shipibo-Conibo).",
     "scientific_name": "Brunfelsia grandiflora D. don. ssp. Shulttessi Plow.",
     "family": "Solanaceae",
@@ -106,7 +104,7 @@
 {
     "plant_id":8, 
     "name_plant": "COCONA",
-    "image_plant": "assets/images_plants/cocona.png",
+    "image_plant": "assets/images_plants/cocona.webp",
     "vulgar_synomaly": "Coconilla, lulo, topiro, kochari, popó (amahuaca, piro, yine, shipiboconibo); akui'bedn (amara- kaeri), popol (ese eja), wakui' bedn (huachipaeri); daboca (waorani); kukuna (secoya).",
     "scientific_name": "Solanum sessiliflorum Dunal.",
     "family": "Solanaceae",
@@ -121,7 +119,7 @@
         {
     "plant_id":9, 
     "name_plant": "DURAZNILLO",
-    "image_plant": "assets/images_plants/duraznillo.png",
+    "image_plant": "assets/images_plants/duraznillo.webp",
     "vulgar_synomaly": "Chupa- chupa, yerba del sapo, soleman, yawar ch’unqa, pica pica, picantillo, pimienta de agua, chia chia.",
     "scientific_name": "Polygonum hydropiperoides Michaux.",
     "family": "Polygonaceae",
@@ -136,7 +134,7 @@
        {
     "plant_id":10, 
     "name_plant": "FLORIPONDIO",
-    "image_plant": "assets/images_plants/floripondio.png",
+    "image_plant": "assets/images_plants/floripondio.webp",
     "vulgar_synomaly": "Amaichaka, , borrachero, campancho, azucenas del Perú, flor de campanilla, misha galga, misha oso, kilankkara, saharo, puuchchu, misha toro, toe, yerba del diablo, huanduc (kichwa).",
     "scientific_name": "Brugmansia arborea (L.) Lagerheim.",
     "family": "Solanaceae",
@@ -150,7 +148,7 @@
        {
     "plant_id":11, 
     "name_plant": "GRANADILLA",
-    "image_plant": "assets/images_plants/granadilla.png",
+    "image_plant": "assets/images_plants/granadilla.webp",
     "vulgar_synomaly": "Tumbo, apicoya, tin tin, hutu, mashu sisa",
     "scientific_name": "Passiflora ligularis Juss.",
     "family": "Passifloraceae",
@@ -163,7 +161,7 @@
        {
     "plant_id":12, 
     "name_plant": "GERGON SACHA",
-    "image_plant": "assets/images_plants/jergon_sacha.png",
+    "image_plant": "assets/images_plants/gergon_sacha.webp",
     "vulgar_synomaly": "Sacha jergón, Hierba del jergón.",
     "scientific_name": "Dracontium loretense K. Krause",
     "family": "Araceae",
@@ -176,7 +174,7 @@
     {
     "plant_id":13, 
     "name_plant": "LAURAYMANA",
-    "image_plant": "assets/images_plants/lauraymana.png",
+    "image_plant": "assets/images_plants/lauraymana.webp",
     "vulgar_synomaly": "Hierba de la maestranza, yunka panti, alantana, camara, camara de chumbo, corona del sol, mora, santo negrito, sonora, verbena morada, yunka kanchilla, siete colores.",
     "scientific_name": "Lantana camara L.",
     "family": "Verbenaceae",
@@ -189,7 +187,7 @@
     {
     "plant_id":14, 
     "name_plant": "LLANTEN",
-    "image_plant": "assets/images_plants/llanten.jpg",
+    "image_plant": "assets/images_plants/llanten.webp",
     "vulgar_synomaly": "Llantén mayor, llantén macho, llantai, torraja cimarrona.",
     "scientific_name": "Plantago major L.",
     "family": "Plantaginaceae",
@@ -202,7 +200,7 @@
   {
     "plant_id":15, 
     "name_plant": "MAÍZ",
-    "image_plant": "assets/images_plants/maiz.jpg",
+    "image_plant": "assets/images_plants/maiz.webp",
     "vulgar_synomaly": "Sara chukcha, cabello de choclo, pelo de choclo, sara, chojllo, uchukulu, utilo, barba de milho, pelo de maíz, tonko o tonqo, mazorca del maíz, choclo.",
     "scientific_name": "Zea mays L.",
     "family": "Poaceae",
@@ -215,7 +213,7 @@
   {
     "plant_id":16, 
     "name_plant": "MALVA",
-    "image_plant": "assets/images_plants/malva.png",
+    "image_plant": "assets/images_plants/malva.webp",
     "vulgar_synomaly": "Malva silvestre, cuchimalva echada, malva iva, orkko ruppu, ankko ankko, amkarra, lupu.",
     "scientific_name": "Malva parviflora L.",
     "family": "Malvaceae",
@@ -228,7 +226,7 @@
   {
     "plant_id":17, 
     "name_plant": "MARAÑÓN",
-    "image_plant": "assets/images_plants/marañon.jpg",
+    "image_plant": "assets/images_plants/marañon.webp",
     "vulgar_synomaly": "Caju, acajú, caso, cashu, acayocha, casha, cashow, ñucñu- bares, jocote, añaaro, cashueiro, cuya, manzana portuguesa, tupi, amahuaca.",
     "scientific_name": "Anacardium occidentale L.",
     "family": "Anacardiaceae",
@@ -241,7 +239,7 @@
   {
     "plant_id":18, 
     "name_plant": "AYAC ZAPATILLA",
-    "image_plant": "assets/images_plants/ayac_zapatilla.png",
+    "image_plant": "assets/images_plants/ayac_zapatilla.webp",
     "vulgar_synomaly": "Puru puru, ayac sapatillan, zapatito.",
     "scientific_name": "Calceloria myriophylla Kranzl.",
     "family": "Scrophulariaceae",
@@ -254,7 +252,7 @@
   {
     "plant_id":19, 
     "name_plant": "MARCJU",
-    "image_plant": "assets/images_plants/marcju.png",
+    "image_plant": "assets/images_plants/marcju.webp",
     "vulgar_synomaly": "Markhu, altamisa, malco, marco, artemisa, maki, ambrosia silvestre, amargo, marquito, altamiz, marqui.",
     "scientific_name": "Ambrosia arborescens Mill.",
     "family": "Asteraceae",
@@ -267,7 +265,7 @@
     {
     "plant_id":20, 
     "name_plant": "SANGRE DE GRADO",
-    "image_plant": "assets/images_plants/sangre_de_grado.png",
+    "image_plant": "assets/images_plants/sangre_de_grado.webp",
     "vulgar_synomaly": "Palo de grado, sangre de drago, rucu rana, uksvakiro, sangre de dragón, eshape, Jata akui, Ginmunaji, Irare, Jimi mosho, shawan karo, Kosamáti, Masikamboya, Palo de grado, pocure, windu, yawar wiki.",
     "scientific_name": "Croton lechleri Muell. Arg.",
     "family": "Euphorbiaceae",
@@ -280,7 +278,7 @@
    {
     "plant_id":21, 
     "name_plant": "VERBENA NEGRA",
-    "image_plant": "assets/images_plants/verbena.png",
+    "image_plant": "assets/images_plants/verbena.webp",
     "vulgar_synomaly": "Verbena, verbena de campo.",
     "scientific_name": "Verbena littoralis H.B.K.",
     "family": "Verbenaceae",
@@ -289,5 +287,1164 @@
     "chemical_composition":"Estarquitafina, citrol, geraniol, verbenalina, dextrina, ácido salicílico, mucílago, saponina, arbutina, vitaminas A, B y C, taninos, heterósido (verbenalósida).Estarquitafina, citrol, geraniol, verbenalina, dextrina, ácido salicílico, mucílago, saponina, arbutina, vitaminas A, B y C, taninos, heterósido (verbenalósida).",
     "sync_status":"",
     "last_updated": null
-  }
+  },
+  {
+    "plant_id":22, 
+    "name_plant": "GENGIBRE",
+    "image_plant": "assets/images_plants/gengibre.webp",
+    "vulgar_synomaly": "Agengibre, jinjibre, Kión.",
+    "scientific_name": "Zingiber officinale.",
+    "family": "Zingiberaceae",
+    "botanical_description":"Planta herbácea perenne, tallos subterráneos (rizomas) horizontales, muy aromáticos, de sabor picante. Pseudo tallos aéreos entre 60-90 cm de altura. Hojas alternas lineares de hasta 20 cm de longitud.Inflorescencias en escapos cortos.",
+    "habitat":"climas tropicales y subtropicales, especialmente en zonas húmedas y parcialmente sombreadas.",
+    "chemical_composition":"Limoneno, felandreno, zingibereno, gingerol, cineol, zingibaina y carbohidratos.",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+  {
+    "plant_id":23, 
+    "name_plant": "AJO SACHA",
+    "image_plant": "assets/images_plants/ajo_sacha.webp",
+    "vulgar_synomaly": "Ajos del monte; Be' o-ho y Be'o-ja pusanga (ese eja); Boens, Niaboens, Posatalu (piro, yine); Shansque boains (shipiboconibo); Frukutitei (Surinam).",
+    "scientific_name": "Mansoa alliacea.",
+    "family": "Binonaceae",
+    "botanical_description":"Arbusto semitrepador de 3 m de altura o más, partes vegetativas con olor a ajos o cebolla, pseudo estípulas pequeñas, aplanadas y cónicas. Hojas bifolioladas con zarcillo trífido, foliolos abovados a elípticos de 5-27 x 2-18 cm, de ápice agudo a obtuso y base cuneada. Inflorescencias axilares en racimos o panículas pausifloras; cáliz cupular de 5-10 cm x 6-11 mm; corola violeta tubular campanulada de 6 a 9 cm de largo. Fruto cápsula linear oblonga lignificada, fuertemente angulosa, de superficie lisa. Semillas con dos alas membranáceas,parduzcas y subhialinas en el borde.",
+    "habitat":"Habita en faldas de altura, alejada de cuerpos de agua, chacras nuevas, áreas sombreadas o poco sombreadas tanto de purmas como de bosque primario. No es resistente a la inundación. Comparte su hábitat con las siguientes especies: aguaje, algodón, bijao, caña agria, carahuasca, castaña, cedro, cetico, cordoncillo, charichuelo, chiricsanango, chuchuhuasi, espintana, huacapú, huamansamana, huito, limón, patiquina, pijuayo, poma rosa, pona, sangre de grado, sapohuasca, shapaja,ubos, umarí, uña de gato, uvilla, yarina, zapote.",
+    "chemical_composition":"Estigmasterol, alcaloides, saponinas, f1avones, pigmentos fLavónicos.",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+
+   {
+    "plant_id":24, 
+    "name_plant": "ALBAHACA",
+    "image_plant": "assets/images_plants/albahaca.webp",
+    "vulgar_synomaly": "Pichana blanca, lroro, Albaca, Albaca silvestre, Asil, Smeriwiwiri (Surinam).",
+    "scientific_name": "Ocimum basilicum",
+    "family": "Lamiaceae",
+    "botanical_description":"Hierva de hasta 60 cm de alto, ramas hispidulosas. Hoja subentera, ovada-lanceolada, cortamente acuminada, glabra o escasamente pilosa, redondeada hacia la base, 3-5 cm de largo. Inflorescencia en racimo corto, cáliz de la flor campanulada, de 4 mm largo; los dientes superiores redondeados, cordados, decurrentes.",
+    "habitat":"Clima: Tropical, con humedad relativa de 80%, Suelo: Generalmente areno-arcilloso, con abundante materia orgánica.",
+    "chemical_composition":"Limol, estragol, metil-chavicol, linalol, timol, eugenal alcanfor, taninos, ácidos orgánicos, sales minerales, vitáminas y saponinas.",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+   {
+    "plant_id":25, 
+    "name_plant": "ALGODÓN",
+    "image_plant": "assets/images_plants/algodon.webp",
+    "vulgar_synomaly": "Algodón.",
+    "scientific_name": "Gossypium barbadense.",
+    "family": "Malvaceae",
+    "botanical_description":"Arbusto de uno a tres metros de alto. Tallo glabro o pubescente con tricomas largos. De tres a cinco hojas lobadas, lóbulos acuminados, algo estrecho en la base, nervadura palmada. Flores solitarias, corola amarilla con una mancha rojiza en la parte interna de la base de los pétalos. Fruto: cápsula ovoide, lisa. Semillas redondeadas con fibras cortas adheridas a la epidermis, usualmente 5-8 por celda.",
+    "habitat":"Cultivado.",
+    "chemical_composition":"Gossypol, furfutol, acetovanilona, betaína, fitosterol, serotonina, oleína, ácidos palmítico, esteárico, aráquico y peptínico.",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+
+   {
+    "plant_id":26, 
+    "name_plant": "AYAHUMA",
+    "image_plant": "assets/images_plants/aya_huma.webp",
+    "vulgar_synomaly": "Ayahuma, supay uma (kichwa).",
+    "scientific_name": "Couropita guianensis.",
+    "family": "Lecythidaceae",
+    "botanical_description":"Árbol de hasta 30 m. de alto. Hojas alternas, glabras, agrupadas en el ápice de las ramitas, oblanceoladas a oblongo lanceoladas, de 7.5-26 x 2.3-7.5 cm, ápice redondeado base cuneada. Inflorescencias en racimos caulinares, de 7-18 cm de longitud. Flores de 2-3 cm de diámetro, cáliz con 6 sépalos triangulares, corola con 6 pétalos oblongos, blanco amarillentos. Androceo zigomorfo con capucha estaminal plana, amarilla. Fruto baya leñosa, globosa, indehiscente, de 10-13 x 9-13 con mesocarpo de olor desagradable, amarillento cuando fresco, se oxida a verde azulado cuando es expuesto al ambiente. Semillas numerosas, embebidas en la pulpa.",
+    "habitat":" Crece en bosques húmedos tropicales.",
+    "chemical_composition":"Los frutos contienen esteroides libres, hidróxido benzoico, quinonas y antroquinonas.",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+   {
+    "plant_id":27, 
+    "name_plant": "AMASISA",
+    "image_plant": "assets/images_plants/amasisa.webp",
+    "vulgar_synomaly": "Gallito, Swamp immortelle, Porotillo (inglés); Poró.",
+    "scientific_name": "Erythrina fusea.",
+    "family": "Fabacea",
+    "botanical_description":"Árbol de hasta 25 m de alto, el tronco presenta espinas. Hojas con 3 hojuelas, ovadas o elípticas, obtusas en la base y ápice, pálidas y suavemente pubérulas. Inflorescencia terminal en racimo con poca floración. Flores con cáliz campanulado de 1-1,5 cm de ancho, corola de color anaranjado claro. Fruto moniliforme de 10 a 20 cm de largo y 1,5 cm de ancho. Semillas en número de 2 por fruto, de color marrón o pardo.",
+    "habitat":"Clima: Zonas tropicales, con precipitación pluvial de 1 800 a 3 500 mm/año: temperaturas entre 20 y 26ºC. Suelo: Se adapta a una amplia variedad de suelos, desde arenosos - con muy baja fertilidad natural hasta franco arcillo-limosos de buena fertilidad natural. También se encuentra en laderas escarpadas.",
+    "chemical_composition":"Alcaloides, heterósidos cianogenéticos, mucílagos, saponinas, triterpenos.",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+
+   {
+    "plant_id":28, 
+    "name_plant": "AYAHUASCA",
+    "image_plant": "assets/images_plants/ayahuasca.webp",
+    "vulgar_synomaly": "Yagé, Bejuco bravo; Caapi (Brasil); Mado, Mado bidada y Rami-Wetsem (culina); Ñucñu huasca y Shimbaya huasca (quechua): Kamalampi (piro); Punga huasca; Rambi y Shuri (sharanahua); Ayahuasca amarillo; Ayawasca, Nishi y Oni (shipibo), Ayahuasca negro, Ayahuasca blanco; Cielo ayahuasca; Shillinto Natema (jíbaro), aya huasca (kichwa), soga del diablo.",
+    "scientific_name": "Banisteriopsis caapi.",
+    "family": "Malpighiaceae",
+    "botanical_description":"Liana grande trepadora, de ramas grises o parduzco brillantes, de escaso grosor. Hojas imples glabras, ovado-elípticas, redondeadas, agudas y con 2 glándulas en la base, de 15 a 17 cm de longitud y 6 a 9 cm de ancho. Inflorescencia axilar, de 4 flores, de 5 cm de largo, otras veces en umbelas paniculadas. Flores con corola pentámera amarilla o rosado pálido; androceo con 10 estambres. Gineceo tricarpelar, estilos sigmoideos. Fruto sámara ligeramente estrigosa, oblonga, con ala dorsal coriácea y sinuosa, de 3 cm de largo y 0.8 cm de ancho.",
+    "habitat":"Habita en suelos de altura, alejada de las orillas, en suelos inundables sólo con creciente alta, bosque virgen, purma cerrada y purma joven, bajo condiciones de luz intermedia y sombra. Comparte su hábitat con las siguientes especies: aguaje, aguano, ajo sacha, ayahuma, capirona, castaña, cedro, escalera de mono, espintana, icoja, jergón sacha, machimango, pijuayo, umarí, uña de gato y uvilla, entre otras.",
+    "chemical_composition":"Contiene alcaloides como: Harmina, harmanho, harmalina, harmol, d-Tetrahidroarmina, harmalol, vasicina, amida harminica, ácido-metil ester - harmínico, acetilnorharmina, N-Oxi-Harmina, NNorharmina, ácido harmalínico, ketotetrahídro-Norharmina, telepatina, ácido harmínico, - Carbolina, metilester.",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+
+   {
+    "plant_id":29, 
+    "name_plant": "AZÚCAR HUAYO",
+    "image_plant": "assets/images_plants/azucar_huayo.webp",
+    "vulgar_synomaly": "Azúcar huayo.",
+    "scientific_name": "Hymenaea Oblongifolia.",
+    "family": "Fabaceae",
+    "botanical_description":"Árbol de hasta 30 m. de alto. Hojas 2 folioladas, foliolos, oblicuamente ovado-oblongos, de 5-10 x 2-4 cm, ápice acuminado, base inequilátera, glabros en ambas superficies. Inflorescencias en corimbos cortos. Flores con cáliz campanulado, constricto en la base, lóbulos ovadooblongos puberulentos; pétalos obovados, blancos a cremosos. Fruto legumbre oblongas teretes o comprimidas, lenticeladas, marrón oscuras.",
+    "habitat":"Habita en la formación ecológica de bosques húmedo tropical (bh-h), bosque muy húmedo subtropical (bmh-ST) y bosque seco tropical (bs-T), prefiriendo los terrenos pantanosos en bosques primarios.",
+    "chemical_composition":"Diterpenos (ácido copálico) y sesquiterpenos.",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+  
+   {
+    "plant_id":30, 
+    "name_plant": "CAPIRONA",
+    "image_plant": "assets/images_plants/capirona.webp",
+    "vulgar_synomaly": "Palo mulato, Kobakedive (waorani).",
+    "scientific_name": "Calycophyllum spruceanum.",
+    "family": "Rubiaceae",
+    "botanical_description":": Árbol de 15 a 27 m, de tronco recto y ramificado, de copa heterogénea, corteza de color marrón o verde petróleo brillante. Hojas oblongas u ovado-oblongas de 9 a 17 cm de longitud, simples, opuestas, pecioladas, penninervadas. Inflorescencias termínales cimosas. Flores pequeñas, blancas, bisexuales y aromáticas. Fruto cápsula oblonga de 8 a 11 mm de longitud. Semillas comprimidas angulosas y aladas en ambos extremos, con endosperma carnoso.",
+    "habitat":"Clima tropical húmedo, con temperatura media anual de 22 a 26ºC y precipitación pluvial entre 1 100 a 3 400 mm anuales. Se desarrolla en suelos arenosos y arcillosos que presenten un contenido medio o alto de materia orgánica. Prefiere suelos con pH de 7 y saturación de aluminio menor de 30%. No prospera en suelos extremadamente ácidos, con pH de 4 a 4,5.",
+    "chemical_composition":"Celulosa, hemicelulosa y lignina, además de otros componentes como extractivos.",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+  
+   {
+    "plant_id":31, 
+    "name_plant": "CATAHUA",
+    "image_plant": "assets/images_plants/catahua.webp",
+    "vulgar_synomaly": "atahua, catahua amarilla.",
+    "scientific_name": "Hura crepitans.",
+    "family": "Euphorbiaceae",
+    "botanical_description":"Árbol de hasta 45 m de alto. Fuste y ramitas frecuentemente con espinas cónicas exudan un látex cremoso translúcido. Hojas pinnatinervias con dos glándulas en la base, ovadas a cordiformes de 10-25 x 7-14 cm; ápice acuminado, base trunca o subcordada, haz glabro, envés piloso, margen dentado o entero. Inflorescencias en espigas, flores unisexuales, estaminadas y pistiladas en la misma espiga. Flores estaminadas sésiles, cubiertas por una bráctea, cáliz cupulado, denticulado, pétalos y disco ausentes, estambres numerosos. Flores pistiladas solitarias, axilares en la base de la espiga, cáliz 5 dentado a subentero, pétalos, disco y estaminodios ausentes. Fruto cápsula leñosa explosiva.",
+    "habitat":"Silvestre.",
+    "chemical_composition":"Toxialbúmina, crepitina y hurin.",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+  
+   {
+    "plant_id":32, 
+    "name_plant": "CHUCHUHUASI",
+    "image_plant": "assets/images_plants/chuchuhuasi.webp",
+    "vulgar_synomaly": "Chocha huasha (shipibo-conibo), chuchasha, Chuchu huasca, Chuchuwasha.",
+    "scientific_name": "Maytenus macrocarpa.",
+    "family": "Celastracea",
+    "botanical_description":"Árbol grande con ramas verticiladas, ramitas foliares anguladas. Hojas enteras, coriáceas; oblongo-lanceoladas o elípticas, acuminadas, emarginadas; lustrosas en el haz; 10-20 cm de largo. Inflorescencia axilar. Flores diminutas, cáliz colorido, pétalos obovados, blanquecinos. Fruto cápsula obovoide. Semillas oblongas con arilo blanco.",
+    "habitat":"Habita en áreas no inundables (suelos de altura), inundables anualmente o sólo en creciente alta, alejada o cerca de los cuerpos de agua, purmas y bosques primarios, con intensidad lumínica de intermedia a sombreada.",
+    "chemical_composition":"Fenoles simples, quinonas, saponinas y triterpenos.",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+   {
+    "plant_id":33, 
+    "name_plant": "CLAVO HUASCA",
+    "image_plant": "assets/images_plants/clavo_huasca.webp",
+    "vulgar_synomaly": "Clavo Huasca (kichwa), canela, Inejkeu, rabo nishi (shipibo-conibo).",
+    "scientific_name": "Tynnanthus panurensis.",
+    "family": "Bignoniaceae",
+    "botanical_description":"La planta es un bejuco rastrero con ramitas tetragonas. Presenta lenticelas oscuras. Hojas con 2 a 3 foliolos y un zarcillo, de forma elíptica u oblongo elíptica, de ápice acuminado o agudo y base redondeada truncada. Inflorescencias axilares en panículas, brácteas con tricomas diminutos y escamas lepidotas, Flores con el cáliz cupular truncado, corola blanca, crema o amarillenta, bilabiada, densamente pubérula por fuera. Los frutos son cápsulas lineares aplanadas y obtusas en ambos extremos. ",
+    "habitat":"Clima tropical con temperatura media anual de 22 a 27º C, precipitación pluvial d 1 200 a 3 300 mm/año, hasta 7 meses con precipitación pluvial menor de 100 mm. Suelo: Crece en todo tipo de suelos, incluyendo los arenosos y arcillosos.",
+    "chemical_composition":"Ácidos fijos fuertes, auronas, bases cuaternarias, chalconas, esteroides, fenoles simples, flavanonas, heterósidos cianogénicos, leucoantocianidinas, taninos pirogálicos, eugenol y resinas.",
+    "sync_status":"",
+    "last_updated": null
+  },
+
+   {
+    "plant_id":34, 
+    "name_plant": "COPAIBA",
+    "image_plant": "assets/images_plants/copaiba.webp",
+    "vulgar_synomaly": "Bonshish matisiati y Namboman tsacati (shipibo-conibo), bunxix (conibo); Capaúba, Copal, copa- uva; Cupiúba; Jatobamirim, marimari; Matisihuati y Oleo-branco. ",
+    "scientific_name": "Copaifera paupera.",
+    "family": "Fabaceae",
+    "botanical_description":"Árbol de 20 a 30 m de altura, de tronco recto, con copa globosa y amplia, puede alcanzar 30 m de alto, corteza rugosa, gris verdosa con lenticelas pequeñas parduzcas, con ramitas glabras. Hojas paripinnadas coriáceas, alternas, compuestas, presentan de 4 a 5 pares de foliolos, pelúcidos punteados, densos y finamente reticulados; lustrosas en ambas caras, oblicuamente oblonga-elípticas, redondeadas o agudas en la base, obtusamente acuminadas de 3 a 5 cm de largo y de 1 a 2 cm de ancho. Inflorescencia terminal racimosa, en panículas estrechas. Flores blancas, sésiles, olorosas, pequeñas, bisexuales, glabras por fuera y vellosas por dentro. Fruto legumbre bivalva dehiscente. Semillas de 1, 2 hasta 4 cubiertas por un arilo de vivo color anaranjado.",
+    "habitat":"Clima: Prospera en climas tropicales secos y húmedos, con precipitación pluvial de 1 700 a 3 300 mm y temperatura promedio anual de 22 a 26ºC. Suelo: Generalmente areno-arcilloso, prospera en suelos con bajo nivel de materia orgánica.",
+    "chemical_composition":"Contiene alrededor de 24 hidrocarburos sesquiterpénicos y varios diterpenos, ácidos resínicos como el elácico y copaíbico; aceites esenciales, trementina, ácido copaífero, cariofileno, E-cubeno, cubebeno, humuleno, E-humuleno, D-candieno y ácido resinólico.",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+  
+   {
+    "plant_id":35, 
+    "name_plant": "GUABA",
+    "image_plant": "assets/images_plants/guaba.webp",
+    "vulgar_synomaly": "Guaba, Guaba chilillo.",
+    "scientific_name": "Inga edulis.",
+    "family": "Fabaceae",
+    "botanical_description":"Árbol, 6–30 m de altura, con un tronco gris pálido y liso. Hojas compuestas y alternas, pecioladas, con 5–6 pares de folíolos, elípticas a ovadas, el ápice agudo a acuminado, la base redondeada, el borde entero, pubescentes en el envés. Inflorescencias en espigas, axilares, las flores blancas. Frutos semicilíndricos, verde-café al madurar, con varias semillas cubiertas por un arilo blanco, suculento y azucarado.",
+    "habitat":" La Guaba es originaria de América tropical y se encuentra en diversas regiones, desde tierras bajas hasta montañas. Prospera en climas cálidos y húmedos.",
+    "chemical_composition":"Contiene carbohidratos, proteínas, grasas, fibra, minerales (fósforo, calcio, hierro, magnesio y zinc), y vitaminas A, B y C. También posee compuestos fenólicos, incluyendo flavonoides.",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+   {
+    "plant_id":36, 
+    "name_plant": "GUAYABA",
+    "image_plant": "assets/images_plants/guayaba.webp",
+    "vulgar_synomaly": "Guayabo, guayaba de monte o guayaba.",
+    "scientific_name": "Psidium guajava.",
+    "family": "Myrtaceae",
+    "botanical_description":"Árbol frondoso de unos cinco metros de alto. Hojas ligeramente escabrosas, simples, enteras, elípticas, de 15 x 6 cm, agudas. Inflorescencia axilar, de una o dos flores. Flores con receptáculo de 1 cm de diámetro; pétalos blancos, estambres blancos. Fruto oblongo, amarillo cuando madura, de 4 cm de diámetro. Fruto comestible.",
+    "habitat":"Cultivado en América Tropical.",
+    "chemical_composition":"Taninos, guavina, piridoxina, niacina, mirceno, cariofileno, nerolidial, beta-bisaboleno, aromancheno, p-selineno, beta-sitosteral, triterpenoides, leucociamidinas, aceites, vitamina A, vitamina C, hierro, fósforo, calcio, sales minerales.",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+
+   {
+    "plant_id":37, 
+    "name_plant": "GUISADOR",
+    "image_plant": "assets/images_plants/guisador.webp",
+    "vulgar_synomaly": "Cúrcuma, Palillo, Curry, Azafrán cimarrón, Azafrán, Azafrán de la India, Jenjibre amarelo (portugués), Mandiwinshi (amahuaca), Hawahawa (ese eja), Porenki (machiguenga), Pwalojir-pagi (piro, yine), Coron (shipibo-conibo).",
+    "scientific_name": "Curcuma longa.",
+    "family": "Zingiberaceae",
+    "botanical_description":"Hierba rizomatosa, erguida. Hojas de 6 a 8, con pecíolo largo (20–30 cm). Lámina lanceolada, con la base estrecha y ápice agudo, de 30–40 cm de largo y 20 cm de ancho, de color verde claro, glabras en ambos lados. Tallo subterráneo o rizoma, globuloso u ovoide, con uno o varios rizomas secundarios. Inflorescencia en espiga densa, de 10–15 cm de largo. Flores de color amarillo pálido.",
+    "habitat":"Clima: Tropical y subtropical, con temperatura promedio de 26 °C, precipitación pluvial entre 800 y 3 000 mm/año, y altitudes de hasta 1 500 msnm. Suelo: Prefiere suelos de textura suelta, con abundante materia orgánica y buen drenaje. No tolera el encharcamiento por mucho tiempo.",
+    "chemical_composition":"Atiantonas, borneol, bisdesmetoxi-curcumina, cariofileno, alcoholes sesquiterpénicos, aceites volátiles, ácido borásico, cineol, curcumina, curcuminas secundarias, dehydroturmerona, desmetoxicurcumina, _felandreno, linalol, oxalato de calcio, oleoresinas, pelimoneno, _pineno, principios amargos, D-sabineno, terpenos, turmerona, xineol y zingiberonas. Además, contiene almidón, celulosa, grasa, proteína y resina.",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+
+   {
+    "plant_id":38, 
+    "name_plant": "HUACAPÚ",
+    "image_plant": "assets/images_plants/huacapu.webp",
+    "vulgar_synomaly": "Huacapú, Huacapo (shipibo-conibo), Guayacán y Pechiche (Ecuador), Caricuara negra (Bolivia), Puente candado, Minche y Guayacán negro (Colombia), Arekuma (Venezuela), Acariguera (Brasil), Wamana (Guayana), Fierro caspi, Puyaquiro, Alata-udu (Surinam).",
+    "scientific_name": "Minquartia guianensis.",
+    "family": "Olacaceae",
+    "botanical_description":"Árbol de hasta 20 m de alto, con fuste subcilíndrico a ligeramente acanalado en la base. La corteza externa es de color marrón negruzco, frecuentemente con ritidoma fibroso y quebradizo. Hojas cartáceas a coriáceas, oblongas o elípticas, de 5–10 (30–45) cm de largo por 2–4 (14–20) cm de ancho, con ápice brevemente acuminado y base obtusa o redondeada. El haz es glabro y presenta cavidades resiníferas visibles como puntos negros. Las flores tienen un cáliz de 1 mm de longitud, con pétalos color crema unidos formando un tubo campanulado. Los frutos son drupas subglobosas de 20–25 mm por 10–15 mm, negruzcas al alcanzar la madurez.",
+    "habitat":"Clima: Bosque húmedo tropical. Suelo: Arcilloso, con abundante materia orgánica.",
+    "chemical_composition":"Contiene lignina, celulosa y otros polisacáridos.",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+  
+   {
+    "plant_id":39, 
+    "name_plant": "HUACAPURANA",
+    "image_plant": "assets/images_plants/huacapurana.webp",
+    "vulgar_synomaly": "Huacapurana",
+    "scientific_name": "Campsiandra angustifolia.",
+    "family": "Fabaceae",
+    "botanical_description":" Árbol de hasta 25 m de alto. Hojas alternas, imparipinnadas, con 9 foliolos estrecho-oblongos de 12 x 6.5 cm, ápice acuminado, haz glabro y envés opaco. Inflorescencia en corimbos terminales. Fruto en forma de legumbre coriácea, marginada en la sutura dorsal, de 20 x 5 cm.",
+    "habitat":"En toda la región amazónica, en zonas inundables cerca de ríos y cochas.",
+    "chemical_composition":"Gossypol, furfutol, acetovanilona, betaína, fitosterol, serotonina, oleína y diversos ácidos grasos como el palmítico, esteárico, aráquico y peptínico. También contiene una variedad de compuestos, incluyendo heterósidos, polifenoles, terpenoides y alcaloides.",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+
+   {
+    "plant_id":40, 
+    "name_plant": "HUASAI",
+    "image_plant": "assets/images_plants/huasai.webp",
+    "vulgar_synomaly": "Chonta, asahi, assai, cansin (amahuaca), Guasai, huai(ticuna), palmito, palm heart y euterpe palm (inglés), ungurahui, yisará, yuyu chonta, manaea y manaca (Venezuela), pana(shipibo-conibo), palmeira pinot (guyanas); Hasabis (quechua) Acai, Acai do Para, Jucara y acai do baixo amazonas (portugués), pina y prasara (surinam).",
+    "scientific_name": "Euterpe precatoria.",
+    "family": "Arecaceae",
+    "botanical_description":"Palmera monopódica cilíndrica, de 12 a 15 m de altura, tallo duro y liso de 12 a 15 cm de diámetro, de color cenizo oscuro, copa con 10 a 12 hojas, en la base del tronco presenta hijuelos y raíces aéreas, Hojas compuestas, pinnadas, de 2 a 3 m de largo, coriáceas, de 20 a 50 cm de largo, con nervaduras paralelinervadas, pecíolo glabro de 20 a 30 cm de largo, vaina, de color verde castaño. Inflorescencia en panículas de racimos de 80 cm de largo, flores pequeñas de color violeta pálido a marrón, monoico, unisexuado, ovario tricarpelar concrescente. Fruto en baya globosa, violácea, tornándose negra al madurar, de 1 cm a 1,5 cm de diámetro, almendra pequeña y dura, ",
+    "habitat":"Clima: Tropical con temperatura media anual de 26 ºC, precipitación pluvial y humedad relativa elevadas. Suelo: De textura franco-arcilloarenosa, con pH de 4,5 a 55 y con alta humedad.",
+    "chemical_composition":" En las raíces se encuentra: Antranoles, auronas, ácidos fijos, fuertes y débiles, catequinas, chalconas, cumarinas, esteroides, fenoles simples, leucoantocianidinas, flavononas, quinonas, taponinas, taninos. En la pulpa de los frutos se encuentra: Lípidos 13,4%, proteínas 3,38%, glúcidos 12,02%, fibra bruta 18%, cenizas 1,25%, calcio 0,167%, hierro 0,004%, fósforo 0.51, también contiene vitaminas A y B1.",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+
+
+   {
+    "plant_id":41, 
+    "name_plant": "HUAYRURO",
+    "image_plant": "assets/images_plants/huayruro.webp",
+    "vulgar_synomaly": "Huayruro colorado.",
+    "scientific_name": "Ormosis coccinea.",
+    "family": "Fabaceae",
+    "botanical_description":"Árbol de hasta 30 m de alto y 45 a 60 cm de diámetro. Hojas pinnaticompuestas, con 7 a 11 pares de foliolos oblongos hasta ovados, obtusos o apenas acuminados, glabros y lustrosos en el haz, de 7 a 12 cm de largo y 3 a 6 cm de ancho, con nervaduras prominentes en el envés. Inflorescencia en panículas tomentosas, de color cenizo a pardo-amarillento. Frutos en forma de vainas glabras y carnosas, con epicarpio coriáceo, de 3 a 4.5 cm de largo y 2 a 2.5 cm de ancho. Semillas rojas.",
+    "habitat":" Áreas tropicales húmedas. Crece en bosques húmedos, especialmente en la región centro-sur de la Amazonía.",
+    "chemical_composition":" Taninos, ácido salicílico, flavonoides, limoneno, candineno, timol y a-folandreno, además de sales de potasio, calcio y fósforo.",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+
+{
+    "plant_id":42, 
+    "name_plant": "HUINGO",
+    "image_plant": "assets/images_plants/huingo.webp",
+    "vulgar_synomaly": "Tutuma, pate.",
+    "scientific_name": "Crescentia cujete.",
+    "family": "Bignoniaceae",
+    "botanical_description": "Árbol pequeño ramoso, que alcanza 9 a 10 m de altura y cuyo tallo llega hasta 30 cm de diámetro de corteza áspera, levemente estriada, ramas con lenticelas castaño claras, torcidas y expandidas a poca altura de la base, alcanzando hasta 2 m de largo, hojas simples, fasciculadas, pecioladas, abovadas, coriáceas alternas, de color verde oscuro que miden hasta 23 cm de largo y 5.5 cm de ancho. inflorescencia cauliflora flores solitarias o dispuestas en pares en las ramas, hermafroditas, blancas o blanco amarillentas fruto pepo o calabaza, de forma esférica u ovoidal de tamaño variable, que va de 8 a 30 cm de diámetro pericarpo fino, pulpa blanca abundante semillas de color marrón oscuro, achatadas.",
+    "habitat":"Clima: Tropical, con precipitación pluvial entre 1 500 a 3 000 mm/año, temperatura promedio entre 22 y 270C y humedad relativa cercana a 80%. Suelo: Prospera bien en todo tipo de suelo agrícola. En Iquitos, se encuentra creciendo vigorosamente en suelos arcillosos no inundables y francolimosos, de restingas altas inundables sólo con creciente alta. Prefiere suelos francos a arcillosos y con abundante materia orgánica. No prospera en suelos arenosos y degradados.",
+    "chemical_composition":"Efedrina, ácidos crescentínico y cianhídrico, taninos.",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+  
+{
+    "plant_id":43, 
+    "name_plant": "HUITO",
+    "image_plant": "assets/images_plants/huito.webp",
+    "vulgar_synomaly": "Huitol, witu (shuti), acuisho (huayraya), caruto,  chibará, chipará, genipa, genipapo, granado, ana (machiguenga, asháninka, nomachiguenga), guanapay, huitoc, huitu, huito sua, huito de agua, isso (piro) jagua, janipa (cocama), jave (yagua) jigua, juaraavuro (ocaina); jidoro (huitoto), lana, launa, totumillo, bilito cafeciilo denta, xagua, mayagua, guaricha (Venezuela), guayatil colorado, nané, guayatil carcarutoto caruto revalsero, mandipa (portugués), nandipa (guyana y argentina), guaitil (bolivia) nanu (amahuaca), nandi y nane (shipibo conibo), palo colorado, pigio, piginio, sua (aguaruna), vitoc, vito, yacohuito xaguo, yayuhuito, zapote de monte, nandé (amahuaca), akui sho y kuikuisho (ese eja), nso (piro, yine), tapuripa (surinam).",
+    "scientific_name": "Genipa americana.",
+    "family": "Rubicae",
+    "botanical_description":"Árbol de hasta 12 m de alto, fuste glabrescente, lenticelado. Hojas opuestas, enteras, obovadas a elípticas 18-30 x 6-13 cm, ápice agudo, base cuneada a aguda.  Inflorescencias cimosas de 4-13 cm de longitud. Flores de corola amarilla, tubo de hasta 1 cm de longitud, lóbulos ligulados. Frutos, bayas de 4-9 cm de diámetro, subglobosas, glabras, diminutamente lenticeladas. La pulpa del fruto verde se oxida a azul-negruzco cuando es expuesto al ambiente.",
+    "habitat":"Clima: Tropical y subtropical con precipitaciones entre 1 500 a 4 500 mm o más por año y temperaturas medias anuales entre 22 y 30ºC. Suelo: Crece generalmente en suelos areno-arcillosos preferentemente húmedos Prospera en suelos bien drenados y profundos así como en aquellos inundados periódicamente.",
+    "chemical_composition": "Manitol, genipina, metil-ester, taninos, caterina, hydatoína, ácido (tánico, tartárico y genopocídico), manita, cafeína, sales de calcio. En cada 100 g de pulpa fresca del fruto encontramos proteínas (1,2 g), extracto etéreo (0,1 g), carbohidratos (14 g)l fibra (1.6 g), cenizas (0,8 g), calcio (69 mg), fósforo (21 mg), hierro (0,5 mg), tiamina (0,30 mg), riboflavina (0,33 mg), niacina (0,54 mg), ácido ascórbico (1,1 mg).",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+
+
+{
+    "plant_id":44, 
+    "name_plant": "LANCETILLA",
+    "image_plant": "assets/images_plants/lancetilla.webp",
+    "vulgar_synomaly": "alternantera, planta percal, trébol del interior, hoja loro, malezas alegria, joyweed purpura, hoja rubí, terramicina..",
+    "scientific_name": "Alternanthera brasiliana.",
+    "family": "Amaranthaceae",
+    "botanical_description":"Forma: Planta herbácea erecta o erguida, perenne, de 0 a 60 cm (hasta 1m) de altura, (Agudero, 1999). tallo: Tallos cuadrangulares marrón o vino tinto, con nudos engrosados (Agudelo, 2008). Hojas: Son alternas u opuestas, de color morado en el haz, con tono más verdoso en el envés; pecioladas; pecíolo 0.3-1.3 cm de largo, escabroso a hirsuto; lámina elíptica, 2.5-7.5 x 1-3.1 cm, escabrosa a hirsuta, base cuneada, ápice agudo a acuminado (Agudelo, 2008). Inflorescencias: Axilares y terminales, en cabezuelas hemiesféricas, 0.7-1 x 1.1-1.3 cm, blancas o blanco verdosas; bráctea 1, carinada, membranácea, mayor que la mitad del perianto, con un nervio medio, tricomas dorsales, ápice agudo; bractéolas 2, carinadas, membranáceas, mayores que la mitad del perianto, tricomas abietiformes en la mitad apical, cresta dorsal con dientes agudos en la región media, ápice agudo (Duarte,2004). Flores: 5-6 x 2-3 mm de color blanco amarillento (Duarte,2004). Fruto: Subgloboso, 1 x 1mm (Duarte,2004)",
+    "habitat":"Laderas y quebradas (Mostacero,2011); crece en la sierra y selvas tropicales. Clima: tropical y subtropical. Temperatura: 10-28 ºC. Altitud: 0-2500 m.s.n.m (Brack,1999).",
+    "chemical_composition": "Riboflavina, niacina y flavonoides (Duarte, 2004).",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+
+
+{
+    "plant_id":45, 
+    "name_plant": "LIMÓN",
+    "image_plant": "assets/images_plants/limon.webp",
+    "vulgar_synomaly": "Limón, citrón, Ishnul (kichwa).",
+    "scientific_name": "Citrus lomon.",
+    "family": "Rutaceae",
+    "botanical_description": "Árbol pequeño, espinoso. Hojas jóvenes y la yema de las flores rojizas, peciolo estrechamente alado o marginado. Hojas ovadas, acuminadas, aserradas. Flores blanco-purpúreas. Fruto oval con 8-10 segmentos, amarillo cuando maduros).",
+    "habitat":"cultivada, Suelos: ricos en materia orgánica .",
+    "chemical_composition": "Citral, linalol, pectina, ácidos cítrico y málico, candineno, felandreno, d-limoneno, citronelal, narcotina, quinolina, estaquidrina, carbohidratos, proteínas, sales de potasio, calcio, fósforo, sodio, hierro, magnesio, manganeso, vitaminas A, B1’, B2 y C.",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+
+
+{
+    "plant_id":46, 
+    "name_plant": "OJE",
+    "image_plant": "assets/images_plants/oje.webp",
+    "vulgar_synomaly": "Doctor ojé, ila, higuerón, hojé huito, huito, jipalo, huitoc, gameleira branca, lom brigueira (portugués), xovin, hoi (amahuaca), renaco, pottó (asháninca), akumboe (amarakaeri), etána, etsóna (ese eja), merepopa (huachipaeri), pótogo (matsiguenga), shomi (shipibo).",
+    "scientific_name": "Picus insipida.",
+    "family": "Moraceae",
+    "botanical_description": "Árbol grande, glabro en todas partes. La corteza exuda un látex blanco, lechoso al corte. Hojas largo-pecioladas, el limbo elíptico-oblongo o elíptico, 13-23 cm de largo, 5,5-10 cm de ancho, subaguda hasta redondeada en la base, las nervaduras laterales cercanas, juntos, prominentes por abajo, delgados, 15-25 o más en cada lado. Receptáculo pedunculado o casi sésil, globoso, comúnmente de 2-2,5 cm de diámetro.",
+    "habitat":"Clima: Tropical y subtropical, con precipitaciones entre 1 500 a 4 500 mm o más por año y temperaturas medias anuales entre 22 y 30ºC. Suelo: Franco-arenoso y areno-arcilloso con abundante materia orgánica.",
+    "chemical_composition": "Filoxantina, B-amirina, lupeol, lavandulol, phyllantel, 18 eloxanthina, ficina, filantelol, 18-doxantina. ",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+
+
+{
+    "plant_id":47, 
+    "name_plant": "PAMPA OREGANO",
+    "image_plant": "assets/images_plants/pampa_oregano.webp",
+    "vulgar_synomaly": "Sidraero, cidra, orégano, pamporégano, sideraera, sideraca, erva cidreira do campo, alecrim do campo, salsa brava, salva brava, salvia, salva, salva-limáo, alecrim, alecrim do mato, camará, cha da febre, capitáo do mato, chá de estrada, chá de pedestre, chá de frade, chá de tabuleiro, chá do río grande do sul, cidra, cidreira, cidreira brava, cidreira capim, cidreira crespa, cidreira falsa, cidrila, cidrilha, cidró, falsa melissa, erva cidreira falsa, salvia da gripe (portugués), bana tipo (shipibo-conibo); blakatiki-menti (Surinam).",
+    "scientific_name": "Lippia alba.",
+    "family": "Verbenaceae",
+    "botanical_description":"Subarbusto de hasta 50 cm de alto. Hojas opuestas; elípticas hasta redondeado-ovadas, agudas u obtusas, crenada, más o menos rugosa, canescente tomentosa-vellosa en el envés, aserradas en el margen, ligeramente escabrosas en la superficie. Flores con corola algo púrpura o blancas. Fruto, drupa de color violeta oscuro.",
+    "habitat": "Clima: Prospera en regiones subtropicales sin exceso de calor o frío, con temperaturas de hasta 32'C, con alta intensidad lumínica. Suelo: Crece en varios tipos de suelos, de preferencia areno-arcillosos, con alta humedad. No soporta encharcamientos.",
+    "chemical_composition": "Saponina, aceites esenciales, lipiol, ácido tánico, geraniol, citral, l-limoneno y alcaloides; cubebeno, cariofileno, neral, carvona, flavonoides, ácidos fenólicos.",
+    "sync_status":"",
+    "last_updated": null
+
+  },
+
+{
+    "plant_id":48, 
+    "name_plant": "PAICO MACHO",
+    "image_plant": "assets/images_plants/paico.webp",
+    "vulgar_synomaly": "Cashua, anserina, amash, amasamas, amush, comatai cashiva, hierba de santa maría, paicco, payco (piro, yine); paiko, pozote, té de la tercera especie, wasi-ico (shushufindi siona), mastruz, mentruz, mastruco, mentruco y erva de santa maría (portugués), sie sie (ese eja), paico (shipiboconibo).",
+    "scientific_name": "Chenopodium ambrosioides.",
+    "family": "Chenopodiaceae",
+    "botanical_description":"Planta herbácea, erecta, de 50-60 cm de alto. Hojas alternas, ovoides y lanceoladas, de bordes dentados o profundamente sinuosos, 5-8 cm de largo y 1-3 cm de ancho, pecíolo corto, verde claro. Flores diminutas, agrupadas en pequeños racimos; cáliz de 5 sépalos, apétalas, verdeamarillentas, generalmente hermafroditas. Fruto maduro, envuelto en los restos del cáliz. Semilla lenticular.",
+    "habitat": "Clima: Zonas tropicales, con alta radiación solar y de moderada a alta humedad relativa, altitudes de hasta 3000 msnm. Suelo: Se cultiva en suelos arenoarcillosos, arcillosos y en várzea alta bien drenada, soportando escasa materia orgánica.",
+    "chemical_composition": ".",
+    "sync_status":"",
+    "last_updated": null
+
+},
+
+{
+    "plant_id":49, 
+    "name_plant": "PAPAYA",
+    "image_plant": "assets/images_plants/papaya.webp",
+    "vulgar_synomaly": "Papayo, mamón, lechosa, melón de árbol.",
+    "scientific_name": "Carica papaya.",
+    "family": "Caricaceae",
+    "botanical_description":"Planta de rápido crecimiento. Tallo erecto, columna, hasta 20 cm de diámetro, hojas simples, profundamente lobadas, de un metro de largo. Fruto oblongo-obovoide, de 15 cm de largo, lomados longitudinalmente, amarillos al madurar, numerosas semillas negras y ásperas, flores masculinas pedunculadas, verdes, flores femeninas sésiles, de ocho cm de largo, flores intermedias perfectas.",
+    "habitat": "Cultivada.",
+    "chemical_composition": "Papaína, carica-xantina, papaiotina, capaina, ácido málico, proteínas, grasas, sales de calcio, fósforo, hierro, vitaminas A, B1, B2, y C, taninos y pancreatina.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+
+{
+    "plant_id":50, 
+    "name_plant": "PATIQUINA",
+    "image_plant": "assets/images_plants/patiquina.webp",
+    "vulgar_synomaly": "Caña muda, Lengua de suegra, Lotería.",
+    "scientific_name": "Dieffenbachia costat.",
+    "family": "Araceae",
+    "botanical_description":"Hierba terrestre. Hojas de 30-35 cm de largo y apenas 15 cm de ancho; las nervaduras laterales tienen casi 15 y la porción pistilada de la espádice casi 7 cm de largo.",
+    "habitat": "Cultivada como ornamental.",
+    "chemical_composition": "Contiene tóxicos como el ácido oxálico, asparagina y cristales de oxalato de calcio.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":51, 
+    "name_plant": "PIÑA",
+    "image_plant": "assets/images_plants/piña.webp",
+    "vulgar_synomaly": "Piña tropical, Piña americana, Ananás, Ananá, chiwilla (kichwa).",
+    "scientific_name": "Ananas sativus.",
+    "family": "Bromeliaceae",
+    "botanical_description":"Planta terrestre. Hojas largas y estrechas, armadas con espinas en los márgenes (algunas variedades no tienen espinas). Inflorescencia capitada; pedúnculo floral de hasta 50 cm de alto, con brácteas verdes de hasta 10 cm de largo en el ápice. Flores azules. Fruto carnoso.",
+    "habitat": "Ampliamente cultivada.",
+    "chemical_composition": "Carbohidratos, proteínas, bromelina; ácidos cítrico; málico y tartárico, pectina, serotonina, dextrina, vitaminas, sales minerales.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":52, 
+    "name_plant": "PIÑÓN BLANCO",
+    "image_plant": "assets/images_plants/piñon_blanco.webp",
+    "vulgar_synomaly": "Piñón, Piñoncito, piñol, higos del duende, barbasco, piñones purgativos, periyanasi (piro); piñón joshó (amahuaca); wapa-wapa oshe (ese eja), josho pionis y huiso pionis (shipibo-conibo); Peaó branco (portugués); Higo de infierno (Bolivia); Purga de fraile (Colombia); Tua tua (Venezuela); Sket'noto (Surinam).",
+    "scientific_name": "Jatropha curcas.",
+    "family": "Euforbiaceae",
+    "botanical_description":"Arbusto o árbol pequeño, de 3 m de altura, corteza blanco-grisácea que exuda látex translúcido. Hojas pecioladas, ampliamente ovadas, levemente 3 a 5 lobadas, abiertamente cordadas en la base con 5 nervaduras, pubescentes en las nervaduras del envés, de 6 a 15 cm de longitud. Inflorescencias cimosas. Flores unisexuales, amarillo verdosas; las femeninas presentan brácteas acuminadas, las masculinas presentan brácteas aovadas y pedicelos pubescentes. Frutos en cápsulas drupáceas de 2 cm de diámetro. Semillas oblongo-elipsoidales, de unos 2 cm de longitud, color blanco con estrías oscuras y prominentemente reticuladas.",
+    "habitat": "Habita en terrenos de altura en campo abierto, en chacras nuevas. Es susceptible a inundaciones. Comparte su hábitat con especies tales como guisador, jengibre, malva, cacao, guayusa, caimito, casho, chancapiedra, limón, hierba luisa, pandisho, yuca, plátano, papaya y jergón sacha.",
+    "chemical_composition": "Contiene alcaloides, sapogeninas, taninos, ésteres, toxoalbúminas y compuestos cianogénicos. Además, contiene aceites fijos y ácidos grasos como palmítico, oleico, linoleico y esteárico. La presencia en la semilla de curcina, una albúmina tóxica termolábil, es la responsable de su elevada toxicidad. La semilla contiene minerales como fósforo, calcio, sodio, potasio y magnesio. Las hojas presentan estigmasterol y glicósidos flavonoides.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":53, 
+    "name_plant": "PIÑÓN NEGRO",
+    "image_plant": "assets/images_plants/piñon_negro.webp",
+    "vulgar_synomaly": "Piñón rojo.",
+    "scientific_name": "Jatropha gossypifolia.",
+    "family": "Euphorbiaceae",
+    "botanical_description":"Arbusto de 1,5 a 2 m de altura, hojas suavemente cordadas en la base, trilobada, pubescente o glabro, los lóbulos agudos, enteros, glandular denticulados; inflorescencia en cimas, flores cortamente pedunculadas, con brácteas lineales, glandular marginadas; sépalos de 5 a 7 mm de largo; pétalos obovados de color púrpura; androceo con estambres usualmente en número de 8; gineceo con ovario pubescente. Fruto en cápsulas de 1 cm de grueso, semillas de color marrón.",
+    "habitat": "Habita en áreas que se inundan sólo en creciente alta, cerca y lejos de los cuerpos de agua, en campo abierto, en chacras nuevas y en purmas cerradas y jóvenes. Es susceptible a la inundación. Comparte su hábitat con las especies malva, cacao, jengibre, guayusa, caimito, casho, chancapiedra, hierba luisa, pandisho, limón, yuca, plátano, papaya y jergón sacha empleado en estado.",
+    "chemical_composition": "Presenta el alcaloide jatropina. La almendra contiene curcina. La corteza del tronco presenta sitosterol. La raíz contiene jatrofona, gossipibetileno, tetrahidrogossipibetileno, 2-hidroxijatrofona, 2-hidroxi-5,6-isojatrofona, glicoproteínas, lectin-proteínas y ésteres poliinsaturados. Las semillas presentan ácido palmítico, linoleico y oleico. Las hojas presentan apigenina, isovitexina, vitexina, jatrofolona A y B, y lignano.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":54, 
+    "name_plant": "REMOCASPI",
+    "image_plant": "assets/images_plants/remocaspi.webp",
+    "vulgar_synomaly": "Remo caspi en kichwa (palo para remo).",
+    "scientific_name": "Aspidosperma rigidum.",
+    "family": "Aspocynaceae",
+    "botanical_description":"Árbol alto, con aletas basales. Tronco acanalado de 35 a 60 cm de diámetro.",
+    "habitat": "Bosque silvestre.",
+    "chemical_composition": "Yohimbina.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":55, 
+    "name_plant": "RENAQUILLA",
+    "image_plant": "assets/images_plants/renaquilla.webp",
+    "vulgar_synomaly": "Matapalo, Camé.",
+    "scientific_name": "Clusia rose.",
+    "family": "Clusiaceae",
+    "botanical_description":"Planta parásita. Crece sobre los árboles y termina envolviendo y estrangulando al hospedero. Corteza gruesa, de la que fluye un látex blanco al corte. Hojas coriáceas, simples, opuestas, espatuladas, emarginadas en el ápice y atenuadas en la base. Inflorescencia terminal, con 1 a 2 flores pedunculadas; pedúnculo corto, grueso, y 5 pétalos rojizos.",
+    "habitat": "Se encuentra en bosques siempreverdes y semicaducifolios, donde el clima tropical y la humedad son favorables para su crecimiento. Se observa a altitudes de hasta 500 metros sobre el nivel del mar.",
+    "chemical_composition": "Contiene flavonoides, taninos y compuestos fenólicos, que le confieren propiedades antioxidantes y antiinflamatorias.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+
+{
+    "plant_id":56, 
+    "name_plant": "SANTA MARIA",
+    "image_plant": "assets/images_plants/santa_maria.webp",
+    "vulgar_synomaly": "Cordoncillo, Hierba de la Santa María, María panka (kichwa).",
+    "scientific_name": "Piper peltatum.",
+    "family": "Piperaceae",
+    "botanical_description":"Hierba erecta, de 2 m de alto. Tallos y pecíolos glabros. Hojas cordado-redondeadas, peltadas, de 16 x 18 cm; pecíolos de 9 a 20 cm de largo, alados en un cuarto a un medio de su longitud. Inflorescencia en espigas blancas, arregladas umbeladamente, de 4 mm de grosor y 5 a 10 cm de largo.",
+    "habitat": "Común en bosques secundarios o purmas.",
+    "chemical_composition": "Chavicina pariparobina, jaborandina, piperatina y peperina.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+
+{
+    "plant_id":57, 
+    "name_plant": "TORONJA",
+    "image_plant": "assets/images_plants/toronja.webp",
+    "vulgar_synomaly": "Pomelo.",
+    "scientific_name": "Citrus grandis.",
+    "family": "Rutaceae",
+    "botanical_description":"Árbol frutal de hoja perenne, con tronco recto y ramas espinosas, que puede llegar a medir entre 5 y 15 metros de altura. Las hojas son simples, alternas y ovales, con bordes lisos. Las flores son pequeñas, blancas y aromáticas, agrupadas en racimos. El fruto es redondo, grande, de piel gruesa y color verde amarillento o amarillo. La pulpa es jugosa y de color rosado o amarillo, con semillas pequeñas.",
+    "habitat": "Zonas tropicales y subtropicales con climas cálidos y húmedos.",
+    "chemical_composition": "Contiene vitamina C, ácido fólico, potasio y otros antioxidantes. También presenta compuestos fitoquímicos como los limonoides.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+
+{
+    "plant_id":58, 
+    "name_plant": "UBOS",
+    "image_plant": "assets/images_plants/ubos.webp",
+    "vulgar_synomaly": "Acaja, Acajú, Ajuela, Binbish-Sheshon (shipibo); Caja, Caja mirín y Tapereba (Brasil); Ciruela, Canyarana, Cansa boca, Ciruela de cerdo, Ciruela amarilla, Ciruela del Marañón, Cancharana, Hobo, Jocote (náhuatl), Mompe, Ushum, Uvo, Xuxoom y Sheshon (amahuaca); Tronador, Tsiyoroqui y Metsoqui (asháninka); Tapareba, Ciruela agria, Diji (ese eja), Ylopo (piro, yine); Sheshon (shipibo-conibo), Ubo; Mope (Surinam).",
+    "scientific_name": "Spandias mombin.",
+    "family": "Anacardiaceae",
+    "botanical_description":"Árbol deciduo, de hasta 30 m de alto, con tronco de 40 a 70 cm de diámetro y corteza con resina transparente. Hojas compuestas, con foliolos en pares de 3 a 8, opuestos o subopuestos, enteros o dentados, con largas y estrechas puntas. Flores pequeñas, dispuestas en grandes panículas terminales. Frutos amarillos y comestibles.",
+    "habitat": "Habita generalmente en bosques inundados estacionalmente, en zonas conocidas como restingas bajas. Comparte su medio ambiente con especies como pandisho, capirona, lagarto caspi y huito. También prospera en alturas y laderas de cerros.",
+    "chemical_composition": "Es un fruto rico en hierro y vitaminas A y C. La corteza contiene ácidos fijos fuertes y débiles, esteroides, catequinas, antranoles, fenoles simples, heterósidos cianogénicos, flavanonas, flavonoles, quinonas, leucoantocianidinas, saponinas y taninos pirogálicos.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+
+{
+    "plant_id":59, 
+    "name_plant": "UÑA DE GATO",
+    "image_plant": "assets/images_plants/uña_gato.webp",
+    "vulgar_synomaly": "Garra gavilán, Deixa paraguayo, Garabato casha, Garabato amarillo.",
+    "scientific_name": "Uncaria guianensis.",
+    "family": "Rubiaceae",
+    "botanical_description":"Arbusto trepador de hasta 30 m de longitud, tallo provisto de espinas recurvadas. Ramitas jóvenes tetragonales. Hojas coriáceas, elíptico-obovadas, abruptamente corto-acuminadas, truncadas en la base, hasta 18 x 12 cm, glabras excepto por algunos tricomas a lo largo de las venas en el envés. Inflorescencia en racimos capituliformes, flores pediceladas tomentulosas, corola blanca. Frutos: cápsulas dehiscentes.",
+    "habitat": "Clima: Bosque húmedo tropical, con 1,500 a 3,200 mm de precipitación pluvial, temperaturas promedio entre 25 y 27 °C y humedad relativa entre 70 y 80%.Suelo: De preferencia arcillo-limoso y arcilloso, aunque también se desarrolla en suelos arenosos de origen calcáreo.",
+    "chemical_composition": "Hojas: Alcaloides: angustina, mitrafilina. Flavonoides: kaemferol, dihidro-kaemferol. Taninos: abundantes. Tallo (corteza): Alcaloides: angustina, mitrafilina. Flavonoides: 7 compuestos (incluyen kaemferol y dihidro-kaemferol). Glicósidos: 6 glicósidos del ácido quinóvico. Flores: Alcaloides: angustina..",
+    "sync_status":"",
+    "last_updated": null
+
+},
+
+{
+    "plant_id":60, 
+    "name_plant": "YUCA",
+    "image_plant": "assets/images_plants/yuca.webp",
+    "vulgar_synomaly": "Yuca, Mandioca, lumu (kichwa).",
+    "scientific_name": "Manihot esculenta.",
+    "family": "Euphorbiaceae",
+    "botanical_description":"Hierba de 1,5 a 2 metros de altura, con tallo, peciolos y hojas de color verde. Grandes y lobuladas, con tres o más lóbulos.Tubérculos o raíces comestibles, ricos en almidón.",
+    "habitat": "Cultivada.",
+    "chemical_composition": "Las raíces almacenan almidón. Los hojas tienen alto porcentaje de proteínas, pero también un elevado porcentaje de ácido cianhídrico.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":61, 
+    "name_plant": "ZAPALLO",
+    "image_plant": "assets/images_plants/zapallo.webp",
+    "vulgar_synomaly": "Zapallo, calabaza, zapallu(kichwa).",
+    "scientific_name": "Cucurvita maximo.",
+    "family": "Cucurvitaceae",
+    "botanical_description":"Planta rastrera anual, de tallos largos, angulosos y moderadamente duros, provistos de zarcillos. Presenta flores grandes, solitarias y axilares, con corola amarillo-anaranjada. El fruto es una baya grande, de carne amarilla o anaranjada, comestible.",
+    "habitat": "Cultivada.",
+    "chemical_composition": "Cucurbitina, albúminas, lecitina, resinas, titosterina, vitaminas A, B, B2, B5 y C, calcio, fósforo y fierro.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":62, 
+    "name_plant": "HIERVA LUISA",
+    "image_plant": "assets/images_plants/hierva_luisa.webp",
+    "vulgar_synomaly": " Yierba Luisa, Cedrón, Maria Luisa.",
+    "scientific_name": "Cymbopogon citratus.",
+    "family": "Poaceae",
+    "botanical_description":"Planta herbácea, perenne, aromática, con tallos muy ramificados de 1 a 2 m de alto, hojas amontonadas cerca de la base, florece muy rara vez, y puede desarrollar hojas de 22 cm a 82 cm de longitud.",
+    "habitat": "Cultivada.",
+    "chemical_composition": "Monoterpenos como citral (principalmente geranial y neral), mirceno, citronelal, citronelol, linalol y geraniol; además, contiene sesquiterpenos, alcoholes, aldehídos y ésteres.",
+    "sync_status":"",
+    "last_updated": null
+
+}
+,
+{
+    "plant_id":63, 
+    "name_plant": "ACHIRA",
+    "image_plant": "assets/images_plants/achira.webp",
+    "vulgar_synomaly": "Platanillo.",
+    "scientific_name": "Canna indica.",
+    "family": "Cannaceae",
+    "botanical_description":"Hierba de hasta 1.5 m de alto. Hojas elípticas, oblongas, de color verde oscuro, con lámina de 10 a 70 cm de largo y 20 cm de ancho. Inflorescencia en racimos, ubicada al final de un vástago, entre la base envolvente de las hojas. Fruto: cápsula de tres celdas. Semillas esféricas.",
+    "habitat": "Cultivada como ornamental.",
+    "chemical_composition": "Alcaloides, carbohidratos, proteínas, flavonoides, terpenoides, glucósidos cardíacos, esteroides, taninos, saponinas y flobataninos.",
+    "sync_status":"",
+    "last_updated": null
+
+}
+,
+{
+    "plant_id":64, 
+    "name_plant": "GUINEO",
+    "image_plant": "assets/images_plants/gineo.webp",
+     "vulgar_synomaly": "Guinea (kichwa).",
+    "scientific_name": "Musa paradisiaca",
+    "family": "Musaceae",
+    "botanical_description": "Planta con hojas grandes y enteras cuyas vainas forman un pseudotallo que parece un tronco. Presenta una inflorescencia espiciforme, colgante y recurvada, con flores blanco-amarillentas cubiertas por grandes brácteas. El fruto es cilíndrico, puede alcanzar hasta 30 cm y madura a color amarillo o verdoso.",
+    "habitat": "Cultivada.",
+    "chemical_composition": "Carbohidratos como almidón y azúcares (especialmente en su estado verde), además de proteínas, mínimas grasas y fibra que favorece la digestión. También aporta vitaminas, saponinas, compuestos fenólicos y otros metabolitos.",
+    "sync_status":"",
+    "last_updated": null
+
+}
+,
+{
+    "plant_id":65, 
+    "name_plant": "AJI MACUSARI",
+    "image_plant": "assets/images_plants/aji_macusari.webp",
+    "vulgar_synomaly": "Aji macusari",
+    "scientific_name": "Capsicum frutescens",
+    "family": "Solanaceae",
+    "botanical_description": "Planta que alcanza hasta un metro de altura, con tallo leñoso en la madurez. Sus hojas son ovaladas, lisas y de color verde claro. Presenta flores blancas o verdosas con corola estrellada. Los frutos son bayas que cambian de verde a rojo brillante al madurar. Sus semillas son ovoides, de color amarillo a anaranjado, y miden entre 3 y 5 mm.",
+    "habitat": "cultivada",
+    "chemical_composition": "Contiene capsaicina, responsable del picante; carotenoides, que dan color a los frutos; vitamina C; además de minerales y flavonoides.",
+    "sync_status":"",
+    "last_updated": null
+
+}
+,
+{
+    "plant_id":66, 
+    "name_plant": "CAFÉ",
+    "image_plant": "assets/images_plants/cafe.webp",
+    "vulgar_synomaly": "Café",
+    "scientific_name": "Coffea arabica",
+    "family": "Rubiaceae",
+    "botanical_description": "Arbusto o pequeño árbol de 5 a 7 metros de altura, con tronco delgado. Tiene hojas elípticas, brillantes y de bordes ondulados. Sus flores son blancas y fragantes, agrupadas en las axilas. El fruto es una baya roja al madurar, que contiene dos granos de café.",
+    "habitat": "Cultivada.",
+    "chemical_composition": "Cafeína, ácidos clorogénicos, trigonelina, lípidos, polifenoles y compuestos aromáticos.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":67, 
+    "name_plant": "COCA",
+    "image_plant": "assets/images_plants/coca.webp",
+    "vulgar_synomaly": "coca, cocina",
+    "scientific_name": "Erythroxylum coca",
+    "family": "Erytroxilaceae",
+    "botanical_description": "Arbusto que alcanza hasta 2,5 metros de altura, con tallos leñosos. Sus hojas elipsoidales, verdes y fragantes, son de tamaño mediano. Presenta flores pequeñas y blancas, y frutos rojos, ovoides, sin pulpa y de aproximadamente 1 cm, que consisten principalmente en semillas.",
+    "habitat": "cultivada.",
+    "chemical_composition": "Contiene cocaína, un alcaloide con efectos estimulantes y anestésicos, además de otros alcaloides, flavonoides y compuestos fenólicos.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":68, 
+    "name_plant": "CORDONCILLO",
+    "image_plant": "assets/images_plants/cordoncillo.webp",
+    "vulgar_synomaly": "Matico",
+    "scientific_name": "Piper aduncum",
+    "family": "Piperaceae",
+    "botanical_description": "Arbusto perenne que alcanza una altura de 3 a 4 metros, con tallo leñoso y ramificado. Sus hojas son lanceoladas, alternas, de color verde claro, con un ápice en punta y bordes lisos. Presenta inflorescencias en forma de espigas blancas o amarillentas, con flores hermafroditas. El fruto es una drupa pequeña con semillas negras.",
+    "habitat": "Silvestre.",
+    "chemical_composition": "Contiene aceites esenciales como dillapiol, miristicina, 1,8-cineol y β-ocimeno. También posee metabolitos secundarios (fenilpropanoides, derivados del ácido benzoico, cromenos y flavonoides), además de taninos y saponinas.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":69, 
+    "name_plant": "CORTADERA",
+    "image_plant": "assets/images_plants/cortadera.webp",
+    "vulgar_synomaly": "Cortadera",
+    "scientific_name": "Scleria microcarpa",
+    "family": "Cyperaceae",
+    "botanical_description": "Hierba de tallo triangular y robusto, con hojas lineales, flexibles y de margen áspero. Presenta inflorescencias en panículas estrechas con espigas escalonadas. Las flores femeninas son sésiles, y los frutos son aquenios lisos y brillantes, de color verde o blanco, con disco basal ancho y margen ciliado.",
+    "habitat": "Silvestre.",
+    "chemical_composition": "Contiene compuestos fenólicos con propiedades antioxidantes y antiinflamatorias.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":70, 
+    "name_plant": "HOJA DEL AIRE",
+    "image_plant": "assets/images_plants/hoja_del_aire.webp",
+    "vulgar_synomaly": "Paico hembra, paico panka (kichwa), hoja del aire.",
+    "scientific_name": "Kalanchoe pinnata",
+    "family": "Cressulaceae",
+    "botanical_description": "Planta que alcanza hasta 1,5 metros de altura, con tallos huecos de color verde oscuro y tintes rojizos. Sus hojas son carnosas, de bordes festoneados y ribetes rojos; las inferiores son simples y las superiores compuestas, con 3 a 7 folíolos. Presenta flores colgantes en forma de campana, de color verdoso, amarillento o rojizo. Se reproduce fácilmente por plántulas que surgen en los márgenes de las hojas.",
+    "habitat": "Cultivada.",
+    "chemical_composition": "Contiene glucósidos asociados al metabolismo secundario, así como flavonoides con posibles propiedades antioxidantes y antiinflamatorias. También se han identificado algunos alcaloides, aunque en menor cantidad que en otras especies del género Kalanchoe.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":71, 
+    "name_plant": "ISHANGA",
+    "image_plant": "assets/images_plants/ishanga.webp",
+    "vulgar_synomaly": "Isanka, ortiga brava o ishanga blanca.",
+    "scientific_name": "Laportea aestuans.",
+    "family": "Urticaceae",
+    "botanical_description": "Hierba anual rastrera de hasta 30 cm, con hojas alternas, dentadas y trinervadas que contienen cristales de oxalato de calcio. Tiene inflorescencias axilares en forma de cimas o glomérulos, frutos en aquenios asimétricos y tricomas urticantes dispersos.",
+    "habitat": "cultivada.",
+    "chemical_composition": "La planta contiene alcaloides, flavonoides y un derivado de crisen-2-ol con propiedades antioxidantes, antimicrobianas y renohepatoprotectoras. También se han identificado galotaninos, ácido fórmico, acetilcolina e histamina.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+
+{
+    "plant_id":72, 
+    "name_plant": "MISHQUIPANGA",
+    "image_plant": "assets/images_plants/hoja_dulce.webp",
+    "vulgar_synomaly": "Hoja dulce.",
+    "scientific_name": "Renealmia floribunda.",
+    "family": "Zingiberaceae",
+    "botanical_description": "Tallo: erecto, ramificado, llegando a alturas de hasta 2 metros. Hojas: largas, lanceoladas, con nervaduras longitudinales prominentes. Flores: son agrupadas en espigas terminales, con brácteas amarillas y flores de colores brillantes. Raíz: rizoma con forma de dedo, utilizado en la medicina tradicional.",
+    "habitat": "Se encuentra principalmente en bosques tropicales húmedos de tierras bajas y bosques subandinos, desde los 50 hasta los 1500 metros sobre el nivel del mar.",
+    "chemical_composition": "Fenoles: compuestos que pueden tener propiedades antioxidantes y antiinflamatorias. Alcaloides: sustancias que pueden tener propiedades medicinales, como analgésicas. Flavonoides: pigmentos con propiedades antioxidantes y antiinflamatorias. Otros compuestos: sceites esenciales, resinas y taninos.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+
+{
+    "plant_id":73, 
+    "name_plant": "YAHUAR PIRI-PIRI",
+    "image_plant": "assets/images_plants/piri_piri.webp",
+    "vulgar_synomaly": "Josin huaste, pocahuaste y pacha huaste.",
+    "scientific_name": "Eleutherine bulbosa.",
+    "family": "Iridaceae",
+    "botanical_description": "Planta herbácea, con bulbos rojos, hojas verticiladas, linear lanceoladas, con nervaduras longitudinales, inflorescencia en panícula.  Flores rosáceas.",
+    "habitat": "Cultivada como ornamental.",
+    "chemical_composition": "Presenta sapogenina esteroidal, alcaloides, naftoquinonas, atraquinonas, flavonoides, chalconas, auronas y esteroides libres.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+
+
+{
+    "plant_id":74,
+    "name_plant": "SHIMIPAMPANA",
+    "image_plant": "assets/images_plants/shimi_pampana.webp",
+    "vulgar_synomaly": "Planta obediente.",
+    "scientific_name": "Maranta arundinacea.",
+    "family": "Marantaceae",
+    "botanical_description": "Hierba de tallos subterráneos (rizomas) escamosos horizontales, tallos aéreos delgados ramificados ocasionalmente de más de 1 m de altura, presenta hojas basales y hojas caulinares alternas de pecíolos envainados y lámina generalmente aovada de 6-25 cm de longitud y de 3-10 cm de ancho. Flores poco vistosas, en pares, dispuestas en racimos en el extremo de los tallos.",
+    "habitat": "Son las selvas tropicales.",
+    "chemical_composition": "No se tiene información sobre los principios activos que pueda contener la especie. Los rizomas contienen el 27 % de almidón, grasas, albúmina y azucares.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+
+{
+    "plant_id":75, 
+    "name_plant": "ATADIJO",
+    "image_plant": "assets/images_plants/atadijo.webp",
+    "vulgar_synomaly": "Palo de paloma, Árbol del carbón.",
+    "scientific_name": "Trema micrantha.",
+    "family": "Umaceae",
+    "botanical_description": "Árbol de hasta 20 m de alto, de 20-30 cm de diámetro. Hojas simples, alternas, comúnmente lanceoladas, acuminadas, borde aserrado, base oblícua, trinervada. Inflorescencia axilar en una panícula. Flores uni o bisexuales, blanco-verdosas, hasta rojizas. Fruto: drupa, ovoide, anaranjada, 2-3 mm de largo.",
+    "habitat": "Crece en regiones tropicales y subtropicales, con alta humedad, y suele encontrarse en terrenos degradados o perturbados.",
+    "chemical_composition": "Contiene diversos compuestos bioactivos, incluyendo diterpenoides (como trimalcanthol y tremacanthol B), polifenoles (ácidos fenólicos y taninos), flavonoides (quercetina y kaempferol), además de triterpenoides, alcaloides y aceites esenciales, con propiedades antioxidantes y antiinflamatorias.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+
+{
+    "plant_id":76, 
+    "name_plant": "AYASISA",
+    "image_plant": "assets/images_plants/ayasisa.webp",
+    "vulgar_synomaly": "Rosasisa, Flor de muerto.",
+    "scientific_name": "Tagetes erecta.",
+    "family": "Astaceae",
+    "botanical_description": "Hierba de un metro de alto. Hojas aromáticas, compuestas, de cinco y hasta de 17 pinnadas; hojuelas elípticas, aserradas, 3-8 cm de largo por 0,4-0,8 cm. La inflorescencia presenta una sola cabezuela terminal, las brácteas involucrales externas verde-amarillas, hasta 3 cm. de largo. Flores liguladas y del disco amarillas o anaranjadas.",
+    "habitat": "Cultivada en el Perú como planta ornamental e industrial.",
+    "chemical_composition": "Cineol, linalol, ocimeno, carvona, dextra-linoleno, fenol, anetol, eugenol, quercetagina.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+
+{
+    "plant_id":77, 
+    "name_plant": "BELLACO CASPI",
+    "image_plant": "assets/images_plants/bellaco_sacha.webp",
+    "vulgar_synomaly": "Palo de guasano.",
+    "scientific_name": "Himatanthus sucuuba.",
+    "family": "Apocynaceae",
+    "botanical_description": "Árbol de hasta 20 m de alto. Hojas alternas, lanceoladas a elípticas, de 11-37 x 3-11 cm, ápice agudo a acuminado, base atenuada, peciolos de 1.5-4.5 cm de longitud. Inflorescencias en panículas, terminales, a veces pseudoaxilares, de hasta 20 cm de apariencia articulada, con cada división protegida por una bráctea blanca. Flores con cáliz pequeño y reducido, corola blanca de 2 cm de largo. Frutos 2 folículos coriáceos, glabros, elipsoides, de 32 x 4 cm. Semillas numerosas, aladas. Distribución Amazonas, Loreto.",
+    "habitat": "Habita en la Amazonía, tanto en tierra firme como en zonas perturbadas. Se adapta a suelos arenosos o arcillosos, con pH ácido y materia orgánica variable. Crece en regiones con lluvias de 1,150 a 3,400 mm/año y temperaturas de 22.5° a 27 °C, siendo más común en áreas no inundables o con inundación ocasional.",
+    "chemical_composition": "Posee látex con propiedades antiinflamatorias, analgésicas, vermicidas y antimaláricas. Su corteza se usa en medicina tradicional, especialmente contra el mal de Chagas. También contiene alcaloides y flavonoides con potencial farmacéutico.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+
+{
+    "plant_id":78, 
+    "name_plant": "CACAO",
+    "image_plant": "assets/images_plants/cacao.webp",
+    "vulgar_synomaly": "Cacao, kanbi (kichwa).",
+    "scientific_name": " Theobroma cacao.",
+    "family": "Sterculiaceae",
+    "botanical_description": "Árbol ramos o de 8-10 m de alto. Hojas enteras, obovado-oblongas, acuminadas o cuspidadas en el ápice, obtusas en la base; 30 cm de largo por 10 cm de ancho. Inflorescencia caulinar, aglomerada. Flores con sépalos y pétalos amarillo pálido. Fruto ovoide u oblongo-ovoide, obtuso o agudo, acostillado, usualmente pentagonal, amarillo o rojo cuando maduro, hasta 40 cm de largo.",
+    "habitat": "Ampliamente cultivada.",
+    "chemical_composition": "Teobromina, sales minerales, vitaminas y mucílagos.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+
+{
+    "plant_id":79, 
+    "name_plant": "CAMOTE",
+    "image_plant": "assets/images_plants/camote.webp",
+    "vulgar_synomaly": "Camote, cumal (kichwa).",
+    "scientific_name": "Ipomoea batatas.",
+    "family": "Convolvulaceae",
+    "botanical_description": "Hierba rastrera, perenne, glabra o pubescente. Hojas variablemente ovadas o subrotundas cordadas o truncadas en la base, mucronadas y obtusas o subagudamente anguladas, lobadas o partidas, de 5 a 15 cm de largo. Inflorescencia en un pedicelo cimoso, corola púrpura o blanca, campanulada, base estrecha. Fruto: cápsula, con dos y hasta cuatro semillas.",
+    "habitat": "Ampliamente cultivada en la costa y selva peruanas.",
+    "chemical_composition": "Fécula, sales minerales.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+
+{
+    "plant_id":80, 
+    "name_plant": "CAÑA BRAVA",
+    "image_plant": "assets/images_plants/caña_brava.webp",
+    "vulgar_synomaly": "Caña isana.",
+    "scientific_name": "Gynerium sagittatum.",
+    "family": "Poaceae",
+    "botanical_description": "De 2 m de largo, 4-6 cm de ancho, dispuestas en forma de abanico en el culmo estéril. Inflorescencia en panícula grande, frondosa como una pluma, de un metro o más de largo, el eje principal erecto y las ramas colgantes.",
+    "habitat": "Habita en riberas inundables, pantanos y otros lugares húmedos; con intensidad lumínica variable. No se encuentra en las riberas de ríos de agua negra, siendo especie pionera en la sucesión primaria inundable de los ríos de agua blanca. En la Amazonia Peruana, forma densos rodales (cañabravales) en las riberas de los ríos. Crece también a orillas de las carreteras con suelos de mediana fertilidad. Comparte su hábitat con las especies cetico, situlli, gramalote, iporuro, huiririma..",
+    "chemical_composition": "Flavonoides, sustancias ciano-genéticas, ácidos fenólicos, saponinas, terpenoides.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+
+{
+    "plant_id":81, 
+    "name_plant": "CHAMBIRA",
+    "image_plant": "assets/images_plants/chambira.webp",
+    "vulgar_synomaly": "Chambira.",
+    "scientific_name": "Astrocaryum chambira.",
+    "family": "Arecaceae",
+    "botanical_description": "Palmera alta, solitaria, hasta 25-30 m de alto, estípite armado con aguijones blanquecinos, aplanados, hasta 20 cm de largo dispuestos en la cicatriz foliar. Hoja 10 16; vaina y pecíolo hasta 3.8 m de largo, armado densamente con aguijones negros, raquis 3-4.5 m de largo; pinnas 123-175 de cada lado del raquis, dispuestas en varias direcciones. Inflorescencia erecta 1.8-2.5 m de largo. Fruto obovado globuloso, rostrado, 6-7 cm de largo, 4.5-5 cm de diámetro, epicarpio amarillo a la madurez.",
+    "habitat": "Silvestre, selvas tropicales.",
+    "chemical_composition": "Proteínas, lípidos, carbohidratos, fibras, cenizas, calcio, fósforo, fierro, retinol, vitaminas A, B, B2', B5' C.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+
+{
+    "plant_id":82, 
+    "name_plant": "CUMACEBA",
+    "image_plant": "assets/images_plants/cumaceba.webp",
+    "vulgar_synomaly": "Cumaceba.",
+    "scientific_name": "Swartzia polyphylla.",
+    "family": "Fabaceae",
+    "botanical_description": "Árbol de hasta 40 m de alto. Hojas alternas, imparipinnadas; peciolos teretes 2- 6 cm de largo, raquis terete, peciólulo 4-5 cm de largo; foliolos 5-15, cartilaginosos, elípticos o lanceolados, de 4.5 - 15.5 x 1- 7 cm, ápice acuminado, base obtusa. Inflorescencias axilares en racimos simples. Flores con el cáliz fusionado, corola reducida a un solo pétalo de color blanco, estambres libres. Fruto, legumbre cilíndrica u ovoboide, de 6.5-12 x 4-5 cm de marrón claro con lenticelas blancas.",
+    "habitat": "Silvestre, selvas tropicales.",
+    "chemical_composition": "Aceite esencial: el aceite esencial de la cumaceba, particularmente del duramen, tiene una composición dominante de: ∞-cadineno (30.75%), t-cadineno (15.70%), isoleedeno (5.55%).",
+    "sync_status":"",
+    "last_updated": null
+
+},
+
+{
+    "plant_id":83, 
+    "name_plant": "LENGUA DE PERRO",
+    "image_plant": "assets/images_plants/lengua_de_perro.webp",
+    "vulgar_synomaly": "Kallu allku (kichwa).",
+    "scientific_name": "Zamia ulei.",
+    "family": "Cycadaceae",
+    "botanical_description": "Palmeto de hasta 1.5 m de alto, tallos hipógeos de 40 cm de longitud. Hojas pinnadas, 8-11 pares de pinnas sub-opuestas, 10-20 x 4.5-6 cm, elípticas subfalcadas, base cuneada a obtuso decurrente, ápice acuminado a sub-caudado, denticuladas hacia el ápice, peciolos de 40 cm de largo, aculeados, raquis de 50-80 cm de largo mucronado.  Estróbilo femenino cilíndrico de 11 cm de longitud, semillas subglobosas, rojas.",
+    "habitat": "Silvestre, planta tropical que prefiere suelos secos o bien drenados.",
+    "chemical_composition": "En especies vecinas se han aislado glycosidos de metilazos y metanol, macrozamina y cycasina.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+
+{
+    "plant_id":84, 
+    "name_plant": "PALO ROSA",
+    "image_plant": "assets/images_plants/palo_rosa.webp",
+    "vulgar_synomaly": "Palo rosa.",
+    "scientific_name": "Aniba rosaeodora.",
+    "family": "Lauraceae",
+    "botanical_description": "Árbol de hasta 20 m de alto. Ramitas tomentosas, hojas alternas, distribuidas en las ramitas, estrechamente elípticas a lanceoladas de 30 x 10 cm, haz glabro, envés diminutamente papiloso, margen generalmente revoluto. Inflorescencias multifloras, tomentosas, pedicelo conspicuamente diferenciado de la flor. Flores pequeñas con un tubo largo y los pétalos reducidos. Frutos de 3.5 x 2.4 cm, cúpula 1/4 del largo del fruto.",
+    "habitat": "Silvestre.",
+    "chemical_composition": "Linalol, alfaterpinol. En especies vecinas se han encontrado aceites volátiles, triterpenos y esteroides.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+
+{
+    "plant_id":85, 
+    "name_plant": "PALTA",
+    "image_plant": "assets/images_plants/palta.webp",
+    "vulgar_synomaly": "Palta.",
+    "scientific_name": "Persea americana.",
+    "family": "Lauraceae",
+    "botanical_description": "Árbol de 10-15 m de alto. Hojas extensamente elípticas, alternas, ovadas a obovado oblongas, agudas a obtusas en el ápice, la base cuneiforme a obtusa. Inflorescencia compuesta de pequeñas panículas axilares muy florecidas. Flores pequeñas, amarillo verdosas; pétalos 6 mm de largo. Fruto globoso de 20 x 10 cm en forma de pera. Semilla grande.",
+    "habitat": "Cultivado.",
+    "chemical_composition": "Carbohidratos, proteínas, grasas, taninos, perseitol, metil-chavicol, metilengenol, dopamina, esparagina, ácidos málico y acético.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":86, 
+    "name_plant": "PAN DEL ÁRBOL",
+    "image_plant": "assets/images_plants/pan_del_arbol.webp",
+    "vulgar_synomaly": "Pandisho (kichwa), paparahua.",
+    "scientific_name": "Artocarpus altilis.",
+    "family": "Moraceae",
+    "botanical_description":"Árbol de 20 m de alto, con savia lechosa. Hojas 30-80 cm de largo, profundamente lobada pinnadamente. Inflorescencia masculina  densamente espigada; inflorescencia pistilada subglobosa, largo pedunculada. Frutos subglobosos de 30 cm de diámetro. ",
+    "habitat": "Silvestre.",
+    "chemical_composition": "Esteroides, fenoles, flavones, bases cuaternarias, resinas, triterpenos.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+
+{
+    "plant_id":87, 
+    "name_plant": "PAPAILLA",
+    "image_plant": "assets/images_plants/papailla.webp",
+    "vulgar_synomaly": "Papailla",
+    "scientific_name": "Momordica charantia.",
+    "family": "Cucurbitaceae",
+    "botanical_description": "Planta trepadora, delgada. Hojas palmeadas de 5 hasta 7-10 lóbulos, de 3-8 cm de largo y ancho, la superficie glabra; zarcillos simples. Flores solitarias, axilares; cáliz campanulado, con lóbulos pequeños; corola amarilla, de 3 cm de diámetro. Fruto ovoide fusiforme, anaranjado; superficie con prominencias obtusas hasta agudas. Semillas cubiertas con una pulpa roja reluciente.",
+    "habitat": "Cultivada.",
+    "chemical_composition": "Glicósido sapónico, mormodina y ácido mormódico. Bases cuaternarias, fenoles, saponinas, triterpenos, vitaminas A, B, B2, B5 y C, calcio, fósforo y fierro.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":88, 
+    "name_plant": "RETAMA",
+    "image_plant": "assets/images_plants/retama.webp",
+    "vulgar_synomaly": "Retama",
+    "scientific_name": "Cassia alata.",
+    "family": "Fabaceae",
+    "botanical_description": "Arbolillo de hasta 15 m de alto; las partes jóvenes incluyendo las hojas inferiores y los racimos, puberulentos o pilosos. Hojas pinnadas, foliolos 9-12 pares, anchamente oblongas u obovadas; oblicuas, redondeadas u obtusas en ambas puntas, ordinariamente de 7-10 cm de largo y 2-4 cm de ancho. Flores amarillas, sépalos grandes, casi 12 cm de largo.",
+    "habitat": "Silvestre.",
+    "chemical_composition": "Contiene antibióticos (ácido cásico) en sus hojas y flores",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":89, 
+    "name_plant": "RUDA",
+    "image_plant": "assets/images_plants/ruda.webp",
+    "vulgar_synomaly": "Ruda",
+    "scientific_name": "Ruta graveolens.",
+    "family": "Rutaceae",
+    "botanical_description": "Subarbusto perenne de 40-110 cm de alto. Tallos erguidos, ramosos, rectos, cilíndricos. Hojas compuestas, bipinnadas, pecioladas; foliolos de color verde-azulado, pálido en el envés, de forma oval o espatulada, a veces algo carnosos, de 15-25 cm de largo y 6-10 cm de ancho. Flor verticilar; pétalos 4 ó 5 cóncavos, de bordes lisos o dentados; cáliz verde. Fruto, cápsula de 4 ó 5 lóbulos redondeados, llenos de semillas pequeñas, negras y reniformes.",
+    "habitat": "Cultivado.",
+    "chemical_composition": "Rutina, aceite esencial, metil-nonil-cetona, metil-heptil-cetona, pineno, eucaliptol, salicilato de metilo, azuleno y glucósidos flavonoides.",
+    "sync_status":"",
+    "last_updated": null
+},
+{
+    "plant_id":90, 
+    "name_plant": "SUELDA CON SUELDA",
+    "image_plant": "assets/images_plants/consuelda.webp",
+    "vulgar_synomaly": "Pishcu isma",
+    "scientific_name": "Phthirusa adunca (Meyer) Maguire.",
+    "family": "Lorenthaceae",
+    "botanical_description": "Planta parásita, erecta o escandente, con corteza grisácea. Se desarrolla sobre las ramas de los árboles. Pecíolos de 5–10 mm de largo. Hojas coriáceas, ovadas u ovado-lanceoladas, algo agudas, de 3–10 cm de largo por 3–7 cm de ancho. La inflorescencia se presenta en espigas o panículas axilares simples. Flores comúnmente blancas, de 4–6 mm de largo, con cáliz membranoso. El fruto es oblongo y de color rojo.",
+    "habitat": "Crece en arenales y costas rocosas y en pastos y zonas pedregosas de la montaña.",
+    "chemical_composition": "Ácido salicílico, taninos, limoneno, candineno, timol, α-folandreno, apineno y sales de potasio, calcio y fósforo.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":91, 
+    "name_plant": "TABACO",
+    "image_plant": "assets/images_plants/tabaco.webp",
+   "vulgar_synomaly": "Tabaco",
+    "scientific_name": "Nicotiana tabacum.",
+    "family": "Solanaceae",
+    "botanical_description": "Hojas decurrentes, ovada-elípticas o lanceoladas, atenuadas en la base o aladas subpecioladas, acuminadas. Inflorescencia en panícula. Flores con cáliz cilíndrico hasta cilíndrico-campanulado; corola pequeña, curvada, puberulenta, de color pálido verdoso, rosado hasta rojo. Fruto en cápsula angostamente elipsoide, ovoide u orbicular, aguda u obtusa, de 1,5-2 cm de largo. Semillas esféricas o ampliamente elípticas.",
+    "habitat": "Cultivada",
+    "chemical_composition": "Nicotina",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":92, 
+    "name_plant": "TAHUARI",
+    "image_plant": "assets/images_plants/tahuari.webp",
+    "vulgar_synomaly": "Tahuari",
+    "scientific_name": "Tabebuia serratifolia.",
+    "family": "Bignoniaceae",
+    "botanical_description": "Árbol de hasta 30 m de alto. Ramitas teretes, glabrescentes o inconspícuamente pubescentes en el ápice. Hojas digitalmente 5-7 folioladas, foliolos elípticos o estrechamente elíptico-ovados, de 6-12 x 3-5 cm, ápice acuminado, base redondeada, bordes conspicuamente aserrados. Inflorescencia en panículas corimbosas, usualmente multifloras, raquis tomentoso. Flores con el cáliz campanulado ligeramente lobulado pubescente, corola amarilla infundibiliforme, de 8-12 cm de largo y 2-3.5 cm de ancho en la boca. Frutos, cápsulas lineares sub-leñosas, lisas o con algunas protuberancias verrugosas, valvas gruesas.",
+    "habitat": "Silvestre",
+    "chemical_composition": "Alcaloides; quinonas, lapachol; catequinas, esteroides, fenoles, flavonoides, heterósidos cianogénicos, resinas, saponinas, triterpenos y xantonas.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":93, 
+    "name_plant": "TOMATE",
+    "image_plant": "assets/images_plants/tomate.webp",
+    "vulgar_synomaly": "Tomate.",
+    "scientific_name": "Lycopersicon esculentum",
+    "family": "Solanaceae",
+    "botanical_description": "Hierba robusta, tallos puberulentos hasta piloso-hirsutos. Hojas imparipinnadas, bipinnadas. Inflorescencia en racimos simples; cáliz 5, 8 o 10 partidos, corola amarilla. Fruto baya, comúnmente globoso deprimido. Semillas aplanadas, ovales.",
+    "habitat": "Cultivada",
+    "chemical_composition": "Vitaminas A, B1, B2 y C. Ácidos cítrico y málico; pectinas, 2,4–6,6 % de azúcares.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":94, 
+    "name_plant": "SANANGO",
+    "image_plant": "assets/images_plants/sanango.webp",
+    "vulgar_synomaly": "Camote, kumal (kichwa)",
+    "scientific_name": "Lycopersicon esculentum",
+    "family": "Solanaceae",
+    "botanical_description": "Hierba robusta, tallos puberulentos hasta piloso-hirsutos. Hojas imparipinnadas, bipinnadas. Inflorescencia en racimos simples; cáliz 5, 8 o 10 partidos, corola amarilla. Fruto baya, comúnmente globoso deprimido. Semillas aplanadas, ovales.",
+    "habitat": "Cultivada",
+    "chemical_composition": "Vitaminas A, B1, B2 y C. Ácidos cítrico y málico; pectinas, 2,4–6,6 % de azúcares.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":95, 
+    "name_plant": "USHAQUIRO",
+    "image_plant": "assets/images_plants/ushaquiro.webp",
+    "vulgar_synomaly": "Yanavara",
+    "scientific_name": "Aparisthmium cordatum",
+    "family": "Euphorbiaceae",
+    "botanical_description": "Árbol delgado, de hasta 15 m de alto. Hojas ovadas, redondeado-cordadas en la base, abruptamente acuminadas, comúnmente de 10 a 30 cm de largo, denticuladas hasta subenteras, membranosas, más o menos pilosas o glabras en ambos lados y con 2 glándulas terminales. Fruto: cápsula tricarpelar.",
+    "habitat": "Común en la vegetación secundaria (purmas).",
+    "chemical_composition": "Ácido salicílico, taninos, limoneno, candineno, timol, a-folandreno, y sales de potasio, calcio y fósforo. Además, se ha identificado apineno.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":96, 
+    "name_plant": "PUSPO POROTO",
+    "image_plant": "assets/images_plants/puspo_poroto.webp",
+    "vulgar_synomaly": "Guandul, frijol de palo",
+    "scientific_name": "Cajanus cajan (L.) Millspaugh",
+    "family": "Fabaceae",
+    "botanical_description": "Arbusto de uno a dos metros de alto. Hojas trifolioladas; foliolos angostamente elíptico-lanceolados, agudos, de 4 a 9 cm de largo, densamente puberulentos en ambos lados. Inflorescencia en racimo axilar o terminal. Flores amarillas con rayas rojas. Frutos en vainas erectas, planas, de 5 a 10 cm de largo con constricciones marcadas; contienen de 3 a 5 semillas lenticulares.",
+    "habitat": "Domesticada en la India, introducida y cultivada en toda la Amazonía.",
+    "chemical_composition": "Citisina, carbohidratos, proteínas, sales minerales y vitaminas.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":97, 
+    "name_plant": "COCO",
+    "image_plant": "assets/images_plants/coco.webp",
+     "vulgar_synomaly": "Cocotero oconilla, Lulo, Topiro, Kochari, Popó (amahuaca, piro, yine, shipiboconibo); Akui'bedn (amarakaeri), Popol (ese eja), Wakui bedn (huachipaeri); Daboca (waorani); Kukuna (secoya).",
+    "scientific_name": "Cocos nucifera",
+    "family": "Arecaceae",
+    "botanical_description": "Arbusto de 1 a 2 m de altura, tallo tomentoso. Hojas grandes ovaladas de 30 a 50 cm de largo por 20 a 30 cm de ancho, con glóbulos acuminados y pubescencia blancuzca en el haz, base de la lámina desigual. Flores en racimos axilares cortos, de 4 a 5 cm de diámetro; 5 sépalos; 5 pétalos de color claro a ligeramente amarillo con corola rotada y estrellada en 5 lóbulos, 5 estambres subsésiles y más pequeños que la corola, ovario trigono-ovoideo, hirsuto. Frutos finamente tomentosos esféricos, ovoides hasta oblados, de 3 a 6 cm de largo y 3 a 12 cm de ancho, de color amarillo hasta rojo. Semilla sublenticular de 3 a 4 mm de longitud y 2 a 2,5 mm de ancho, envuelta en un mucílago transparente.",
+    "habitat": "Habita suelos de altura, a campo abierto como en semisombra, en chacras nuevas, praderas y huertos hortícolas. No soporta la inundación.",
+    "chemical_composition": "En 100 g de la parte comestible se encuentra: proteínas 0,9 g, carbohidratos 9,2 g, calcio 16 mg, hierro 1,5 mg, fósforo 30 mg, caroteno 0,18 mg, tiamina 0,06 mg, riboflavina 0,10 mg, niacina 2 mg.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":98, 
+    "name_plant": "CAÑA AGRIA",
+    "image_plant": "assets/images_plants/caña_agria.webp",
+    "vulgar_synomaly": "Cañagre.",
+    "scientific_name": "Costus erythrocoryne.",
+    "family": "Zingiberaceae",
+    "botanical_description":"Hierba rizomatosa, los tallos semejan cañas de hasta 2 m de alto, 3.5 mm de espesor, glabros. Hojas de 8.12 cm de largo y 1.5 cm de ancho; espiralmente arregladas. Inflorescencia terminal, brácteas excepto las inferiores, más o menos como unas hojas, de casi 22 mm de largo y 1.5 cm de ancho, con una línea de callos rudimentarios. Flores blancas.",
+    "habitat": "Silvestre.",
+    "chemical_composition": "Esteroides, fenoles, resinas, triterpenos.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":99, 
+    "name_plant": "CETICO",
+    "image_plant": "assets/images_plants/cetico.webp",
+    "vulgar_synomaly": "Cético",
+    "scientific_name": "Cecropia palmata",
+    "family": "Cecropiaceae",
+    "botanical_description": "Árbol dioico de rápido crecimiento que alcanza hasta 25 metros de altura. Presenta tronco delgado con raíces zancudas, corteza gris y rugosa, y copa extendida. Sus hojas son grandes, redondas, palmeadas, con el envés de color blanco plateado. Las flores se agrupan en espigas axilares; las masculinas son amarillentas y las femeninas verde-grisáceas. Se asocia simbióticamente con hormigas que habitan en los tallos huecos.",
+    "habitat": "Silvestre.",
+    "chemical_composition": "Contiene mucílagos, saponinas, taninos, leucoantocianidinas, ácidos fenólicos y ácidos grasos libres metilados, algunos de ellos insaturados.",
+    "sync_status":"",
+    "last_updated": null
+
+},
+{
+    "plant_id":100, 
+    "name_plant": "MUCURA",
+    "image_plant": "assets/images_plants/mucura.webp",
+    "vulgar_synomaly": "Mocura, Mucura",
+    "scientific_name": "Petiveria alliacea",
+    "family": "Phytolaccaceae",
+    "botanical_description": "Planta de tallo erecto que puede alcanzar hasta 1 metro de altura, a veces leñoso en la base. Tiene hojas alternas, oblongas o elípticas, generalmente glabras. Las flores son pequeñas, hermafroditas, dispuestas en espigas o racimos axilares o terminales. El fruto es angosto y alargado, con el perianto persistente. Presenta un olor fuerte y desagradable, similar al ajo.",
+    "habitat": "Cultivada. Suelos de mediana fertilidad.",
+    "chemical_composition": "La planta contiene un aceite esencial rico en sulfuro de alilo y petiverina. Sus raíces poseen derivados de sulfóxido de cisteína (petiveriinas A y B) con posible acción antimicrobiana. También se han identificado diversos compuestos como alcaloides, flavonoides, quinonas, triterpenos, esteroides, fenoles, taninos y saponinas.",
+    "sync_status":"",
+    "last_updated": null
+
+}
+
+
 ]

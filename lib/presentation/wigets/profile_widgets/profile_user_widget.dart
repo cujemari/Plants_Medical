@@ -6,16 +6,16 @@ class ProfileUserWidget extends StatelessWidget {
   final VoidCallback onLogout;
 
   const ProfileUserWidget({
+    super.key,
     required this.user,
     required this.onLogout,
-    super.key,
   });
 
   @override
   Widget build(BuildContext context) {
     return Center(
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.start,
         children: [
           if (user.photoURL != null)
             CircleAvatar(
@@ -31,15 +31,38 @@ class ProfileUserWidget extends StatelessWidget {
           Text(user.email ?? '', style: const TextStyle(color: Colors.white70)),
           const SizedBox(height: 40),
           ElevatedButton.icon(
-            onPressed: onLogout,
+            onPressed: () => _showLogoutDialog(context),
             icon: const Icon(Icons.logout),
             label: const Text('Cerrar sesión'),
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.red,
               foregroundColor: Colors.white,
               padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-              textStyle: const TextStyle(fontSize: 16),
+              textStyle: const TextStyle(fontSize: 14),
             ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _showLogoutDialog(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (dialogContext) => AlertDialog(
+        title: const Text('Confirmar cierre de sesión'),
+        content: const Text('¿Deseas cerrar sesión?'),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(dialogContext).pop(),
+            child: const Text('No'),
+          ),
+          TextButton(
+            onPressed: () {
+              Navigator.of(dialogContext).pop();
+              onLogout();
+            },
+            child: const Text('Sí', style: TextStyle(color: Colors.red)),
           ),
         ],
       ),
