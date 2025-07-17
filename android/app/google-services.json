@@ -1,46 +1,45 @@
 {
   "project_info": {
-    "project_number": "64196211276",
-    "firebase_url": "https://plantas-medicinales-74c07-default-rtdb.firebaseio.com",
-    "project_id": "plantas-medicinales-74c07",
-    "storage_bucket": "plantas-medicinales-74c07.firebasestorage.app"
+    "project_number": "150500993673",
+    "project_id": "plants-a68ae",
+    "storage_bucket": "plants-a68ae.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:64196211276:android:4714e290c5f5460a1afae9",
+        "mobilesdk_app_id": "1:150500993673:android:3ff428a2361b8ad8717458",
         "android_client_info": {
-          "package_name": "com.example.app_plants"
+          "package_name": "pe.gob.iiap.plantasmedicinal"
         }
       },
       "oauth_client": [
         {
-          "client_id": "64196211276-27clvq41b7n69041mvj022p3dk4p2qlh.apps.googleusercontent.com",
+          "client_id": "150500993673-l3u8sblu4d4u3r5uvugs5ni9099kaant.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.app_plants",
-            "certificate_hash": "c2aad95a1a09b76356cd95a4b7fdf4ac1563b91d"
+            "package_name": "pe.gob.iiap.plantasmedicinal",
+            "certificate_hash": "5e85437bbaeb60cdbb2ef924437ea97c71e07eb6"
           }
         },
         {
-          "client_id": "64196211276-egubqtrgmp7j6dlm9qijq1ltt42du9fb.apps.googleusercontent.com",
+          "client_id": "150500993673-2ttqpn5du0ns20alkh3uflfl72cu2v9t.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDiaXFAyI2K8oRZA4z8p-vDGEh2HnrDSFw"
+          "current_key": "AIzaSyB8SeFeOtdP7SYafEjKu_vzVR6dx9RMb7Y"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "64196211276-egubqtrgmp7j6dlm9qijq1ltt42du9fb.apps.googleusercontent.com",
+              "client_id": "150500993673-2ttqpn5du0ns20alkh3uflfl72cu2v9t.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "64196211276-nvk8aggsft7nqn4g0ookp1l7busa67j4.apps.googleusercontent.com",
+              "client_id": "150500993673-uappnsvk0vo1ki0t2q2b3tdlcmg347j0.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
                 "bundle_id": "com.example.appPlants"

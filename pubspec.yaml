@@ -58,6 +58,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   provider: ^6.1.5
+  flutter_launcher_icons: ^0.14.4
 
 dev_dependencies:
   flutter_test:
@@ -70,14 +71,13 @@ dev_dependencies:
 
 
  # Ícono de la app
-  flutter_launcher_icons: ^0.14.4
 
 
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/logos/image_icon.webp"
-  adaptive_icon_foreground: "assets/logos/image_icon.webp"
+  image_path: "assets/logos/image_icon.png"
+  adaptive_icon_foreground: "assets/logos/image_icon.png"
   adaptive_icon_background: "#4CAF50"
 
 

@@ -49,14 +49,14 @@ class _PlantFavoriteRowState extends State<PlantFavorite> {
     if (widget.plant == null) return;
 
     final parameters = DynamicLinkParameters(
-      uriPrefix: 'https://medicinal.page.link',
+      uriPrefix: 'https://plantasmedicinal.page.link',
       link: Uri.parse(
-        'https://medicinal.page.link/planta?id=${widget.plant!.plantId}',
+        'https://plantasmedicinal.page.link/planta?id=${widget.plant!.plantId}',
       ),
       androidParameters: AndroidParameters(
-        packageName: 'com.example.app_plants',
+        packageName: 'pe.gob.iiap.plantasmedicinal',
         fallbackUrl: Uri.parse(
-          'https://play.google.com/store/apps/details?id=com.example.app_plants',
+          'https://play.google.com/store/apps/details?id=pe.gob.iiap.plantasmedicinal',
         ),
       ),
     );
@@ -87,7 +87,7 @@ class _PlantFavoriteRowState extends State<PlantFavorite> {
                     IconButton(
                       icon: Icon(
                         isFavorite ? Icons.favorite : Icons.favorite_border,
-                        color: Colors.green,
+                        color: Colors.tealAccent,
                         size: 32,
                       ),
                       onPressed: _toggleFavorite,
@@ -96,7 +96,7 @@ class _PlantFavoriteRowState extends State<PlantFavorite> {
                       onPressed: _compartirPlanta,
                       icon: const Icon(
                         Icons.share,
-                        color: Colors.white,
+                        color: Colors.blue,
                         size: 28,
                       ),
                     ),

@@ -63,9 +63,9 @@ class ActionButtons extends StatelessWidget {
             label,
             style: const TextStyle(
               color: Colors.white,
-              fontSize: 14,
+              fontSize: 16,
               fontWeight: FontWeight.bold,
-              fontFamily: 'Arial',
+              fontFamily: 'Georgia',
             ),
           ),
         ],

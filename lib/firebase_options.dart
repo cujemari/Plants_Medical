@@ -41,56 +41,52 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAo6PMCCQWkl6f_9FAj6gW5uM6stLW_ghY',
-    appId: '1:64196211276:web:ea2654c9a40e4f8b1afae9',
-    messagingSenderId: '64196211276',
-    projectId: 'plantas-medicinales-74c07',
-    authDomain: 'plantas-medicinales-74c07.firebaseapp.com',
-    databaseURL: 'https://plantas-medicinales-74c07-default-rtdb.firebaseio.com',
-    storageBucket: 'plantas-medicinales-74c07.firebasestorage.app',
+    apiKey: 'AIzaSyA9fatoBZYNIJ13II_qnqtkT7qX64aGUbQ',
+    appId: '1:150500993673:web:9bd657f6999b1337717458',
+    messagingSenderId: '150500993673',
+    projectId: 'plants-a68ae',
+    authDomain: 'plants-a68ae.firebaseapp.com',
+    storageBucket: 'plants-a68ae.firebasestorage.app',
+    measurementId: 'G-W38ZFR7T86',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDiaXFAyI2K8oRZA4z8p-vDGEh2HnrDSFw',
-    appId: '1:64196211276:android:4714e290c5f5460a1afae9',
-    messagingSenderId: '64196211276',
-    projectId: 'plantas-medicinales-74c07',
-    databaseURL: 'https://plantas-medicinales-74c07-default-rtdb.firebaseio.com',
-    storageBucket: 'plantas-medicinales-74c07.firebasestorage.app',
+    apiKey: 'AIzaSyB8SeFeOtdP7SYafEjKu_vzVR6dx9RMb7Y',
+    appId: '1:150500993673:android:3ff428a2361b8ad8717458',
+    messagingSenderId: '150500993673',
+    projectId: 'plants-a68ae',
+    storageBucket: 'plants-a68ae.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDFsnbF7E-nDNf9nmUHQ_b14D1fTLP7fVk',
-    appId: '1:64196211276:ios:7c548866a71d3bac1afae9',
-    messagingSenderId: '64196211276',
-    projectId: 'plantas-medicinales-74c07',
-    databaseURL: 'https://plantas-medicinales-74c07-default-rtdb.firebaseio.com',
-    storageBucket: 'plantas-medicinales-74c07.firebasestorage.app',
-    androidClientId: '64196211276-27clvq41b7n69041mvj022p3dk4p2qlh.apps.googleusercontent.com',
-    iosClientId: '64196211276-nvk8aggsft7nqn4g0ookp1l7busa67j4.apps.googleusercontent.com',
+    apiKey: 'AIzaSyAjnbebl8Twcy-O05Aw41Ew24ezOLlOR3s',
+    appId: '1:150500993673:ios:0956bf462e8d90ce717458',
+    messagingSenderId: '150500993673',
+    projectId: 'plants-a68ae',
+    storageBucket: 'plants-a68ae.firebasestorage.app',
+    androidClientId: '150500993673-0ijnq1u2s9ku79clq78hsq1kfi31t5hn.apps.googleusercontent.com',
+    iosClientId: '150500993673-uappnsvk0vo1ki0t2q2b3tdlcmg347j0.apps.googleusercontent.com',
     iosBundleId: 'com.example.appPlants',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDFsnbF7E-nDNf9nmUHQ_b14D1fTLP7fVk',
-    appId: '1:64196211276:ios:7c548866a71d3bac1afae9',
-    messagingSenderId: '64196211276',
-    projectId: 'plantas-medicinales-74c07',
-    databaseURL: 'https://plantas-medicinales-74c07-default-rtdb.firebaseio.com',
-    storageBucket: 'plantas-medicinales-74c07.firebasestorage.app',
-    androidClientId: '64196211276-27clvq41b7n69041mvj022p3dk4p2qlh.apps.googleusercontent.com',
-    iosClientId: '64196211276-nvk8aggsft7nqn4g0ookp1l7busa67j4.apps.googleusercontent.com',
+    apiKey: 'AIzaSyAjnbebl8Twcy-O05Aw41Ew24ezOLlOR3s',
+    appId: '1:150500993673:ios:0956bf462e8d90ce717458',
+    messagingSenderId: '150500993673',
+    projectId: 'plants-a68ae',
+    storageBucket: 'plants-a68ae.firebasestorage.app',
+    androidClientId: '150500993673-0ijnq1u2s9ku79clq78hsq1kfi31t5hn.apps.googleusercontent.com',
+    iosClientId: '150500993673-uappnsvk0vo1ki0t2q2b3tdlcmg347j0.apps.googleusercontent.com',
     iosBundleId: 'com.example.appPlants',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyAo6PMCCQWkl6f_9FAj6gW5uM6stLW_ghY',
-    appId: '1:64196211276:web:23e60fcd1cf18dfd1afae9',
-    messagingSenderId: '64196211276',
-    projectId: 'plantas-medicinales-74c07',
-    authDomain: 'plantas-medicinales-74c07.firebaseapp.com',
-    databaseURL: 'https://plantas-medicinales-74c07-default-rtdb.firebaseio.com',
-    storageBucket: 'plantas-medicinales-74c07.firebasestorage.app',
+    apiKey: 'AIzaSyA9fatoBZYNIJ13II_qnqtkT7qX64aGUbQ',
+    appId: '1:150500993673:web:aed08e8fd341b935717458',
+    messagingSenderId: '150500993673',
+    projectId: 'plants-a68ae',
+    authDomain: 'plants-a68ae.firebaseapp.com',
+    storageBucket: 'plants-a68ae.firebasestorage.app',
+    measurementId: 'G-H778GTYE3G',
   );
-
 }

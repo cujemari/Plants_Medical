@@ -113,7 +113,11 @@ class _DetailsMedicinalPlantsState extends State<DetailsMedicinalPlants> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        InfoCard(title: "Sinonimia vulgar:", content: _plant!.vulgarsynomaly),
+        InfoCard(
+          title: "Sinonimia vulgar:",
+          content: _plant!.vulgarsynomaly,
+          isJustified: true,
+        ),
         InfoCard(
           title: "Nombre científico:",
           content: _plant!.cientificname,

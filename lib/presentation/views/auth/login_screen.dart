@@ -37,9 +37,9 @@ class LoginScreen extends StatelessWidget {
         children: [
           Positioned.fill(
             child: Opacity(
-              opacity: 0.6,
+              opacity: 0.5,
               child: Image.asset(
-                "assets/logos/fondo_login.webp",
+                "assets/logos/fondo_login.jpg",
                 fit: BoxFit.cover,
               ),
             ),
@@ -62,14 +62,14 @@ class LoginScreen extends StatelessWidget {
                         'PLANTAS MEDICINALES',
                         textAlign: TextAlign.center,
                         style: TextStyle(
-                          color: Color.fromARGB(255, 135, 220, 160),
+                          color: Colors.yellow,
                           fontSize: 20,
                           fontFamily: "Georgia",
                           fontWeight: FontWeight.bold,
                           letterSpacing: 1.5,
                         ),
                       ),
-                      SizedBox(height: size.height * 0.2),
+                      SizedBox(height: size.height * 0.4),
                       SizedBox(
                         width: 250,
                         child: ElevatedButton.icon(

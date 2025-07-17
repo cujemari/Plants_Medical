@@ -107,6 +107,9 @@ class _DetailDiseaseState extends State<DetailDisease> {
                     horizontal: 20,
                     vertical: 12,
                   ),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12),
+                  ),
                 ),
                 onPressed: () {
                   Navigator.push(
@@ -118,10 +121,13 @@ class _DetailDiseaseState extends State<DetailDisease> {
                     ),
                   );
                 },
-                icon: const Icon(Icons.local_florist, color: Colors.blueAccent),
+                icon: const Icon(
+                  Icons.local_florist,
+                  color: Colors.orangeAccent,
+                ),
                 label: const Text(
                   'Ver plantas medicinales',
-                  style: TextStyle(color: Colors.white),
+                  style: TextStyle(color: Colors.white, fontFamily: "Georgia"),
                 ),
               ),
             ),
@@ -136,7 +142,7 @@ class _DetailDiseaseState extends State<DetailDisease> {
     child: Text(
       title,
       style: const TextStyle(
-        fontSize: 20,
+        fontSize: 24,
         fontWeight: FontWeight.bold,
         color: Colors.blue,
         fontFamily: 'Times New Roman',
@@ -147,9 +153,9 @@ class _DetailDiseaseState extends State<DetailDisease> {
   Widget _buildSectionContent(String text) => Center(
     child: Text(
       text,
-      textAlign: TextAlign.left,
+      textAlign: TextAlign.justify,
       style: const TextStyle(
-        fontSize: 15,
+        fontSize: 16,
         color: Colors.white,
         fontFamily: 'Arial',
       ),

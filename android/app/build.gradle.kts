@@ -8,7 +8,6 @@ plugins {
     id("com.google.gms.google-services")
 }
 
-// Cargar key.properties
 val keystoreProperties = Properties()
 val keystorePropertiesFile = rootProject.file("key.properties")
 if (keystorePropertiesFile.exists()) {
@@ -18,8 +17,9 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.example.app_plants"
+    namespace = "pe.gob.iiap.plantasmedicinal"
     compileSdk = 35
+
     ndkVersion = "27.0.12077973"
 
     compileOptions {
@@ -32,11 +32,11 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.app_plants"
+        applicationId = "pe.gob.iiap.plantasmedicinal"
         minSdk = 23
-        targetSdk = 33
-        versionCode = flutter.versionCode
-        versionName = flutter.versionName
+        targetSdk = 35
+        versionCode = 2
+        versionName = "1.0.1"
 
         ndk {
             abiFilters.addAll(listOf("armeabi-v7a", "arm64-v8a", "x86", "x86_64"))

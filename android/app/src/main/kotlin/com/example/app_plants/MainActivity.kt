@@ -1,4 +1,4 @@
-package com.example.app_plants
+package pe.gob.iiap.plantasmedicinal
 
 import io.flutter.embedding.android.FlutterActivity
 

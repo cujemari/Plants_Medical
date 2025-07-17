@@ -49,14 +49,7 @@ class ConfiguracionScreen extends StatelessWidget {
                   );
                 },
               ),
-
-              // Compartir app
-              SettingTile(
-                icon: Icons.share,
-                title: 'Compartir esta app',
-                onTap: viewModel.compartirApp,
-              ),
-
+              const SizedBox(height: 10),
               // Créditos
               SettingTile(
                 icon: Icons.info_outline,
